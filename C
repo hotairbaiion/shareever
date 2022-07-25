@@ -5,535 +5,587 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: US/1, server: 20.89.230.23, port: 48090, type: vmess, uuid: 6baaeb1e-5dce-49b7-d6f4-b30a9ea3b758, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: xx/2, server: cf.fullcloud.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxusa.fovi.tk}, udp: true}
-  - {name: SG/3, server: 168.138.161.22, port: 26039, type: vmess, uuid: 2b353530-fd72-4079-9a73-e50842f8b39d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /we, ws-headers: {Host: 168.138.161.22}, udp: true}
-  - {name: US/4, server: 103.5.54.177, port: 54723, type: vmess, uuid: 1031729b-4fd5-495c-f21f-94c94ffd3afc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 103.5.54.177}, udp: true}
-  - {name: US/5, server: 38.143.66.20, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US/6, server: jgwdj4.gaox.ml, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, sni: jgwdj4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: US/7, server: 165.154.235.49, port: 443, type: trojan, password: 8a841c54-8840-399a-9095-8d9624800e43, skip-cert-verify: true, udp: true}
-  - {name: CN/8, server: ingress-i1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: ingress-i1.onebox6.org}, udp: true}
-  - {name: SG/9, server: sg-01.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: sg-01.licom.ml, skip-cert-verify: true, udp: true}
-  - {name: CA/10, server: 196.247.59.154, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: CZ/11, server: 195.133.53.192, port: 43688, type: vmess, uuid: bd1c8b57-0a9e-4e9f-a261-48e90c871e41, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 195.133.53.192}, udp: true}
-  - {name: SG/12, server: 69.161.221.157, port: 11816, type: vmess, uuid: db465612-a1eb-46a3-bdf5-33697132d115, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CA/13, server: 196.247.59.154, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: IT/14, server: 92.223.93.233, port: 1035, type: ss, cipher: chacha20-ietf-poly1305, password: )1N1E6v0SU_rGTpg, udp: true}
-  - {name: FR/15, server: 51.38.118.42, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
-  - {name: CA/16, server: 196.247.59.154, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: US/17, server: 38.143.66.20, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: CN/18, server: 111.45.29.75, port: 30003, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, skip-cert-verify: true, udp: true}
-  - {name: US/19, server: 138.68.248.130, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
-  - {name: CN/20, server: 116.129.254.192, port: 16268, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CA/21, server: 196.247.59.154, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: CA/22, server: 196.247.59.154, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: US/23, server: 192.210.206.50, port: 11188, type: vmess, uuid: de0ff7f6-370e-41c9-c24a-b932c7c1ad58, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hello, ws-headers: {Host: 192.210.206.50}, udp: true}
-  - {name: US/24, server: 107.173.166.160, port: 11188, type: vmess, uuid: d644ebef-f0e6-468f-d122-cea661ed9d09, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hello, ws-headers: {Host: 107.173.166.160}, udp: true}
-  - {name: SG/25, server: 8.219.10.137, port: 11070, type: vmess, uuid: 0431f60c-99b1-44f9-c656-f88990433c56, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: JP/26, server: 20.89.67.251, port: 80, type: vmess, uuid: 1257774c-2bad-4eaa-8369-456a4571982c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.89.67.251}, udp: true}
-  - {name: xx/27, server: 104.18.24.139, port: 80, type: vmess, uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sshkit/5206194863/62c7702a0ea8b/, ws-headers: {Host: sg1-v2ray.sshkit.org}, udp: true}
-  - {name: JP/28, server: 185.172.113.101, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: KR/29, server: chess.magicefire.com, port: 443, type: vmess, uuid: 9aa80017-3427-4165-a522-f5f9a11330d0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: JP/30, server: 185.172.113.102, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: SG/31, server: 47.241.220.160, port: 28475, type: vmess, uuid: 5b00ad6f-bc33-4946-8a32-b7e59620e935, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: xx/32, server: cf.fullcloud.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxany.fovi.tk}, udp: true}
-  - {name: MY/33, server: 210.1.226.161, port: 30861, type: vmess, uuid: 6453d978-8b5c-4369-a43e-c092c92f44ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US/34, server: 20.214.180.60, port: 45364, type: vmess, uuid: e05375d9-4f6b-47d8-85a0-87b29f891838, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /kj65152, ws-headers: {Host: 20.214.180.60}, udp: true}
-  - {name: CN/35, server: best02.downloadmovie.cn, port: 65081, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: best02.downloadmovie.cn}, udp: true}
-  - {name: HK/36, server: 43.129.158.202, port: 38009, type: vmess, uuid: 7fe50249-0f9c-42bb-9815-842bec303691, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US/37, server: 129.159.33.199, port: 45328, type: vmess, uuid: 842c33ff-31b5-410c-a96e-0cb52a99a6da, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 129.159.33.199}, udp: true}
-  - {name: JP/38, server: 185.172.113.102, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: JP/39, server: 185.172.113.106, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: JP/40, server: 185.172.113.106, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: JP/41, server: 185.172.113.102, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: JP/42, server: 185.172.113.102, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: JP/43, server: 185.172.113.101, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: JP/44, server: 185.172.113.102, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: JP/45, server: 185.172.113.101, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: US/46, server: 64.112.43.180, port: 13674, type: vmess, uuid: f44ce146-2d6d-4e84-dcac-3bdd8689d053, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CA/47, server: 196.247.59.154, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: US/48, server: 23.230.146.254, port: 1258, type: vmess, uuid: edeb41cc-a76a-47f2-fa96-b9141e66a2b0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US/49, server: us.2cdn.gaoyuanmonv.top, port: 2095, type: vmess, uuid: ddc9c34f-a5a5-3861-95c4-3158647f0f6a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: us.2cdn.gaoyuanmonv.top}, udp: true}
-  - {name: DE/50, server: 3.127.184.113, port: 50902, type: ss, cipher: chacha20-ietf-poly1305, password: Wodeshijie@@, udp: true}
-  - {name: CN/51, server: in-us-1.onebox6.org, port: 38401, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: YouTube-aweikeji}, udp: true}
-  - {name: JP/52, server: 185.172.113.106, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: US/53, server: 198.52.122.68, port: 51341, type: vmess, uuid: b4d493c2-3fd7-46b8-cdba-f1c5c71a5e7a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US/54, server: 129.146.133.157, port: 51009, type: vmess, uuid: 81714cef-9bde-4a08-aa50-d6bc0172d78b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN/55, server: pp1.zhengzhongfeizhu.xyz, port: 34001, type: trojan, password: eb2f8154-ff58-3b99-b393-28c8eecdbe64, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: US/56, server: v116.v2dns.bar, port: 80, type: vmess, uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v116-DtoEwAEX, ws-headers: {Host: v116.v2dns.bar}, udp: true}
-  - {name: JP/57, server: jp-03.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: jp-03.licom.ml, skip-cert-verify: true, udp: true}
-  - {name: JP/58, server: jp02.wol1.ml, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 81cafca0-18d7-4fec-ae38-6838c005510e, udp: true}
-  - {name: RU/59, server: 176.119.156.229, port: 852, type: vmess, uuid: 35b021ff-cf42-4b32-aeb7-4f634363df40, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: d76bb35696.laowanxiang.com}, udp: true}
-  - {name: FR/60, server: 51.195.35.134, port: 443, type: vmess, uuid: 9f58234c-355b-4065-ae21-d4a63099aba5, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/273213070933, ws-headers: {Host: www.98272029.xyz}, udp: true}
-  - {name: SG/61, server: 168.138.173.205, port: 22503, type: vmess, uuid: 62e99d02-7105-443d-eeff-2cfeb4a4fe11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: IN/62, server: in-04.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: in-04.licom.ml, skip-cert-verify: true, udp: true}
-  - {name: xx/63, server: cf.fullcloud.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxdeovz2.fovi.tk}, udp: true}
-  - {name: KR/64, server: 3.37.63.22, port: 58192, type: ss, cipher: chacha20-ietf-poly1305, password: DaptaQuag, udp: true}
-  - {name: HK/65, server: hk01.wol1.ml, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 81cafca0-18d7-4fec-ae38-6838c005510e, udp: true}
-  - {name: US/66, server: hk02.wol1.ml, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 81cafca0-18d7-4fec-ae38-6838c005510e, udp: true}
-  - {name: US/67, server: hk04.wol1.ml, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 81cafca0-18d7-4fec-ae38-6838c005510e, udp: true}
-  - {name: HK/68, server: hk03.wol1.ml, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 81cafca0-18d7-4fec-ae38-6838c005510e, udp: true}
-  - {name: US/69, server: 625us.ok365.cyou, port: 443, type: trojan, password: 7751af91-420a-4479-bb22-415e3ed9bdc7, sni: 625us.ok365.cyou, skip-cert-verify: true, udp: true}
-  - {name: US/70, server: 23.230.146.254, port: 1258, type: vmess, uuid: edeb41cc-a76a-47f2-fa96-b9141e66a2b0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TW/71, server: tw-tb-c.zc20200426.club, port: 39999, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: GB/72, server: aop.ssfree.ru, port: 443, type: vmess, uuid: 17b3beb8-0b05-11ed-8f37-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /getweather, ws-headers: {Host: aop.ssfree.ru}, udp: true}
-  - {name: CN/73, server: best02.downloadmovie.cn, port: 65087, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: best02.downloadmovie.cn}, udp: true}
-  - {name: xx/74, server: 207.2.120.172, port: 443, type: trojan, password: 8a841c54-8840-399a-9095-8d9624800e43, skip-cert-verify: true, udp: true}
-  - {name: IN/75, server: 3.111.242.2, port: 51846, type: ss, cipher: chacha20-ietf-poly1305, password: RekWopdog8, udp: true}
-  - {name: KR/76, server: 146.56.110.129, port: 53702, type: vmess, uuid: d0ee8ec0-ef63-41aa-9087-11edf7a978b9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: KR/77, server: 3.37.56.9, port: 59649, type: ss, cipher: chacha20-ietf-poly1305, password: QoQXye81TE, udp: true}
-  - {name: JP/78, server: 185.172.113.101, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: US/79, server: 129.159.41.233, port: 32586, type: vmess, uuid: 341a9182-c423-499c-c46e-d17838b29037, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: JP/80, server: 185.172.113.101, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: JP/81, server: 185.172.113.102, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: JP/82, server: 185.172.113.106, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: JP/83, server: 185.172.113.106, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: KR/84, server: 152.70.247.24, port: 18152, type: vmess, uuid: 8dee0987-1be4-47aa-a1dc-5f141d8d7e91, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: JP/85, server: 185.172.113.106, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: US/86, server: 107.174.186.134, port: 443, type: trojan, password: 8a841c54-8840-399a-9095-8d9624800e43, skip-cert-verify: true, udp: true}
-  - {name: US/87, server: 52.13.166.179, port: 59369, type: ss, cipher: chacha20-ietf-poly1305, password: fijboorrom, udp: true}
-  - {name: CN/88, server: ingress-i2.iivvppnn.info, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: ingress-i2.iivvppnn.info}, udp: true}
-  - {name: CN/89, server: in-jp-1.iivvppnn.info, port: 38301, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: in-jp-1.iivvppnn.info}, udp: true}
-  - {name: IN/90, server: in-01.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: in-01.licom.ml, skip-cert-verify: true, udp: true}
-  - {name: xx/91, server: 104.18.24.139, port: 80, type: vmess, uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sshkit/5206194863/62c7702a0ea8b/, ws-headers: {Host: sg1-v2ray.sshkit.org}, udp: true}
-  - {name: CN/92, server: 120.233.29.189, port: 65039, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: 120.233.29.189}, udp: true}
-  - {name: GB/93, server: 5.188.5.190, port: 15256, type: ss, cipher: chacha20-ietf-poly1305, password: 4SGLMZ7Z83fN, udp: true}
-  - {name: SG/94, server: youtube.bai-piao-wang-zhe.567568.ml, port: 443, type: vmess, uuid: e88cb308-73f7-4302-89bf-b65c7386b117, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /youtbue@bai-piao-wang-zhe_vws, ws-headers: {Host: youtube.bai-piao-wang-zhe.567568.ml}, udp: true}
-  - {name: US/95, server: 92.38.176.81, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
-  - {name: US/96, server: 38.143.66.20, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: CN/97, server: 120.233.7.221, port: 18007, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN/98, server: 120.197.130.126, port: 13009, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US/99, server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, sni: jgwcc3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: US/100, server: xmrh014.xmrth-node.xyz, port: 15885, type: vmess, uuid: ab3f9ddc-7c35-3793-98f0-1c37eb9741e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: 87318706-ws.va.huya.com}, udp: true}
-  - {name: CN/101, server: cn04.downloadmovie.cn, port: 65028, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: "%7B%22Host%22:%22cn04.downloadmovie.cn%22%7D"}, udp: true}
-  - {name: CN/102, server: zc.9900.sd20211007.xyz, port: 32001, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US/103, server: api.qiscus.com, port: 443, type: vmess, uuid: 8f9b60e6-1db3-42e4-97b9-1e311f427649, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /vmess-ws-makae, ws-headers: {Host: bn-id01.ipv2ray.xyz}, udp: true}
-  - {name: US/104, server: xmrh014.xmrth-node.xyz, port: 15885, type: vmess, uuid: ab3f9ddc-7c35-3793-98f0-1c37eb9741e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: 87318706-ws.va.huya.com}, udp: true}
-  - {name: CN/105, server: 120.197.130.126, port: 13008, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN/106, server: data-hk-v1.heisey.cn, port: 50205, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: tv.cctv.com}, udp: true}
-  - {name: GB/107, server: 144.24.88.101, port: 16833, type: vmess, uuid: f5425ccf-3946-4fb4-eb24-5393d78a392f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN/108, server: cn05.downloadmovie.cn, port: 65037, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: cn05.downloadmovie.cn}, udp: true}
-  - {name: CN/109, server: data-hk-v2.shwjfkw.cn, port: 50205, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: data-hk-v2.shwjfkw.cn}, udp: true}
-  - {name: KR/110, server: 152.70.247.24, port: 18152, type: vmess, uuid: 8dee0987-1be4-47aa-a1dc-5f141d8d7e91, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: GB/111, server: uk.london1.vpntester.net, port: 15256, type: ss, cipher: chacha20-ietf-poly1305, password: 4SGLMZ7Z83fN, udp: true}
-  - {name: US/112, server: 129.159.41.233, port: 32586, type: vmess, uuid: 341a9182-c423-499c-c46e-d17838b29037, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HK/113, server: 715hk01.ok365.cyou, port: 80, type: trojan, password: 7751af91-420a-4479-bb22-415e3ed9bdc7, sni: 715hk01.ok365.cyou, skip-cert-verify: true, udp: true}
-  - {name: HK/114, server: 73hk01.ok365.cyou, port: 80, type: trojan, password: 7751af91-420a-4479-bb22-415e3ed9bdc7, sni: 73hk01.ok365.cyou, skip-cert-verify: true, udp: true}
-  - {name: NL/115, server: youtube-bai-piao-wang-zhe.nl.884899.cf, port: 41196, type: trojan, password: 94afcc56-cc1c-4cd4-8c82-1215cd052795, sni: youtube-bai-piao-wang-zhe.nl.884899.cf, skip-cert-verify: true, udp: true}
-  - {name: KR/116, server: 152.70.247.24, port: 18152, type: vmess, uuid: 8dee0987-1be4-47aa-a1dc-5f141d8d7e91, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: NL/117, server: bai-piao-wang-zhe.iplc.nl.884899.cf, port: 443, type: trojan, password: e49f9132-4f1c-4a11-998f-0b90697254e6, sni: bai-piao-wang-zhe.iplc.nl.884899.cf, skip-cert-verify: true, udp: true}
-  - {name: HK/118, server: 715hk03.ok365.cyou, port: 12388, type: trojan, password: 7751af91-420a-4479-bb22-415e3ed9bdc7, sni: 715hk03.ok365.cyou, skip-cert-verify: true, udp: true}
-  - {name: RO/119, server: 5.183.102.34, port: 37667, type: vmess, uuid: 66f93c8f-4458-41d3-e447-f0b57d893527, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: RU/120, server: 92.223.65.31, port: 29092, type: ss, cipher: chacha20-ietf-poly1305, password: ypoq8dJBPqst, udp: true}
-  - {name: CN/121, server: data-hk-v1.shwjfkw.cn, port: 50207, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: data-hk-v1.shwjfkw.cn}, udp: true}
-  - {name: CN/122, server: 120.241.236.215, port: 16216, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US/123, server: api.qiscus.com, port: 443, type: vmess, uuid: 8f9b60e6-1db3-42e4-97b9-1e311f427649, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /vmess-ws-makae, ws-headers: {Host: bn-id01.ipv2ray.xyz}, udp: true}
-  - {name: US/124, server: 45.137.97.205, port: 443, type: trojan, password: c79d5829-f131-37ea-a1b5-d2d1de746bdd, skip-cert-verify: true, udp: true}
-  - {name: US/125, server: 107.174.186.134, port: 443, type: trojan, password: c79d5829-f131-37ea-a1b5-d2d1de746bdd, skip-cert-verify: true, udp: true}
+  - {name: KR/1, server: 3.37.63.22, port: 58192, type: ss, cipher: chacha20-ietf-poly1305, password: DaptaQuag, udp: true}
+  - {name: KR/2, server: 3.37.56.9, port: 59649, type: ss, cipher: chacha20-ietf-poly1305, password: QoQXye81TE, udp: true}
+  - {name: US/3, server: 129.150.51.215, port: 30839, type: vmess, uuid: 19bf4866-54ce-4fc9-8903-db7e160c5b81, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ZZ/4, server: meet.ruangguru.com, port: 443, type: vmess, uuid: 36f20d01-79a1-4370-90a3-d3b536d5fe44, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /d407d4904/, ws-headers: {Host: gt.setopratama.com}, udp: true}
+  - {name: SG/5, server: 168.138.161.22, port: 26039, type: vmess, uuid: 2b353530-fd72-4079-9a73-e50842f8b39d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /we, ws-headers: {Host: 168.138.161.22}, udp: true}
+  - {name: FR/6, server: us-05.licom.ml, port: 12501, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: us-05.licom.ml, skip-cert-verify: true, udp: true}
+  - {name: US/7, server: 107.174.186.134, port: 443, type: trojan, password: c79d5829-f131-37ea-a1b5-d2d1de746bdd, skip-cert-verify: true, udp: true}
+  - {name: IN/8, server: 3.111.242.2, port: 51846, type: ss, cipher: chacha20-ietf-poly1305, password: RekWopdog8, udp: true}
+  - {name: US/9, server: 107.174.186.134, port: 443, type: trojan, password: 8a841c54-8840-399a-9095-8d9624800e43, skip-cert-verify: true, udp: true}
+  - {name: CA/10, server: 38.111.114.246, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US/11, server: 23.230.146.254, port: 1258, type: vmess, uuid: edeb41cc-a76a-47f2-fa96-b9141e66a2b0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US/12, server: 38.121.43.65, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US/13, server: azhk.sharecentre.xyz, port: 58975, type: vmess, uuid: f0e9aff1-ba59-4af4-f3a1-6d17fffb4aca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Sharecentrepro, ws-headers: {Host: azhk.sharecentre.xyz}, udp: true}
+  - {name: US/14, server: 45.137.97.205, port: 443, type: trojan, password: 8a841c54-8840-399a-9095-8d9624800e43, skip-cert-verify: true, udp: true}
+  - {name: CA/15, server: 134.195.196.85, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CA/16, server: 134.195.196.89, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US/17, server: 107.173.166.160, port: 11188, type: vmess, uuid: d644ebef-f0e6-468f-d122-cea661ed9d09, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hello, ws-headers: {Host: 107.173.166.160}, udp: true}
+  - {name: US/18, server: 45.137.97.205, port: 443, type: trojan, password: c79d5829-f131-37ea-a1b5-d2d1de746bdd, skip-cert-verify: true, udp: true}
+  - {name: US/19, server: 38.68.134.62, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US/20, server: 38.68.134.62, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US/21, server: 38.68.134.62, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US/22, server: 38.68.134.62, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US/23, server: 38.68.134.62, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US/24, server: 38.68.134.62, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: DE/25, server: 3.127.184.113, port: 50902, type: ss, cipher: chacha20-ietf-poly1305, password: Wodeshijie@@, udp: true}
+  - {name: US/26, server: 38.68.134.62, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US/27, server: 38.68.134.62, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US/28, server: 38.68.134.62, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US/29, server: 38.68.134.62, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US/30, server: 38.68.134.62, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US/31, server: 38.68.134.62, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: GB/32, server: 89.238.165.226, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: JP/33, server: jp2.autlinzh.xyz, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: jp2.autlinzh.xyz, skip-cert-verify: true, udp: true}
+  - {name: US/34, server: 52.13.166.179, port: 59369, type: ss, cipher: chacha20-ietf-poly1305, password: fijboorrom, udp: true}
+  - {name: US/35, server: 38.143.66.20, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: FR/36, server: 51.38.118.42, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
+  - {name: US/37, server: 38.143.66.20, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: CA/38, server: 196.247.59.154, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US/39, server: 38.143.66.20, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: ZZ/40, server: cf.fullcloud.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxusa.fovi.tk}, udp: true}
+  - {name: US/41, server: 38.143.66.20, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US/42, server: 38.143.66.20, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: CA/43, server: 196.247.59.154, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: CN/44, server: ingress-i1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: ingress-i1.onebox6.org}, udp: true}
+  - {name: JP/45, server: jp-03.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: jp-03.licom.ml, skip-cert-verify: true, udp: true}
+  - {name: US/46, server: 38.143.66.20, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US/47, server: permissions.freetrade.link, port: 443, type: trojan, password: lCYI0KOB8exTgp736ac3ZR3DnXwaOFS5pACRuZzSyeYy4N3j2D8qAxF9alDSEC, sni: permissions.freetrade.link, skip-cert-verify: true, udp: true}
+  - {name: US/48, server: 165.154.235.49, port: 443, type: trojan, password: 8a841c54-8840-399a-9095-8d9624800e43, skip-cert-verify: true, udp: true}
+  - {name: US/49, server: 38.143.66.20, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: FR/50, server: 51.38.118.42, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
+  - {name: IN/51, server: in-02.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: in-02.licom.ml, skip-cert-verify: true, udp: true}
+  - {name: US/52, server: 38.143.66.20, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: CA/53, server: 196.247.59.154, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: CA/54, server: 196.247.59.154, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US/55, server: 92.38.176.81, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
+  - {name: CN/56, server: 120.241.236.113, port: 16113, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN/57, server: best01.downloadmovie.cn, port: 65057, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: best01.downloadmovie.cn}, udp: true}
+  - {name: HK/58, server: 52.139.144.99, port: 19090, type: vmess, uuid: bafbb197-ce57-451b-9d7a-82c62ab68c0d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 52.139.144.99}, udp: true}
+  - {name: US/59, server: vfly9.win, port: 443, type: vmess, uuid: 838be9ed-d7a8-4da1-b067-b95d2a8782f5, alterId: 10, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /myblog, ws-headers: {Host: vfly9.win}, udp: true}
+  - {name: CA/60, server: 196.247.59.154, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US/61, server: 38.143.66.20, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: CA/62, server: 196.247.59.154, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US/63, server: 103.5.54.177, port: 54723, type: vmess, uuid: 1031729b-4fd5-495c-f21f-94c94ffd3afc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 103.5.54.177}, udp: true}
+  - {name: US/64, server: 64.112.43.180, port: 13674, type: vmess, uuid: f44ce146-2d6d-4e84-dcac-3bdd8689d053, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ZZ/65, server: 207.2.120.172, port: 443, type: trojan, password: 8a841c54-8840-399a-9095-8d9624800e43, skip-cert-verify: true, udp: true}
+  - {name: US/66, server: azgy001.xiba1.xyz, port: 20712, type: trojan, password: 7497242f-3044-3c77-bf48-14bb26c92a83, sni: azgy001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: CN/67, server: pp1.zhengzhongfeizhu.xyz, port: 32002, type: trojan, password: eb2f8154-ff58-3b99-b393-28c8eecdbe64, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
+  - {name: IN/68, server: in-01.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: in-01.licom.ml, skip-cert-verify: true, udp: true}
+  - {name: JP/69, server: 185.172.113.106, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: JP/70, server: 185.172.113.102, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US/71, server: 38.143.66.20, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: JP/72, server: 185.172.113.102, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: JP/73, server: 185.172.113.102, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: JP/74, server: 185.172.113.101, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US/75, server: 38.143.66.20, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: JP/76, server: 185.172.113.102, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: ZZ/77, server: cf.fullcloud.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxdeovz2.fovi.tk}, udp: true}
+  - {name: US/78, server: 104.156.229.148, port: 36788, type: vmess, uuid: 9fee7249-69fb-490d-e617-cfb54a249932, alterId: 60, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 104.156.229.148}, udp: true}
+  - {name: FR/79, server: 51.195.35.134, port: 443, type: vmess, uuid: 9f58234c-355b-4065-ae21-d4a63099aba5, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/273213070933, ws-headers: {Host: www.98272029.xyz}, udp: true}
+  - {name: RO/80, server: 5.183.102.34, port: 37667, type: vmess, uuid: 66f93c8f-4458-41d3-e447-f0b57d893527, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN/81, server: pp1.zhengzhongfeizhu.xyz, port: 34001, type: trojan, password: eb2f8154-ff58-3b99-b393-28c8eecdbe64, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
+  - {name: CN/82, server: pp1.zhengzhongfeizhu.xyz, port: 34003, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
+  - {name: TW/83, server: 724tw01.ok365.cyou, port: 443, type: trojan, password: e9192a1e-b73e-4fcb-8a9c-e52b7471d11f, sni: 724tw01.ok365.cyou, skip-cert-verify: true, udp: true}
+  - {name: SG/84, server: 724tw02.ok365.cyou, port: 443, type: trojan, password: e9192a1e-b73e-4fcb-8a9c-e52b7471d11f, sni: 724tw02.ok365.cyou, skip-cert-verify: true, udp: true}
+  - {name: SG/85, server: sg-01.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: sg-01.licom.ml, skip-cert-verify: true, udp: true}
+  - {name: US/86, server: 625us.ok365.cyou, port: 443, type: trojan, password: e9192a1e-b73e-4fcb-8a9c-e52b7471d11f, sni: 625us.ok365.cyou, skip-cert-verify: true, udp: true}
+  - {name: KR/87, server: 3.36.149.10, port: 56763, type: ss, cipher: chacha20-ietf-poly1305, password: nofifUphu, udp: true}
+  - {name: JP/88, server: 185.172.113.102, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: JP/89, server: 185.172.113.101, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: JP/90, server: 185.172.113.106, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: JP/91, server: 185.172.113.106, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: JP/92, server: 185.172.113.106, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: JP/93, server: 185.172.113.106, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US/94, server: 38.143.66.20, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: JP/95, server: 185.172.113.106, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: JP/96, server: 185.172.113.101, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: RU/97, server: 92.223.65.31, port: 29092, type: ss, cipher: chacha20-ietf-poly1305, password: ypoq8dJBPqst, udp: true}
+  - {name: JP/98, server: 185.172.113.106, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: JP/99, server: 185.172.113.101, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: JP/100, server: 185.172.113.106, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: JP/101, server: 185.172.113.102, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: CN/102, server: 120.233.29.189, port: 65073, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: 120.233.29.189}, udp: true}
+  - {name: CN/103, server: in-jp-1.iivvppnn.info, port: 38301, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: in-jp-1.iivvppnn.info}, udp: true}
+  - {name: CN/104, server: 120.241.236.218, port: 16121, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN/105, server: ingress-i2.iivvppnn.info, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: ingress-i2.iivvppnn.info}, udp: true}
+  - {name: ZZ/106, server: 104.18.24.139, port: 80, type: vmess, uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sshkit/5206194863/62c7702a0ea8b/, ws-headers: {Host: sg1-v2ray.sshkit.org}, udp: true}
+  - {name: CN/107, server: 120.233.150.132, port: 16260, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN/108, server: 120.233.7.221, port: 32002, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US/109, server: 107.173.250.94, port: 25318, type: vmess, uuid: ed293411-ab53-4ebc-f0ab-34d78fa1f5ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN/110, server: 120.241.236.113, port: 16214, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN/111, server: 120.241.236.215, port: 16245, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: RU/112, server: 176.119.156.229, port: 852, type: vmess, uuid: 35b021ff-cf42-4b32-aeb7-4f634363df40, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: d76bb35696.laowanxiang.com}, udp: true}
+  - {name: CN/113, server: 120.241.236.113, port: 16246, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN/114, server: 120.241.236.218, port: 16246, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN/115, server: 120.233.150.132, port: 16129, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK/116, server: 715hk01.ok365.cyou, port: 80, type: trojan, password: e9192a1e-b73e-4fcb-8a9c-e52b7471d11f, sni: 715hk01.ok365.cyou, skip-cert-verify: true, udp: true}
+  - {name: GB/117, server: 5.188.5.190, port: 15256, type: ss, cipher: chacha20-ietf-poly1305, password: 4SGLMZ7Z83fN, udp: true}
+  - {name: GB/118, server: uk.london1.vpntester.net, port: 15256, type: ss, cipher: chacha20-ietf-poly1305, password: 4SGLMZ7Z83fN, udp: true}
+  - {name: IT/119, server: 92.223.93.233, port: 1035, type: ss, cipher: chacha20-ietf-poly1305, password: )1N1E6v0SU_rGTpg, udp: true}
+  - {name: US/120, server: 169.197.141.5, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CN/121, server: cn05.downloadmovie.cn, port: 65037, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: cn05.downloadmovie.cn}, udp: true}
+  - {name: CN/122, server: 120.233.29.189, port: 65039, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: 120.233.29.189}, udp: true}
+  - {name: CN/123, server: 120.241.236.113, port: 16215, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN/124, server: data-hk-v1.heisey.cn, port: 50205, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: tv.cctv.com}, udp: true}
+  - {name: CN/125, server: cn04.downloadmovie.cn, port: 65028, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: "%7B%22Host%22:%22cn04.downloadmovie.cn%22%7D"}, udp: true}
   - {name: US/126, server: 150.230.197.142, port: 44634, type: vmess, uuid: c2d05105-857a-4c94-be34-5534e7e8285f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: RO/127, server: 5.183.102.34, port: 37667, type: vmess, uuid: 66f93c8f-4458-41d3-e447-f0b57d893527, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN/128, server: cn01.downloadmovie.cn, port: 65033, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: cn01.downloadmovie.cn}, udp: true}
+  - {name: CN/127, server: 120.233.7.221, port: 18002, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN/128, server: 120.197.130.126, port: 13002, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN/129, server: 120.233.7.221, port: 32004, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN/130, server: 120.233.7.221, port: 18007, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN/131, server: 120.241.236.215, port: 16216, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN/132, server: 116.129.254.192, port: 16268, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN/133, server: 120.197.130.126, port: 13009, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: KR/134, server: chess.magicefire.com, port: 443, type: vmess, uuid: 9aa80017-3427-4165-a522-f5f9a11330d0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: US/135, server: 23.224.152.24, port: 25609, type: vmess, uuid: c9939714-04d7-45f9-dd33-30ec6057239b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN/136, server: cn04.downloadmovie.cn, port: 65025, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: "%7B%22Host%22:%22cn04.downloadmovie.cn%22%7D"}, udp: true}
+  - {name: TW/137, server: tw-tb-c.zc20200426.club, port: 39999, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: KR/138, server: 152.70.247.24, port: 18152, type: vmess, uuid: 8dee0987-1be4-47aa-a1dc-5f141d8d7e91, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN/139, server: in-us-1.onebox6.org, port: 38401, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: YouTube-aweikeji}, udp: true}
+  - {name: CN/140, server: cn01.downloadmovie.cn, port: 65033, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: cn01.downloadmovie.cn}, udp: true}
+  - {name: CN/141, server: 120.197.130.126, port: 13008, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US/1
-      - xx/2
-      - SG/3
-      - US/4
-      - US/5
-      - US/6
+      - KR/1
+      - KR/2
+      - US/3
+      - ZZ/4
+      - SG/5
+      - FR/6
       - US/7
-      - CN/8
-      - SG/9
+      - IN/8
+      - US/9
       - CA/10
-      - CZ/11
-      - SG/12
-      - CA/13
-      - IT/14
-      - FR/15
+      - US/11
+      - US/12
+      - US/13
+      - US/14
+      - CA/15
       - CA/16
       - US/17
-      - CN/18
+      - US/18
       - US/19
-      - CN/20
-      - CA/21
-      - CA/22
+      - US/20
+      - US/21
+      - US/22
       - US/23
       - US/24
-      - SG/25
-      - JP/26
-      - xx/27
-      - JP/28
-      - KR/29
-      - JP/30
-      - SG/31
-      - xx/32
-      - MY/33
+      - DE/25
+      - US/26
+      - US/27
+      - US/28
+      - US/29
+      - US/30
+      - US/31
+      - GB/32
+      - JP/33
       - US/34
-      - CN/35
-      - HK/36
+      - US/35
+      - FR/36
       - US/37
-      - JP/38
-      - JP/39
-      - JP/40
-      - JP/41
-      - JP/42
-      - JP/43
-      - JP/44
+      - CA/38
+      - US/39
+      - ZZ/40
+      - US/41
+      - US/42
+      - CA/43
+      - CN/44
       - JP/45
       - US/46
-      - CA/47
+      - US/47
       - US/48
       - US/49
-      - DE/50
-      - CN/51
-      - JP/52
-      - US/53
-      - US/54
-      - CN/55
-      - US/56
-      - JP/57
-      - JP/58
-      - RU/59
-      - FR/60
-      - SG/61
-      - IN/62
-      - xx/63
-      - KR/64
-      - HK/65
+      - FR/50
+      - IN/51
+      - US/52
+      - CA/53
+      - CA/54
+      - US/55
+      - CN/56
+      - CN/57
+      - HK/58
+      - US/59
+      - CA/60
+      - US/61
+      - CA/62
+      - US/63
+      - US/64
+      - ZZ/65
       - US/66
-      - US/67
-      - HK/68
-      - US/69
-      - US/70
-      - TW/71
-      - GB/72
-      - CN/73
-      - xx/74
-      - IN/75
-      - KR/76
-      - KR/77
-      - JP/78
-      - US/79
-      - JP/80
-      - JP/81
-      - JP/82
-      - JP/83
-      - KR/84
-      - JP/85
+      - CN/67
+      - IN/68
+      - JP/69
+      - JP/70
+      - US/71
+      - JP/72
+      - JP/73
+      - JP/74
+      - US/75
+      - JP/76
+      - ZZ/77
+      - US/78
+      - FR/79
+      - RO/80
+      - CN/81
+      - CN/82
+      - TW/83
+      - SG/84
+      - SG/85
       - US/86
-      - US/87
-      - CN/88
-      - CN/89
-      - IN/90
-      - xx/91
-      - CN/92
-      - GB/93
-      - SG/94
-      - US/95
-      - US/96
-      - CN/97
-      - CN/98
-      - US/99
-      - US/100
-      - CN/101
+      - KR/87
+      - JP/88
+      - JP/89
+      - JP/90
+      - JP/91
+      - JP/92
+      - JP/93
+      - US/94
+      - JP/95
+      - JP/96
+      - RU/97
+      - JP/98
+      - JP/99
+      - JP/100
+      - JP/101
       - CN/102
-      - US/103
-      - US/104
+      - CN/103
+      - CN/104
       - CN/105
-      - CN/106
-      - GB/107
+      - ZZ/106
+      - CN/107
       - CN/108
-      - CN/109
-      - KR/110
-      - GB/111
-      - US/112
-      - HK/113
-      - HK/114
-      - NL/115
-      - KR/116
-      - NL/117
-      - HK/118
-      - RO/119
-      - RU/120
+      - US/109
+      - CN/110
+      - CN/111
+      - RU/112
+      - CN/113
+      - CN/114
+      - CN/115
+      - HK/116
+      - GB/117
+      - GB/118
+      - IT/119
+      - US/120
       - CN/121
       - CN/122
-      - US/123
-      - US/124
-      - US/125
+      - CN/123
+      - CN/124
+      - CN/125
       - US/126
-      - RO/127
+      - CN/127
       - CN/128
+      - CN/129
+      - CN/130
+      - CN/131
+      - CN/132
+      - CN/133
+      - KR/134
+      - US/135
+      - CN/136
+      - TW/137
+      - KR/138
+      - CN/139
+      - CN/140
+      - CN/141
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - US/1
-      - xx/2
-      - SG/3
-      - US/4
-      - US/5
-      - US/6
+      - KR/1
+      - KR/2
+      - US/3
+      - ZZ/4
+      - SG/5
+      - FR/6
       - US/7
-      - CN/8
-      - SG/9
+      - IN/8
+      - US/9
       - CA/10
-      - CZ/11
-      - SG/12
-      - CA/13
-      - IT/14
-      - FR/15
+      - US/11
+      - US/12
+      - US/13
+      - US/14
+      - CA/15
       - CA/16
       - US/17
-      - CN/18
+      - US/18
       - US/19
-      - CN/20
-      - CA/21
-      - CA/22
+      - US/20
+      - US/21
+      - US/22
       - US/23
       - US/24
-      - SG/25
-      - JP/26
-      - xx/27
-      - JP/28
-      - KR/29
-      - JP/30
-      - SG/31
-      - xx/32
-      - MY/33
+      - DE/25
+      - US/26
+      - US/27
+      - US/28
+      - US/29
+      - US/30
+      - US/31
+      - GB/32
+      - JP/33
       - US/34
-      - CN/35
-      - HK/36
+      - US/35
+      - FR/36
       - US/37
-      - JP/38
-      - JP/39
-      - JP/40
-      - JP/41
-      - JP/42
-      - JP/43
-      - JP/44
+      - CA/38
+      - US/39
+      - ZZ/40
+      - US/41
+      - US/42
+      - CA/43
+      - CN/44
       - JP/45
       - US/46
-      - CA/47
+      - US/47
       - US/48
       - US/49
-      - DE/50
-      - CN/51
-      - JP/52
-      - US/53
-      - US/54
-      - CN/55
-      - US/56
-      - JP/57
-      - JP/58
-      - RU/59
-      - FR/60
-      - SG/61
-      - IN/62
-      - xx/63
-      - KR/64
-      - HK/65
+      - FR/50
+      - IN/51
+      - US/52
+      - CA/53
+      - CA/54
+      - US/55
+      - CN/56
+      - CN/57
+      - HK/58
+      - US/59
+      - CA/60
+      - US/61
+      - CA/62
+      - US/63
+      - US/64
+      - ZZ/65
       - US/66
-      - US/67
-      - HK/68
-      - US/69
-      - US/70
-      - TW/71
-      - GB/72
-      - CN/73
-      - xx/74
-      - IN/75
-      - KR/76
-      - KR/77
-      - JP/78
-      - US/79
-      - JP/80
-      - JP/81
-      - JP/82
-      - JP/83
-      - KR/84
-      - JP/85
+      - CN/67
+      - IN/68
+      - JP/69
+      - JP/70
+      - US/71
+      - JP/72
+      - JP/73
+      - JP/74
+      - US/75
+      - JP/76
+      - ZZ/77
+      - US/78
+      - FR/79
+      - RO/80
+      - CN/81
+      - CN/82
+      - TW/83
+      - SG/84
+      - SG/85
       - US/86
-      - US/87
-      - CN/88
-      - CN/89
-      - IN/90
-      - xx/91
-      - CN/92
-      - GB/93
-      - SG/94
-      - US/95
-      - US/96
-      - CN/97
-      - CN/98
-      - US/99
-      - US/100
-      - CN/101
+      - KR/87
+      - JP/88
+      - JP/89
+      - JP/90
+      - JP/91
+      - JP/92
+      - JP/93
+      - US/94
+      - JP/95
+      - JP/96
+      - RU/97
+      - JP/98
+      - JP/99
+      - JP/100
+      - JP/101
       - CN/102
-      - US/103
-      - US/104
+      - CN/103
+      - CN/104
       - CN/105
-      - CN/106
-      - GB/107
+      - ZZ/106
+      - CN/107
       - CN/108
-      - CN/109
-      - KR/110
-      - GB/111
-      - US/112
-      - HK/113
-      - HK/114
-      - NL/115
-      - KR/116
-      - NL/117
-      - HK/118
-      - RO/119
-      - RU/120
+      - US/109
+      - CN/110
+      - CN/111
+      - RU/112
+      - CN/113
+      - CN/114
+      - CN/115
+      - HK/116
+      - GB/117
+      - GB/118
+      - IT/119
+      - US/120
       - CN/121
       - CN/122
-      - US/123
-      - US/124
-      - US/125
+      - CN/123
+      - CN/124
+      - CN/125
       - US/126
-      - RO/127
+      - CN/127
       - CN/128
+      - CN/129
+      - CN/130
+      - CN/131
+      - CN/132
+      - CN/133
+      - KR/134
+      - US/135
+      - CN/136
+      - TW/137
+      - KR/138
+      - CN/139
+      - CN/140
+      - CN/141
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US/1
-      - xx/2
-      - SG/3
-      - US/4
-      - US/5
-      - US/6
+      - KR/1
+      - KR/2
+      - US/3
+      - ZZ/4
+      - SG/5
+      - FR/6
       - US/7
-      - CN/8
-      - SG/9
+      - IN/8
+      - US/9
       - CA/10
-      - CZ/11
-      - SG/12
-      - CA/13
-      - IT/14
-      - FR/15
+      - US/11
+      - US/12
+      - US/13
+      - US/14
+      - CA/15
       - CA/16
       - US/17
-      - CN/18
+      - US/18
       - US/19
-      - CN/20
-      - CA/21
-      - CA/22
+      - US/20
+      - US/21
+      - US/22
       - US/23
       - US/24
-      - SG/25
-      - JP/26
-      - xx/27
-      - JP/28
-      - KR/29
-      - JP/30
-      - SG/31
-      - xx/32
-      - MY/33
+      - DE/25
+      - US/26
+      - US/27
+      - US/28
+      - US/29
+      - US/30
+      - US/31
+      - GB/32
+      - JP/33
       - US/34
-      - CN/35
-      - HK/36
+      - US/35
+      - FR/36
       - US/37
-      - JP/38
-      - JP/39
-      - JP/40
-      - JP/41
-      - JP/42
-      - JP/43
-      - JP/44
+      - CA/38
+      - US/39
+      - ZZ/40
+      - US/41
+      - US/42
+      - CA/43
+      - CN/44
       - JP/45
       - US/46
-      - CA/47
+      - US/47
       - US/48
       - US/49
-      - DE/50
-      - CN/51
-      - JP/52
-      - US/53
-      - US/54
-      - CN/55
-      - US/56
-      - JP/57
-      - JP/58
-      - RU/59
-      - FR/60
-      - SG/61
-      - IN/62
-      - xx/63
-      - KR/64
-      - HK/65
+      - FR/50
+      - IN/51
+      - US/52
+      - CA/53
+      - CA/54
+      - US/55
+      - CN/56
+      - CN/57
+      - HK/58
+      - US/59
+      - CA/60
+      - US/61
+      - CA/62
+      - US/63
+      - US/64
+      - ZZ/65
       - US/66
-      - US/67
-      - HK/68
-      - US/69
-      - US/70
-      - TW/71
-      - GB/72
-      - CN/73
-      - xx/74
-      - IN/75
-      - KR/76
-      - KR/77
-      - JP/78
-      - US/79
-      - JP/80
-      - JP/81
-      - JP/82
-      - JP/83
-      - KR/84
-      - JP/85
+      - CN/67
+      - IN/68
+      - JP/69
+      - JP/70
+      - US/71
+      - JP/72
+      - JP/73
+      - JP/74
+      - US/75
+      - JP/76
+      - ZZ/77
+      - US/78
+      - FR/79
+      - RO/80
+      - CN/81
+      - CN/82
+      - TW/83
+      - SG/84
+      - SG/85
       - US/86
-      - US/87
-      - CN/88
-      - CN/89
-      - IN/90
-      - xx/91
-      - CN/92
-      - GB/93
-      - SG/94
-      - US/95
-      - US/96
-      - CN/97
-      - CN/98
-      - US/99
-      - US/100
-      - CN/101
+      - KR/87
+      - JP/88
+      - JP/89
+      - JP/90
+      - JP/91
+      - JP/92
+      - JP/93
+      - US/94
+      - JP/95
+      - JP/96
+      - RU/97
+      - JP/98
+      - JP/99
+      - JP/100
+      - JP/101
       - CN/102
-      - US/103
-      - US/104
+      - CN/103
+      - CN/104
       - CN/105
-      - CN/106
-      - GB/107
+      - ZZ/106
+      - CN/107
       - CN/108
-      - CN/109
-      - KR/110
-      - GB/111
-      - US/112
-      - HK/113
-      - HK/114
-      - NL/115
-      - KR/116
-      - NL/117
-      - HK/118
-      - RO/119
-      - RU/120
+      - US/109
+      - CN/110
+      - CN/111
+      - RU/112
+      - CN/113
+      - CN/114
+      - CN/115
+      - HK/116
+      - GB/117
+      - GB/118
+      - IT/119
+      - US/120
       - CN/121
       - CN/122
-      - US/123
-      - US/124
-      - US/125
+      - CN/123
+      - CN/124
+      - CN/125
       - US/126
-      - RO/127
+      - CN/127
       - CN/128
+      - CN/129
+      - CN/130
+      - CN/131
+      - CN/132
+      - CN/133
+      - KR/134
+      - US/135
+      - CN/136
+      - TW/137
+      - KR/138
+      - CN/139
+      - CN/140
+      - CN/141
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -552,134 +604,147 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US/1
-      - xx/2
-      - SG/3
-      - US/4
-      - US/5
-      - US/6
+      - KR/1
+      - KR/2
+      - US/3
+      - ZZ/4
+      - SG/5
+      - FR/6
       - US/7
-      - CN/8
-      - SG/9
+      - IN/8
+      - US/9
       - CA/10
-      - CZ/11
-      - SG/12
-      - CA/13
-      - IT/14
-      - FR/15
+      - US/11
+      - US/12
+      - US/13
+      - US/14
+      - CA/15
       - CA/16
       - US/17
-      - CN/18
+      - US/18
       - US/19
-      - CN/20
-      - CA/21
-      - CA/22
+      - US/20
+      - US/21
+      - US/22
       - US/23
       - US/24
-      - SG/25
-      - JP/26
-      - xx/27
-      - JP/28
-      - KR/29
-      - JP/30
-      - SG/31
-      - xx/32
-      - MY/33
+      - DE/25
+      - US/26
+      - US/27
+      - US/28
+      - US/29
+      - US/30
+      - US/31
+      - GB/32
+      - JP/33
       - US/34
-      - CN/35
-      - HK/36
+      - US/35
+      - FR/36
       - US/37
-      - JP/38
-      - JP/39
-      - JP/40
-      - JP/41
-      - JP/42
-      - JP/43
-      - JP/44
+      - CA/38
+      - US/39
+      - ZZ/40
+      - US/41
+      - US/42
+      - CA/43
+      - CN/44
       - JP/45
       - US/46
-      - CA/47
+      - US/47
       - US/48
       - US/49
-      - DE/50
-      - CN/51
-      - JP/52
-      - US/53
-      - US/54
-      - CN/55
-      - US/56
-      - JP/57
-      - JP/58
-      - RU/59
-      - FR/60
-      - SG/61
-      - IN/62
-      - xx/63
-      - KR/64
-      - HK/65
+      - FR/50
+      - IN/51
+      - US/52
+      - CA/53
+      - CA/54
+      - US/55
+      - CN/56
+      - CN/57
+      - HK/58
+      - US/59
+      - CA/60
+      - US/61
+      - CA/62
+      - US/63
+      - US/64
+      - ZZ/65
       - US/66
-      - US/67
-      - HK/68
-      - US/69
-      - US/70
-      - TW/71
-      - GB/72
-      - CN/73
-      - xx/74
-      - IN/75
-      - KR/76
-      - KR/77
-      - JP/78
-      - US/79
-      - JP/80
-      - JP/81
-      - JP/82
-      - JP/83
-      - KR/84
-      - JP/85
+      - CN/67
+      - IN/68
+      - JP/69
+      - JP/70
+      - US/71
+      - JP/72
+      - JP/73
+      - JP/74
+      - US/75
+      - JP/76
+      - ZZ/77
+      - US/78
+      - FR/79
+      - RO/80
+      - CN/81
+      - CN/82
+      - TW/83
+      - SG/84
+      - SG/85
       - US/86
-      - US/87
-      - CN/88
-      - CN/89
-      - IN/90
-      - xx/91
-      - CN/92
-      - GB/93
-      - SG/94
-      - US/95
-      - US/96
-      - CN/97
-      - CN/98
-      - US/99
-      - US/100
-      - CN/101
+      - KR/87
+      - JP/88
+      - JP/89
+      - JP/90
+      - JP/91
+      - JP/92
+      - JP/93
+      - US/94
+      - JP/95
+      - JP/96
+      - RU/97
+      - JP/98
+      - JP/99
+      - JP/100
+      - JP/101
       - CN/102
-      - US/103
-      - US/104
+      - CN/103
+      - CN/104
       - CN/105
-      - CN/106
-      - GB/107
+      - ZZ/106
+      - CN/107
       - CN/108
-      - CN/109
-      - KR/110
-      - GB/111
-      - US/112
-      - HK/113
-      - HK/114
-      - NL/115
-      - KR/116
-      - NL/117
-      - HK/118
-      - RO/119
-      - RU/120
+      - US/109
+      - CN/110
+      - CN/111
+      - RU/112
+      - CN/113
+      - CN/114
+      - CN/115
+      - HK/116
+      - GB/117
+      - GB/118
+      - IT/119
+      - US/120
       - CN/121
       - CN/122
-      - US/123
-      - US/124
-      - US/125
+      - CN/123
+      - CN/124
+      - CN/125
       - US/126
-      - RO/127
+      - CN/127
       - CN/128
+      - CN/129
+      - CN/130
+      - CN/131
+      - CN/132
+      - CN/133
+      - KR/134
+      - US/135
+      - CN/136
+      - TW/137
+      - KR/138
+      - CN/139
+      - CN/140
+      - CN/141
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -690,401 +755,440 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - US/1
-      - xx/2
-      - SG/3
-      - US/4
-      - US/5
-      - US/6
+      - KR/1
+      - KR/2
+      - US/3
+      - ZZ/4
+      - SG/5
+      - FR/6
       - US/7
-      - CN/8
-      - SG/9
+      - IN/8
+      - US/9
       - CA/10
-      - CZ/11
-      - SG/12
-      - CA/13
-      - IT/14
-      - FR/15
+      - US/11
+      - US/12
+      - US/13
+      - US/14
+      - CA/15
       - CA/16
       - US/17
-      - CN/18
+      - US/18
       - US/19
-      - CN/20
-      - CA/21
-      - CA/22
+      - US/20
+      - US/21
+      - US/22
       - US/23
       - US/24
-      - SG/25
-      - JP/26
-      - xx/27
-      - JP/28
-      - KR/29
-      - JP/30
-      - SG/31
-      - xx/32
-      - MY/33
+      - DE/25
+      - US/26
+      - US/27
+      - US/28
+      - US/29
+      - US/30
+      - US/31
+      - GB/32
+      - JP/33
       - US/34
-      - CN/35
-      - HK/36
+      - US/35
+      - FR/36
       - US/37
-      - JP/38
-      - JP/39
-      - JP/40
-      - JP/41
-      - JP/42
-      - JP/43
-      - JP/44
+      - CA/38
+      - US/39
+      - ZZ/40
+      - US/41
+      - US/42
+      - CA/43
+      - CN/44
       - JP/45
       - US/46
-      - CA/47
+      - US/47
       - US/48
       - US/49
-      - DE/50
-      - CN/51
-      - JP/52
-      - US/53
-      - US/54
-      - CN/55
-      - US/56
-      - JP/57
-      - JP/58
-      - RU/59
-      - FR/60
-      - SG/61
-      - IN/62
-      - xx/63
-      - KR/64
-      - HK/65
+      - FR/50
+      - IN/51
+      - US/52
+      - CA/53
+      - CA/54
+      - US/55
+      - CN/56
+      - CN/57
+      - HK/58
+      - US/59
+      - CA/60
+      - US/61
+      - CA/62
+      - US/63
+      - US/64
+      - ZZ/65
       - US/66
-      - US/67
-      - HK/68
-      - US/69
-      - US/70
-      - TW/71
-      - GB/72
-      - CN/73
-      - xx/74
-      - IN/75
-      - KR/76
-      - KR/77
-      - JP/78
-      - US/79
-      - JP/80
-      - JP/81
-      - JP/82
-      - JP/83
-      - KR/84
-      - JP/85
+      - CN/67
+      - IN/68
+      - JP/69
+      - JP/70
+      - US/71
+      - JP/72
+      - JP/73
+      - JP/74
+      - US/75
+      - JP/76
+      - ZZ/77
+      - US/78
+      - FR/79
+      - RO/80
+      - CN/81
+      - CN/82
+      - TW/83
+      - SG/84
+      - SG/85
       - US/86
-      - US/87
-      - CN/88
-      - CN/89
-      - IN/90
-      - xx/91
-      - CN/92
-      - GB/93
-      - SG/94
-      - US/95
-      - US/96
-      - CN/97
-      - CN/98
-      - US/99
-      - US/100
-      - CN/101
+      - KR/87
+      - JP/88
+      - JP/89
+      - JP/90
+      - JP/91
+      - JP/92
+      - JP/93
+      - US/94
+      - JP/95
+      - JP/96
+      - RU/97
+      - JP/98
+      - JP/99
+      - JP/100
+      - JP/101
       - CN/102
-      - US/103
-      - US/104
+      - CN/103
+      - CN/104
       - CN/105
-      - CN/106
-      - GB/107
+      - ZZ/106
+      - CN/107
       - CN/108
-      - CN/109
-      - KR/110
-      - GB/111
-      - US/112
-      - HK/113
-      - HK/114
-      - NL/115
-      - KR/116
-      - NL/117
-      - HK/118
-      - RO/119
-      - RU/120
+      - US/109
+      - CN/110
+      - CN/111
+      - RU/112
+      - CN/113
+      - CN/114
+      - CN/115
+      - HK/116
+      - GB/117
+      - GB/118
+      - IT/119
+      - US/120
       - CN/121
       - CN/122
-      - US/123
-      - US/124
-      - US/125
+      - CN/123
+      - CN/124
+      - CN/125
       - US/126
-      - RO/127
+      - CN/127
       - CN/128
+      - CN/129
+      - CN/130
+      - CN/131
+      - CN/132
+      - CN/133
+      - KR/134
+      - US/135
+      - CN/136
+      - TW/137
+      - KR/138
+      - CN/139
+      - CN/140
+      - CN/141
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - US/1
-      - xx/2
-      - SG/3
-      - US/4
-      - US/5
-      - US/6
+      - KR/1
+      - KR/2
+      - US/3
+      - ZZ/4
+      - SG/5
+      - FR/6
       - US/7
-      - CN/8
-      - SG/9
+      - IN/8
+      - US/9
       - CA/10
-      - CZ/11
-      - SG/12
-      - CA/13
-      - IT/14
-      - FR/15
+      - US/11
+      - US/12
+      - US/13
+      - US/14
+      - CA/15
       - CA/16
       - US/17
-      - CN/18
+      - US/18
       - US/19
-      - CN/20
-      - CA/21
-      - CA/22
+      - US/20
+      - US/21
+      - US/22
       - US/23
       - US/24
-      - SG/25
-      - JP/26
-      - xx/27
-      - JP/28
-      - KR/29
-      - JP/30
-      - SG/31
-      - xx/32
-      - MY/33
+      - DE/25
+      - US/26
+      - US/27
+      - US/28
+      - US/29
+      - US/30
+      - US/31
+      - GB/32
+      - JP/33
       - US/34
-      - CN/35
-      - HK/36
+      - US/35
+      - FR/36
       - US/37
-      - JP/38
-      - JP/39
-      - JP/40
-      - JP/41
-      - JP/42
-      - JP/43
-      - JP/44
+      - CA/38
+      - US/39
+      - ZZ/40
+      - US/41
+      - US/42
+      - CA/43
+      - CN/44
       - JP/45
       - US/46
-      - CA/47
+      - US/47
       - US/48
       - US/49
-      - DE/50
-      - CN/51
-      - JP/52
-      - US/53
-      - US/54
-      - CN/55
-      - US/56
-      - JP/57
-      - JP/58
-      - RU/59
-      - FR/60
-      - SG/61
-      - IN/62
-      - xx/63
-      - KR/64
-      - HK/65
+      - FR/50
+      - IN/51
+      - US/52
+      - CA/53
+      - CA/54
+      - US/55
+      - CN/56
+      - CN/57
+      - HK/58
+      - US/59
+      - CA/60
+      - US/61
+      - CA/62
+      - US/63
+      - US/64
+      - ZZ/65
       - US/66
-      - US/67
-      - HK/68
-      - US/69
-      - US/70
-      - TW/71
-      - GB/72
-      - CN/73
-      - xx/74
-      - IN/75
-      - KR/76
-      - KR/77
-      - JP/78
-      - US/79
-      - JP/80
-      - JP/81
-      - JP/82
-      - JP/83
-      - KR/84
-      - JP/85
+      - CN/67
+      - IN/68
+      - JP/69
+      - JP/70
+      - US/71
+      - JP/72
+      - JP/73
+      - JP/74
+      - US/75
+      - JP/76
+      - ZZ/77
+      - US/78
+      - FR/79
+      - RO/80
+      - CN/81
+      - CN/82
+      - TW/83
+      - SG/84
+      - SG/85
       - US/86
-      - US/87
-      - CN/88
-      - CN/89
-      - IN/90
-      - xx/91
-      - CN/92
-      - GB/93
-      - SG/94
-      - US/95
-      - US/96
-      - CN/97
-      - CN/98
-      - US/99
-      - US/100
-      - CN/101
+      - KR/87
+      - JP/88
+      - JP/89
+      - JP/90
+      - JP/91
+      - JP/92
+      - JP/93
+      - US/94
+      - JP/95
+      - JP/96
+      - RU/97
+      - JP/98
+      - JP/99
+      - JP/100
+      - JP/101
       - CN/102
-      - US/103
-      - US/104
+      - CN/103
+      - CN/104
       - CN/105
-      - CN/106
-      - GB/107
+      - ZZ/106
+      - CN/107
       - CN/108
-      - CN/109
-      - KR/110
-      - GB/111
-      - US/112
-      - HK/113
-      - HK/114
-      - NL/115
-      - KR/116
-      - NL/117
-      - HK/118
-      - RO/119
-      - RU/120
+      - US/109
+      - CN/110
+      - CN/111
+      - RU/112
+      - CN/113
+      - CN/114
+      - CN/115
+      - HK/116
+      - GB/117
+      - GB/118
+      - IT/119
+      - US/120
       - CN/121
       - CN/122
-      - US/123
-      - US/124
-      - US/125
+      - CN/123
+      - CN/124
+      - CN/125
       - US/126
-      - RO/127
+      - CN/127
       - CN/128
+      - CN/129
+      - CN/130
+      - CN/131
+      - CN/132
+      - CN/133
+      - KR/134
+      - US/135
+      - CN/136
+      - TW/137
+      - KR/138
+      - CN/139
+      - CN/140
+      - CN/141
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US/1
-      - xx/2
-      - SG/3
-      - US/4
-      - US/5
-      - US/6
+      - KR/1
+      - KR/2
+      - US/3
+      - ZZ/4
+      - SG/5
+      - FR/6
       - US/7
-      - CN/8
-      - SG/9
+      - IN/8
+      - US/9
       - CA/10
-      - CZ/11
-      - SG/12
-      - CA/13
-      - IT/14
-      - FR/15
+      - US/11
+      - US/12
+      - US/13
+      - US/14
+      - CA/15
       - CA/16
       - US/17
-      - CN/18
+      - US/18
       - US/19
-      - CN/20
-      - CA/21
-      - CA/22
+      - US/20
+      - US/21
+      - US/22
       - US/23
       - US/24
-      - SG/25
-      - JP/26
-      - xx/27
-      - JP/28
-      - KR/29
-      - JP/30
-      - SG/31
-      - xx/32
-      - MY/33
+      - DE/25
+      - US/26
+      - US/27
+      - US/28
+      - US/29
+      - US/30
+      - US/31
+      - GB/32
+      - JP/33
       - US/34
-      - CN/35
-      - HK/36
+      - US/35
+      - FR/36
       - US/37
-      - JP/38
-      - JP/39
-      - JP/40
-      - JP/41
-      - JP/42
-      - JP/43
-      - JP/44
+      - CA/38
+      - US/39
+      - ZZ/40
+      - US/41
+      - US/42
+      - CA/43
+      - CN/44
       - JP/45
       - US/46
-      - CA/47
+      - US/47
       - US/48
       - US/49
-      - DE/50
-      - CN/51
-      - JP/52
-      - US/53
-      - US/54
-      - CN/55
-      - US/56
-      - JP/57
-      - JP/58
-      - RU/59
-      - FR/60
-      - SG/61
-      - IN/62
-      - xx/63
-      - KR/64
-      - HK/65
+      - FR/50
+      - IN/51
+      - US/52
+      - CA/53
+      - CA/54
+      - US/55
+      - CN/56
+      - CN/57
+      - HK/58
+      - US/59
+      - CA/60
+      - US/61
+      - CA/62
+      - US/63
+      - US/64
+      - ZZ/65
       - US/66
-      - US/67
-      - HK/68
-      - US/69
-      - US/70
-      - TW/71
-      - GB/72
-      - CN/73
-      - xx/74
-      - IN/75
-      - KR/76
-      - KR/77
-      - JP/78
-      - US/79
-      - JP/80
-      - JP/81
-      - JP/82
-      - JP/83
-      - KR/84
-      - JP/85
+      - CN/67
+      - IN/68
+      - JP/69
+      - JP/70
+      - US/71
+      - JP/72
+      - JP/73
+      - JP/74
+      - US/75
+      - JP/76
+      - ZZ/77
+      - US/78
+      - FR/79
+      - RO/80
+      - CN/81
+      - CN/82
+      - TW/83
+      - SG/84
+      - SG/85
       - US/86
-      - US/87
-      - CN/88
-      - CN/89
-      - IN/90
-      - xx/91
-      - CN/92
-      - GB/93
-      - SG/94
-      - US/95
-      - US/96
-      - CN/97
-      - CN/98
-      - US/99
-      - US/100
-      - CN/101
+      - KR/87
+      - JP/88
+      - JP/89
+      - JP/90
+      - JP/91
+      - JP/92
+      - JP/93
+      - US/94
+      - JP/95
+      - JP/96
+      - RU/97
+      - JP/98
+      - JP/99
+      - JP/100
+      - JP/101
       - CN/102
-      - US/103
-      - US/104
+      - CN/103
+      - CN/104
       - CN/105
-      - CN/106
-      - GB/107
+      - ZZ/106
+      - CN/107
       - CN/108
-      - CN/109
-      - KR/110
-      - GB/111
-      - US/112
-      - HK/113
-      - HK/114
-      - NL/115
-      - KR/116
-      - NL/117
-      - HK/118
-      - RO/119
-      - RU/120
+      - US/109
+      - CN/110
+      - CN/111
+      - RU/112
+      - CN/113
+      - CN/114
+      - CN/115
+      - HK/116
+      - GB/117
+      - GB/118
+      - IT/119
+      - US/120
       - CN/121
       - CN/122
-      - US/123
-      - US/124
-      - US/125
+      - CN/123
+      - CN/124
+      - CN/125
       - US/126
-      - RO/127
+      - CN/127
       - CN/128
+      - CN/129
+      - CN/130
+      - CN/131
+      - CN/132
+      - CN/133
+      - KR/134
+      - US/135
+      - CN/136
+      - TW/137
+      - KR/138
+      - CN/139
+      - CN/140
+      - CN/141
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1100,134 +1204,147 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US/1
-      - xx/2
-      - SG/3
-      - US/4
-      - US/5
-      - US/6
+      - KR/1
+      - KR/2
+      - US/3
+      - ZZ/4
+      - SG/5
+      - FR/6
       - US/7
-      - CN/8
-      - SG/9
+      - IN/8
+      - US/9
       - CA/10
-      - CZ/11
-      - SG/12
-      - CA/13
-      - IT/14
-      - FR/15
+      - US/11
+      - US/12
+      - US/13
+      - US/14
+      - CA/15
       - CA/16
       - US/17
-      - CN/18
+      - US/18
       - US/19
-      - CN/20
-      - CA/21
-      - CA/22
+      - US/20
+      - US/21
+      - US/22
       - US/23
       - US/24
-      - SG/25
-      - JP/26
-      - xx/27
-      - JP/28
-      - KR/29
-      - JP/30
-      - SG/31
-      - xx/32
-      - MY/33
+      - DE/25
+      - US/26
+      - US/27
+      - US/28
+      - US/29
+      - US/30
+      - US/31
+      - GB/32
+      - JP/33
       - US/34
-      - CN/35
-      - HK/36
+      - US/35
+      - FR/36
       - US/37
-      - JP/38
-      - JP/39
-      - JP/40
-      - JP/41
-      - JP/42
-      - JP/43
-      - JP/44
+      - CA/38
+      - US/39
+      - ZZ/40
+      - US/41
+      - US/42
+      - CA/43
+      - CN/44
       - JP/45
       - US/46
-      - CA/47
+      - US/47
       - US/48
       - US/49
-      - DE/50
-      - CN/51
-      - JP/52
-      - US/53
-      - US/54
-      - CN/55
-      - US/56
-      - JP/57
-      - JP/58
-      - RU/59
-      - FR/60
-      - SG/61
-      - IN/62
-      - xx/63
-      - KR/64
-      - HK/65
+      - FR/50
+      - IN/51
+      - US/52
+      - CA/53
+      - CA/54
+      - US/55
+      - CN/56
+      - CN/57
+      - HK/58
+      - US/59
+      - CA/60
+      - US/61
+      - CA/62
+      - US/63
+      - US/64
+      - ZZ/65
       - US/66
-      - US/67
-      - HK/68
-      - US/69
-      - US/70
-      - TW/71
-      - GB/72
-      - CN/73
-      - xx/74
-      - IN/75
-      - KR/76
-      - KR/77
-      - JP/78
-      - US/79
-      - JP/80
-      - JP/81
-      - JP/82
-      - JP/83
-      - KR/84
-      - JP/85
+      - CN/67
+      - IN/68
+      - JP/69
+      - JP/70
+      - US/71
+      - JP/72
+      - JP/73
+      - JP/74
+      - US/75
+      - JP/76
+      - ZZ/77
+      - US/78
+      - FR/79
+      - RO/80
+      - CN/81
+      - CN/82
+      - TW/83
+      - SG/84
+      - SG/85
       - US/86
-      - US/87
-      - CN/88
-      - CN/89
-      - IN/90
-      - xx/91
-      - CN/92
-      - GB/93
-      - SG/94
-      - US/95
-      - US/96
-      - CN/97
-      - CN/98
-      - US/99
-      - US/100
-      - CN/101
+      - KR/87
+      - JP/88
+      - JP/89
+      - JP/90
+      - JP/91
+      - JP/92
+      - JP/93
+      - US/94
+      - JP/95
+      - JP/96
+      - RU/97
+      - JP/98
+      - JP/99
+      - JP/100
+      - JP/101
       - CN/102
-      - US/103
-      - US/104
+      - CN/103
+      - CN/104
       - CN/105
-      - CN/106
-      - GB/107
+      - ZZ/106
+      - CN/107
       - CN/108
-      - CN/109
-      - KR/110
-      - GB/111
-      - US/112
-      - HK/113
-      - HK/114
-      - NL/115
-      - KR/116
-      - NL/117
-      - HK/118
-      - RO/119
-      - RU/120
+      - US/109
+      - CN/110
+      - CN/111
+      - RU/112
+      - CN/113
+      - CN/114
+      - CN/115
+      - HK/116
+      - GB/117
+      - GB/118
+      - IT/119
+      - US/120
       - CN/121
       - CN/122
-      - US/123
-      - US/124
-      - US/125
+      - CN/123
+      - CN/124
+      - CN/125
       - US/126
-      - RO/127
+      - CN/127
       - CN/128
+      - CN/129
+      - CN/130
+      - CN/131
+      - CN/132
+      - CN/133
+      - KR/134
+      - US/135
+      - CN/136
+      - TW/137
+      - KR/138
+      - CN/139
+      - CN/140
+      - CN/141
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
@@ -11429,4 +11546,3 @@ rules:
  - DOMAIN-KEYWORD,XLLiveUD,🎯 全球直连
  - GEOIP,CN,🎯 全球直连
  - MATCH,🐟 漏网之鱼
-
