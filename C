@@ -5,587 +5,1143 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: CN/1, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}, udp: true}
-  - {name: CN/2, server: cn02.downloadmovie.cn, port: 65040, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: cn02.downloadmovie.cn}}, udp: true}
-  - {name: HK/3, server: azhk1.sharecentre.xyz, port: 26635, type: vmess, uuid: 74c466dd-b8c7-4a9e-b46b-3a4cc6889ca4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: HK/4, server: azhk1.sharecentre.xyz, port: 26635, type: vmess, uuid: 74c466dd-b8c7-4a9e-b46b-3a4cc6889ca4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: CN/5, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}, udp: true}
-  - {name: CN/6, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}, udp: true}
-  - {name: JP/7, server: 85.208.108.21, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: JP/8, server: 85.208.108.94, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: JP/9, server: 85.208.108.94, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: CN/10, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}, udp: true}
-  - {name: JP/11, server: 85.208.108.94, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: JP/12, server: 85.208.108.21, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CN/13, server: unicom01.downloadmovie.cn, port: 65011, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: unicom01.downloadmovie.cn}}, udp: true}
-  - {name: JP/14, server: 85.208.108.21, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US/15, server: 144.168.60.70, port: 252, type: ss, cipher: aes-256-cfb, password: bwhskrskr03, udp: true}
-  - {name: JP/16, server: 85.208.108.21, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: JP/17, server: 85.208.108.21, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: JP/18, server: 85.208.108.21, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: JP/19, server: 85.208.108.21, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: JP/20, server: 85.208.108.21, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US/21, server: 45.11.92.100, port: 80, type: vmess, uuid: e026af69-5e36-4cd5-d40e-347f2955a3f6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: chat.gs.lilithapp.com}}, udp: true}
-  - {name: JP/22, server: 85.208.108.94, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: CN/23, server: cm.spacez.cloud, port: 30003, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, skip-cert-verify: true, udp: true}
-  - {name: US/24, server: 38.121.43.65, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: JP/25, server: 85.208.108.21, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: JP/26, server: 85.208.108.21, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: US/27, server: 45.11.92.100, port: 80, type: vmess, uuid: e026af69-5e36-4cd5-d40e-347f2955a3f6, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: chat.gs.lilithapp.com}}, udp: true}
-  - {name: JP/28, server: 85.208.108.94, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: JP/29, server: 85.208.108.21, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: JP/30, server: 85.208.108.21, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US/31, server: s2.520guge.com, port: 443, type: vmess, uuid: cf1819c8-e530-4626-aec0-87ac04200385, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /happy, headers: {Host: s2.520guge.com}}, udp: true}
-  - {name: CZ/32, server: levne.v237p.top, port: 37918, type: vmess, uuid: ea1d5766-831b-4334-a6d1-a0b828dbb374, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: Apple.com}}, udp: true}
-  - {name: JP/33, server: 85.208.108.94, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: JP/34, server: 85.208.108.21, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: CA/35, server: 196.247.59.155, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: CA/36, server: 196.247.59.155, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: JP/37, server: 85.208.108.21, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: CA/38, server: 196.247.59.155, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: GB/39, server: 172.99.190.61, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: GB/40, server: 172.99.190.61, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: GB/41, server: 172.99.190.61, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: GB/42, server: 172.99.190.61, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: GB/43, server: 172.99.190.61, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: JP/44, server: 85.208.108.94, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: GB/45, server: 172.99.190.61, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: JP/46, server: 85.208.108.94, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: JP/47, server: 85.208.108.21, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: GB/48, server: 172.99.190.61, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: GB/49, server: 172.99.190.61, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: GB/50, server: 172.99.190.61, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: JP/51, server: 85.208.108.94, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: JP/52, server: 85.208.108.94, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: GB/53, server: 172.99.190.61, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: GB/54, server: 172.99.190.61, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: GB/55, server: 172.99.190.61, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: JP/56, server: 85.208.108.21, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: CA/57, server: 134.195.196.178, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: JP/58, server: 85.208.108.21, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: GB/59, server: 172.99.190.61, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: CA/60, server: 134.195.196.178, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: CA/61, server: 134.195.196.178, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: GB/62, server: 172.99.190.61, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: GB/63, server: 172.99.190.61, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: HK/64, server: avuhk09.xiaohouzi.club, port: 1558, type: vmess, uuid: 6dc17fdb-9bcd-3231-ad6a-6af308aef4cc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: avuhk09.xiaohouzi.club}}, udp: true}
-  - {name: FR/65, server: 51.38.118.42, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
-  - {name: GB/66, server: 172.99.190.61, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: CA/67, server: 134.195.196.178, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: JP/68, server: 85.208.108.21, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: CA/69, server: 196.247.59.155, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: JP/70, server: 85.208.108.94, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: JP/71, server: 85.208.108.21, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: CA/72, server: 196.247.59.155, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: CA/73, server: 196.247.59.155, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: GB/74, server: 172.99.190.61, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: GB/75, server: 172.99.190.61, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: GB/76, server: 172.99.190.61, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: US/77, server: 138.68.248.130, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
-  - {name: GB/78, server: 172.99.190.61, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: GB/79, server: 172.99.190.61, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US/80, server: 167.88.63.59, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CA/81, server: 138.197.166.205, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
-  - {name: GB/82, server: 89.238.165.226, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: US/83, server: 1.v2tk.tk, port: 443, type: vmess, uuid: f0e10fe1-b01d-4ecc-9fcc-550badc7d1f8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /upload, headers: {Host: 1.v2tk.tk}}, udp: true}
-  - {name: CN/84, server: cn03.downloadmovie.cn, port: 65041, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: cn03.downloadmovie.cn}}, udp: true}
-  - {name: GB/85, server: 172.99.190.61, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: GB/86, server: 172.99.190.61, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US/87, server: 150.230.23.0, port: 44616, type: trojan, password: dbdd4673-06e7-4a53-adb7-aa4232df529e, skip-cert-verify: true, udp: true}
-  - {name: JP/88, server: 85.208.108.21, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CN/89, server: cn04.downloadmovie.cn, port: 65036, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: cn04.downloadmovie.cn}}, udp: true}
-  - {name: CN/90, server: 116.129.254.177, port: 65035, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: 116.129.254.177}}, udp: true}
-  - {name: HK/91, server: avuhk08.xiaohouzi.club, port: 1558, type: vmess, uuid: 6dc17fdb-9bcd-3231-ad6a-6af308aef4cc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: avuhk08.xiaohouzi.club}}, udp: true}
-  - {name: HK/92, server: avuhk07.xiaohouzi.club, port: 1558, type: vmess, uuid: 6dc17fdb-9bcd-3231-ad6a-6af308aef4cc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: avuhk07.xiaohouzi.club}}, udp: true}
-  - {name: US/93, server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true, udp: true}
-  - {name: JP/94, server: 185.172.113.100, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: CN/95, server: cn01.downloadmovie.cn, port: 65033, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: cn01.downloadmovie.cn}}, udp: true}
-  - {name: JP/96, server: 185.172.113.100, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: JP/97, server: 185.172.113.100, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: JP/98, server: 185.172.113.100, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: JP/99, server: 185.172.113.100, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: CN/100, server: cn05.downloadmovie.cn, port: 65026, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: cn05.downloadmovie.cn}}, udp: true}
-  - {name: GB/101, server: 172.99.190.61, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: JP/102, server: 185.172.113.100, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: JP/103, server: 185.172.113.100, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: JP/104, server: 185.172.113.100, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: JP/105, server: 185.172.113.100, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: CN/106, server: cn05.downloadmovie.cn, port: 65037, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: YouTube-aweikeji}}, udp: true}
-  - {name: JP/107, server: 185.172.113.100, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: CN/108, server: 120.240.55.137, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: 120.240.55.137}}, udp: true}
-  - {name: JP/109, server: 85.208.108.94, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CN/110, server: cn03.downloadmovie.cn, port: 65024, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: cn03.downloadmovie.cn}}, udp: true}
-  - {name: JP/111, server: 185.172.113.100, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: CN/112, server: cn05.downloadmovie.cn, port: 65037, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: cn05.downloadmovie.cn}}, udp: true}
-  - {name: JP/113, server: 85.208.108.21, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: JP/114, server: 85.208.108.94, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: CN/115, server: pp1.zhengzhongfeizhu.xyz, port: 34000, type: trojan, password: eb2f8154-ff58-3b99-b393-28c8eecdbe64, skip-cert-verify: true, udp: true}
-  - {name: CN/116, server: pp1.zhengzhongfeizhu.xyz, port: 32001, type: trojan, password: 7688df6f-bf65-3368-b55e-d78efea6a582, skip-cert-verify: true, udp: true}
-  - {name: US/117, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s1.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: JP/118, server: 85.208.108.94, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: US/119, server: 167.88.63.59, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: JP/120, server: 85.208.108.94, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: CN/121, server: 14.29.124.174, port: 11012, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: HK/122, server: avuhk06.xiaohouzi.club, port: 1558, type: vmess, uuid: 6dc17fdb-9bcd-3231-ad6a-6af308aef4cc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: avuhk06.xiaohouzi.club}}, udp: true}
-  - {name: HK/123, server: avuhk02.xiaohouzi.club, port: 1558, type: vmess, uuid: 6dc17fdb-9bcd-3231-ad6a-6af308aef4cc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: avuhk02.xiaohouzi.club}}, udp: true}
-  - {name: JP/124, server: 85.208.108.21, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: CN/125, server: pp1.zhengzhongfeizhu.xyz, port: 34002, type: trojan, password: 7688df6f-bf65-3368-b55e-d78efea6a582, skip-cert-verify: true, udp: true}
-  - {name: GB/126, server: 51.195.136.209, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295, udp: true}
-  - {name: CN/127, server: 120.233.29.189, port: 65037, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: YouTube-aweikeji}}, udp: true}
-  - {name: JP/128, server: 85.208.108.94, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: JP/129, server: 85.208.108.94, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: GB/130, server: 78.129.253.9, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: GB/131, server: 78.129.253.9, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: JP/132, server: 85.208.108.94, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: CN/133, server: 120.233.29.189, port: 65023, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: YouTube-aweikeji}}, udp: true}
-  - {name: JP/134, server: 85.208.108.94, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: TW/135, server: 727tw01.ok365.cyou, port: 443, type: trojan, password: 0db81541-51d1-486a-8b0c-d59cdc801438, sni: 727tw01.ok365.cyou, skip-cert-verify: true, udp: true}
-  - {name: CN/136, server: pp1.zhengzhongfeizhu.xyz, port: 32002, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: ip3884414509.mobgslb.tbcache.com, skip-cert-verify: true, udp: true}
-  - {name: CN/137, server: ingress-i1.onebox6.org, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
-  - {name: CN/138, server: pp1.zhengzhongfeizhu.xyz, port: 32002, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, skip-cert-verify: true, udp: true}
-  - {name: CN/139, server: pp1.zhengzhongfeizhu.xyz, port: 32002, type: trojan, password: 7688df6f-bf65-3368-b55e-d78efea6a582, sni: ip3884414509.mobgslb.tbcache.com, skip-cert-verify: true, udp: true}
-  - {name: HK/140, server: avuhk091.xiaohouzi.club, port: 1558, type: vmess, uuid: 6dc17fdb-9bcd-3231-ad6a-6af308aef4cc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: avuhk091.xiaohouzi.club}}, udp: true}
-  - {name: US/141, server: 167.88.63.59, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CN/中国/1, server: cn02.downloadmovie.cn, port: 65040, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: cn02.downloadmovie.cn}}, udp: true}
+  - {name: JP/日本/2, server: c71s4.jamjams3.net, port: 10922, type: vmess, uuid: 633aa237-6edc-4f81-861c-e0667d97f45d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN/中国/3, server: cm.spacez.cloud, port: 30003, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, skip-cert-verify: true, udp: true}
+  - {name: JP/日本/4, server: c71s4.jamjams3.net, port: 10922, type: vmess, uuid: 633aa237-6edc-4f81-861c-e0667d97f45d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: JP/日本/5, server: c71s4.jamjams3.net, port: 10922, type: vmess, uuid: 633aa237-6edc-4f81-861c-e0667d97f45d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: JP/日本/6, server: musashino.freetrade.link, port: 443, type: trojan, password: ZDqCRlxB8uFj9pxNEeanya3DIpDlOYR7K0wOYX3eScA36gTAazCyZ5SC3FS428, skip-cert-verify: true, udp: true}
+  - {name: SG/新加坡/7, server: 727tw02.ok365.cyou, port: 25689, type: trojan, password: e2482c85-3009-4761-bce7-01f886623e3e, skip-cert-verify: true, udp: true}
+  - {name: TW/台湾/8, server: nh-hinet01.xiaohouzi.club, port: 1558, type: vmess, uuid: 6dc17fdb-9bcd-3231-ad6a-6af308aef4cc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: nh-hinet01.xiaohouzi.club}}, udp: true}
+  - {name: CN/中国/9, server: az.az-bgp.chuangshi999.xyz, port: 30484, type: trojan, password: 64df808e-9fd3-4eb0-afe8-7a800984d321, sni: xjp1.xinjiapo1.xyz, skip-cert-verify: true, udp: true}
+  - {name: JP/日本/10, server: c71s4.jamjams3.net, port: 10922, type: vmess, uuid: 633aa237-6edc-4f81-861c-e0667d97f45d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TW/台湾/11, server: 727tw01.ok365.cyou, port: 443, type: trojan, password: e2482c85-3009-4761-bce7-01f886623e3e, skip-cert-verify: true, udp: true}
+  - {name: CN/中国/12, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}, udp: true}
+  - {name: CN/中国/13, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}, udp: true}
+  - {name: KR/韩国/14, server: 52.78.173.118, port: 53089, type: ss, cipher: chacha20-ietf-poly1305, password: Ebiresh0Ob, udp: true}
+  - {name: CN/中国/15, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}, udp: true}
+  - {name: CN/中国/16, server: hlu.bgp2.liuliangzhuanfa.xyz, port: 26539, type: trojan, password: 64df808e-9fd3-4eb0-afe8-7a800984d321, sni: xjp1.xinjiapo1.xyz, skip-cert-verify: true, udp: true}
+  - {name: JP/日本/17, server: yokohama.freetrade.link, port: 443, type: trojan, password: C3YS0KAq8x5jgpNnCeC3aa3DFXw9Aczu8DaeBpy6Fy34xSZEYORDTIZRlSl72O, skip-cert-verify: true, udp: true}
+  - {name: AU/澳大利亚/18, server: 129.154.205.93, port: 809, type: vmess, uuid: 88d9fdad-0ccb-4be8-ba57-86d10e974bc3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: CN/中国/19, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}, udp: true}
+  - {name: CN/中国/20, server: az.az-bgp.chuangshi999.xyz, port: 39124, type: trojan, password: 64df808e-9fd3-4eb0-afe8-7a800984d321, sni: hg1.hanguo1.xyz, skip-cert-verify: true, udp: true}
+  - {name: US/美国/21, server: jm.yd02.paopaocloud.cyou, port: 10002, type: vmess, uuid: c36987a5-593a-3cf3-9813-edb290baf2f4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jm.yd02.paopaocloud.cyou}}, udp: true}
+  - {name: CN/中国/22, server: hlu.bgp2.liuliangzhuanfa.xyz, port: 45379, type: trojan, password: 64df808e-9fd3-4eb0-afe8-7a800984d321, sni: xg1.xianggang1.xyz, skip-cert-verify: true, udp: true}
+  - {name: CN/中国/23, server: 103.56.60.185, port: 3381, type: trojan, password: ab29af390ff9f4a7, skip-cert-verify: true, udp: true}
+  - {name: CN/中国/24, server: hlu.bgp2.liuliangzhuanfa.xyz, port: 31097, type: trojan, password: 64df808e-9fd3-4eb0-afe8-7a800984d321, sni: aa1.liumeit.xyz, skip-cert-verify: true, udp: true}
+  - {name: NL/荷兰/25, server: c71s5.jamjams3.net, port: 10922, type: vmess, uuid: 633aa237-6edc-4f81-861c-e0667d97f45d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US/美国/26, server: 154.214.4.155, port: 57952, type: vmess, uuid: c48e8e02-15c6-4061-c4cc-8cfe625572d7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US/美国/27, server: aus01.xiaohouzi.club, port: 10058, type: vmess, uuid: 6dc17fdb-9bcd-3231-ad6a-6af308aef4cc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: JP/日本/28, server: 85.208.108.94, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: JP/日本/29, server: 85.208.108.21, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: JP/日本/30, server: 85.208.108.21, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: JP/日本/31, server: 85.208.108.94, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: JP/日本/32, server: 85.208.108.94, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: JP/日本/33, server: 85.208.108.21, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: JP/日本/34, server: 85.208.108.21, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: JP/日本/35, server: 85.208.108.20, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: JP/日本/36, server: 85.208.108.21, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: JP/日本/37, server: 85.208.108.21, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: JP/日本/38, server: 85.208.108.21, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: JP/日本/39, server: 85.208.108.94, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: JP/日本/40, server: 85.208.108.21, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: JP/日本/41, server: 85.208.108.94, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: JP/日本/42, server: 85.208.108.94, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: JP/日本/43, server: 85.208.108.94, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: JP/日本/44, server: 85.208.108.21, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: JP/日本/45, server: 85.208.108.21, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: JP/日本/46, server: 85.208.108.94, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: JP/日本/47, server: 85.208.108.21, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: JP/日本/48, server: 85.208.108.21, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: JP/日本/49, server: 85.208.108.20, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: JP/日本/50, server: 85.208.108.94, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: JP/日本/51, server: 85.208.108.21, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: JP/日本/52, server: 85.208.108.21, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: JP/日本/53, server: 85.208.108.94, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: JP/日本/54, server: 85.208.108.94, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: JP/日本/55, server: 85.208.108.20, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: JP/日本/56, server: 85.208.108.94, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: JP/日本/57, server: 85.208.108.94, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: JP/日本/58, server: 85.208.108.21, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: JP/日本/59, server: 85.208.108.20, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: JP/日本/60, server: 85.208.108.21, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: JP/日本/61, server: 85.208.108.94, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: JP/日本/62, server: 85.208.108.94, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: JP/日本/63, server: 85.208.108.21, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: JP/日本/64, server: 85.208.108.21, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: JP/日本/65, server: 85.208.108.21, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: JP/日本/66, server: 85.208.108.94, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: JP/日本/67, server: 85.208.108.94, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: JP/日本/68, server: 85.208.108.21, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: JP/日本/69, server: 85.208.108.21, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: JP/日本/70, server: 85.208.108.94, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: JP/日本/71, server: 85.208.108.21, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US/美国/72, server: 104.243.30.252, port: 246, type: ss, cipher: aes-256-cfb, password: bwhskrskr03, udp: true}
+  - {name: JP/日本/73, server: 85.208.108.94, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: KR/韩国/74, server: 146.56.118.227, port: 2052, type: vmess, uuid: 448a9087-28f3-4fe4-fa49-36c912e0f498, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /update}, udp: true}
+  - {name: JP/日本/75, server: 85.208.108.21, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: HK/香港/76, server: avuhk06.xiaohouzi.club, port: 1558, type: vmess, uuid: 6dc17fdb-9bcd-3231-ad6a-6af308aef4cc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: avuhk06.xiaohouzi.club}}, udp: true}
+  - {name: HK/香港/77, server: avuhk04.xiaohouzi.club, port: 1558, type: vmess, uuid: 6dc17fdb-9bcd-3231-ad6a-6af308aef4cc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: avuhk04.xiaohouzi.club}}, udp: true}
+  - {name: CO/哥伦比亚/78, server: 188.114.97.110, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chcar, headers: {Host: v2fly.samrt.website}}, udp: true}
+  - {name: US/美国/79, server: c71s3.jamjams3.net, port: 10922, type: vmess, uuid: 633aa237-6edc-4f81-861c-e0667d97f45d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: KR/韩国/80, server: 152.67.221.228, port: 58742, type: vmess, uuid: 0d31b385-c478-456b-f665-f1d62a91e54c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: YouTube-aweikeji}}, udp: true}
+  - {name: CN/中国/81, server: 120.240.55.137, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8}, udp: true}
+  - {name: US/美国/82, server: 167.88.61.14, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: IN/印度/83, server: 147.139.7.71, port: 888, type: vmess, uuid: 08d6729d-830e-4341-df76-62d3d12e75e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: NL/荷兰/84, server: c71s5.jamjams3.net, port: 10922, type: vmess, uuid: 633aa237-6edc-4f81-861c-e0667d97f45d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US/美国/85, server: 150.230.23.0, port: 44616, type: trojan, password: dbdd4673-06e7-4a53-adb7-aa4232df529e, skip-cert-verify: true, udp: true}
+  - {name: US/美国/86, server: c71s3.jamjams3.net, port: 10922, type: vmess, uuid: 633aa237-6edc-4f81-861c-e0667d97f45d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US/美国/87, server: c71s3.jamjams3.net, port: 10922, type: vmess, uuid: 633aa237-6edc-4f81-861c-e0667d97f45d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: FR/法国/88, server: 195.154.200.150, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: HK/香港/89, server: avuhk08.xiaohouzi.club, port: 1558, type: vmess, uuid: 6dc17fdb-9bcd-3231-ad6a-6af308aef4cc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: avuhk08.xiaohouzi.club}}, udp: true}
+  - {name: CN/中国/90, server: ingress-i1.onebox6.org, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: aweikeji-YouTube}}, udp: true}
+  - {name: US/美国/91, server: 167.88.61.14, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US/美国/92, server: c71s3.jamjams3.net, port: 10922, type: vmess, uuid: 633aa237-6edc-4f81-861c-e0667d97f45d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US/美国/93, server: 167.88.61.14, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US/美国/94, server: 167.88.61.14, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: GB/英国/95, server: 51.195.136.209, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295, udp: true}
+  - {name: KR/韩国/96, server: 152.67.221.228, port: 58742, type: vmess, uuid: 0d31b385-c478-456b-f665-f1d62a91e54c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: US/美国/97, server: 167.88.61.14, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US/美国/98, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s1.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: US/美国/99, server: 167.88.61.14, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US/美国/100, server: 107.173.153.147, port: 8765, type: vmess, uuid: d518dec3-f801-46f6-b295-63f4bf16fe12, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: US/美国/101, server: 167.88.61.14, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CN/中国/102, server: 120.240.55.137, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: 120.240.55.137}}, udp: true}
+  - {name: US/美国/103, server: 198.181.56.163, port: 238, type: ss, cipher: aes-256-cfb, password: bwhskrskr05, udp: true}
+  - {name: HK/香港/104, server: avuhk091.xiaohouzi.club, port: 1558, type: vmess, uuid: 6dc17fdb-9bcd-3231-ad6a-6af308aef4cc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: avuhk091.xiaohouzi.club}}, udp: true}
+  - {name: US/美国/105, server: 172.99.188.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US/美国/106, server: 172.99.188.71, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: NL/荷兰/107, server: c71s5.jamjams3.net, port: 10922, type: vmess, uuid: 633aa237-6edc-4f81-861c-e0667d97f45d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US/美国/108, server: 172.99.188.71, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: NL/荷兰/109, server: c71s5.jamjams3.net, port: 10922, type: vmess, uuid: 633aa237-6edc-4f81-861c-e0667d97f45d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US/美国/110, server: 172.99.188.71, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US/美国/111, server: 167.88.61.14, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: JP/日本/112, server: 85.208.108.94, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US/美国/113, server: 172.99.188.71, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: JP/日本/114, server: 85.208.108.94, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US/美国/115, server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true, udp: true}
+  - {name: JP/日本/116, server: 85.208.108.21, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: JP/日本/117, server: 85.208.108.94, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: GB/英国/118, server: 78.129.253.9, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: JP/日本/119, server: 85.208.108.94, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: CA/加拿大/120, server: 134.195.196.149, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: CA/加拿大/121, server: 134.195.196.149, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: GB/英国/122, server: 78.129.253.9, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: JP/日本/123, server: 85.208.108.94, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: JP/日本/124, server: 85.208.108.21, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: SG/新加坡/125, server: 217.197.160.117, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US/美国/126, server: 172.99.188.71, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: JP/日本/127, server: 85.208.108.21, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: CA/加拿大/128, server: 134.195.196.149, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: CA/加拿大/129, server: 134.195.196.149, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CA/加拿大/130, server: 134.195.196.149, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: JP/日本/131, server: 85.208.108.94, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: JP/日本/132, server: 85.208.108.94, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: JP/日本/133, server: 85.208.108.21, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: JP/日本/134, server: 85.208.108.94, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: JP/日本/135, server: 85.208.108.21, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: FR/法国/136, server: 62.210.113.98, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: CA/加拿大/137, server: 134.195.196.149, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: JP/日本/138, server: 85.208.108.21, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: JP/日本/139, server: 85.208.108.21, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: JP/日本/140, server: 85.208.108.21, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: JP/日本/141, server: 85.208.108.20, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: CA/加拿大/142, server: 134.195.196.149, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: CA/加拿大/143, server: 134.195.196.149, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: CA/加拿大/144, server: 134.195.196.149, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: CA/加拿大/145, server: 134.195.196.149, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: SG/新加坡/146, server: s2.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true, udp: true}
+  - {name: US/美国/147, server: 172.99.188.71, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US/美国/148, server: 167.88.61.14, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US/美国/149, server: c71s3.jamjams3.net, port: 10922, type: vmess, uuid: 633aa237-6edc-4f81-861c-e0667d97f45d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: FR/法国/150, server: 195.154.200.150, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US/美国/151, server: 167.88.61.14, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US/美国/152, server: 23.227.194.145, port: 36195, type: vmess, uuid: fae6eae5-a5b5-41ba-b660-dc067340048f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: FR/法国/153, server: 195.154.200.150, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US/美国/154, server: 38.121.43.65, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: JP/日本/155, server: 43.128.231.83, port: 55843, type: vmess, uuid: 8fab08bb-11e7-4158-c7c6-d81257126697, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US/美国/156, server: 172.99.188.71, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US/美国/157, server: 172.99.188.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US/美国/158, server: 167.88.61.14, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US/美国/159, server: 172.99.188.71, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US/美国/160, server: 167.88.63.59, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US/美国/161, server: 23.227.194.145, port: 36195, type: vmess, uuid: fae6eae5-a5b5-41ba-b660-dc067340048f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN/中国/162, server: 120.240.55.137, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: aweikeji-YouTube}}, udp: true}
+  - {name: US/美国/163, server: 138.68.248.130, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
+  - {name: US/美国/164, server: 23.227.194.145, port: 36195, type: vmess, uuid: fae6eae5-a5b5-41ba-b660-dc067340048f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: RU/俄罗斯联邦/165, server: 213.183.53.198, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
+  - {name: US/美国/166, server: 172.99.188.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: RO/罗马尼亚/167, server: 109.166.39.216, port: 39216, type: vmess, uuid: 5022b474-6ba7-4f66-b7a1-04cc4814d2ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /tiktok}, udp: true}
+  - {name: US/美国/168, server: 34.215.151.189, port: 58155, type: trojan, password: y9RCtKiVIL4iwKCOLGdb, sni: vip0694644.run-us-west2.goorm.io, skip-cert-verify: true, udp: true}
+  - {name: BG/保加利亚/169, server: 213.183.63.221, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
+  - {name: KR/韩国/170, server: 146.56.155.70, port: 33449, type: vmess, uuid: e115ada7-9b19-4df9-c58a-cadd4540ec13, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CZ/捷克/171, server: www.olaola.top, port: 48493, type: vmess, uuid: bd8f6efe-b3ce-4bdb-ddf3-957148f25377, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: US/美国/172, server: 23.227.194.145, port: 36195, type: vmess, uuid: fae6eae5-a5b5-41ba-b660-dc067340048f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: BG/保加利亚/173, server: 213.183.63.221, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
+  - {name: US/美国/174, server: 143.110.224.127, port: 48919, type: vmess, uuid: 5f57a91d-e94f-4bb7-fa85-55886a3e3387, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US/美国/175, server: 167.88.61.14, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: CA/加拿大/176, server: 138.197.166.205, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
+  - {name: US/美国/177, server: 167.88.63.59, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US/美国/178, server: 167.88.63.59, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US/美国/179, server: 167.88.61.14, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US/美国/180, server: 167.88.61.14, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: JP/日本/181, server: 43.128.231.83, port: 55843, type: vmess, uuid: 8fab08bb-11e7-4158-c7c6-d81257126697, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US/美国/182, server: 167.88.61.14, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CA/加拿大/183, server: 134.195.196.178, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US/美国/184, server: 167.88.63.59, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: CA/加拿大/185, server: 134.195.196.178, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: CA/加拿大/186, server: 134.195.196.178, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: CA/加拿大/187, server: 134.195.196.178, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: CA/加拿大/188, server: 134.195.196.178, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: CA/加拿大/189, server: 134.195.196.178, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US/美国/190, server: 92.38.176.81, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
+  - {name: BG/保加利亚/191, server: 213.183.63.221, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
+  - {name: GB/英国/192, server: 172.99.190.61, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: GB/英国/193, server: 172.99.190.61, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: GB/英国/194, server: 172.99.190.61, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: GB/英国/195, server: 172.99.190.61, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: GB/英国/196, server: 172.99.190.61, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: GB/英国/197, server: 172.99.190.61, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: GB/英国/198, server: 172.99.190.61, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: GB/英国/199, server: 172.99.190.61, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: GB/英国/200, server: 172.99.190.61, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: GB/英国/201, server: 172.99.190.61, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: GB/英国/202, server: 172.99.190.61, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: GB/英国/203, server: 172.99.190.61, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: GB/英国/204, server: 172.99.190.61, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: GB/英国/205, server: 172.99.190.61, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US/美国/206, server: 5.188.0.151, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: GB/英国/207, server: 172.99.190.61, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: GB/英国/208, server: 172.99.190.61, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: GB/英国/209, server: 172.99.190.61, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: GB/英国/210, server: 172.99.190.61, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: CZ/捷克/211, server: www.olaola.top, port: 8090, type: vmess, uuid: 76218523-5eae-49ae-a53a-2f043d5460b9, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: JP/日本/212, server: 89.31.125.254, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US/美国/213, server: 167.88.61.14, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: RU/俄罗斯联邦/214, server: 213.183.53.198, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
+  - {name: US/美国/215, server: 167.88.63.59, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: KR/韩国/216, server: 146.56.155.70, port: 18050, type: vmess, uuid: f9771c19-c91c-41b5-9064-8768b51cec6d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: GB/英国/217, server: 89.238.165.226, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: GB/英国/218, server: 172.99.190.61, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: IT/意大利/219, server: 92.223.93.233, port: 1035, type: ss, cipher: chacha20-ietf-poly1305, password: )1N1E6v0SU_rGTpg, udp: true}
+  - {name: SG/新加坡/220, server: 217.197.160.117, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: GB/英国/221, server: 172.99.190.61, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: GB/英国/222, server: 172.99.190.61, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: GB/英国/223, server: 172.99.190.61, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: GB/英国/224, server: 172.99.190.61, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: GB/英国/225, server: 172.99.190.61, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: GB/英国/226, server: 172.99.190.61, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US/美国/227, server: 107.173.250.94, port: 25318, type: vmess, uuid: ed293411-ab53-4ebc-f0ab-34d78fa1f5ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US/美国/228, server: 167.88.63.59, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: SG/新加坡/229, server: 217.197.160.117, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: JP/日本/230, server: 89.31.125.254, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: FR/法国/231, server: 51.38.118.42, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
+  - {name: BG/保加利亚/232, server: 213.183.63.221, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
+  - {name: HK/香港/233, server: avuhk02.xiaohouzi.club, port: 1558, type: vmess, uuid: 6dc17fdb-9bcd-3231-ad6a-6af308aef4cc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: avuhk02.xiaohouzi.club}}, udp: true}
+  - {name: BG/保加利亚/234, server: 213.183.63.221, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: CN/中国/235, server: ingress-i1.onebox6.org, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
+  - {name: GB/英国/236, server: 5.181.132.235, port: 31372, type: vmess, uuid: 0bb88eea-73a5-4e37-ac8b-03090a57acba, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: RU/俄罗斯联邦/237, server: 213.183.53.198, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
+  - {name: HK/香港/238, server: 223.17.43.52, port: 44601, type: trojan, password: dbdd4673-06e7-4a53-adb7-aa4232df529e, skip-cert-verify: true, udp: true}
+  - {name: CN/中国/239, server: ingress-i1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: aweikeji-YouTube}}, udp: true}
+  - {name: SG/新加坡/240, server: 217.197.160.117, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: GB/英国/241, server: 5.181.132.235, port: 31372, type: vmess, uuid: 0bb88eea-73a5-4e37-ac8b-03090a57acba, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: JP/日本/242, server: 185.172.113.100, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: CN/中国/243, server: pp1.zhengzhongfeizhu.xyz, port: 32002, type: trojan, password: 7688df6f-bf65-3368-b55e-d78efea6a582, sni: ip3884414509.mobgslb.tbcache.com, skip-cert-verify: true, udp: true}
+  - {name: JP/日本/244, server: 185.172.113.100, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: JP/日本/245, server: 185.172.113.100, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: JP/日本/246, server: 185.172.113.100, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: MY/马来西亚/247, server: 103.159.132.102, port: 31372, type: vmess, uuid: c11236af-56a6-49b3-c1b9-7b54ac3acb42, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN/中国/248, server: pp1.zhengzhongfeizhu.xyz, port: 32001, type: trojan, password: 7688df6f-bf65-3368-b55e-d78efea6a582, skip-cert-verify: true, udp: true}
+  - {name: JP/日本/249, server: 185.172.113.100, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: JP/日本/250, server: 185.172.113.100, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: JP/日本/251, server: 185.172.113.100, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: CN/中国/252, server: in-sg-1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
+  - {name: CN/中国/253, server: pp1.zhengzhongfeizhu.xyz, port: 32002, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, skip-cert-verify: true, udp: true}
+  - {name: JP/日本/254, server: 185.172.113.100, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: CN/中国/255, server: in-us-1.onebox6.org, port: 38401, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: YouTube-aweikeji}}, udp: true}
+  - {name: US/美国/256, server: azgy001.xiba1.xyz, port: 20783, type: trojan, password: b2100b79-d571-354a-b706-6b0f7b55d343, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: CN/中国/257, server: pp1.zhengzhongfeizhu.xyz, port: 32001, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, skip-cert-verify: true, udp: true}
+  - {name: US/美国/258, server: 23.227.194.145, port: 36195, type: vmess, uuid: fae6eae5-a5b5-41ba-b660-dc067340048f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US/美国/259, server: 23.227.194.145, port: 36195, type: vmess, uuid: fae6eae5-a5b5-41ba-b660-dc067340048f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN/中国/260, server: pp1.zhengzhongfeizhu.xyz, port: 32003, type: trojan, password: eb2f8154-ff58-3b99-b393-28c8eecdbe64, skip-cert-verify: true, udp: true}
+  - {name: CN/中国/261, server: pp1.zhengzhongfeizhu.xyz, port: 32000, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, skip-cert-verify: true, udp: true}
+  - {name: CN/中国/262, server: 43.154.190.154, port: 23702, type: vmess, uuid: a4d1a670-b727-4f2e-f392-9794215e54ac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN/中国/263, server: pp1.zhengzhongfeizhu.xyz, port: 34003, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, skip-cert-verify: true, udp: true}
+  - {name: CN/中国/264, server: pp1.zhengzhongfeizhu.xyz, port: 34000, type: trojan, password: eb2f8154-ff58-3b99-b393-28c8eecdbe64, skip-cert-verify: true, udp: true}
+  - {name: CY/塞浦路斯/265, server: 213.169.137.221, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: JP/日本/266, server: 168.138.214.114, port: 443, type: vmess, uuid: e35159d7-e8fb-479c-b490-e8e9a924e0c6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /a9S24DC8US}, udp: true}
+  - {name: MY/马来西亚/267, server: 103.159.132.102, port: 31372, type: vmess, uuid: c11236af-56a6-49b3-c1b9-7b54ac3acb42, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN/中国/268, server: pp1.zhengzhongfeizhu.xyz, port: 34004, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: 111-47-215-139.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: CN/中国/269, server: pp1.zhengzhongfeizhu.xyz, port: 34004, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, skip-cert-verify: true, udp: true}
+  - {name: CN/中国/270, server: pp1.zhengzhongfeizhu.xyz, port: 34003, type: trojan, password: 7688df6f-bf65-3368-b55e-d78efea6a582, skip-cert-verify: true, udp: true}
+  - {name: US/美国/271, server: 1.v2tk.tk, port: 443, type: vmess, uuid: f0e10fe1-b01d-4ecc-9fcc-550badc7d1f8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /upload, headers: {Host: 1.v2tk.tk}}, udp: true}
+  - {name: RU/俄罗斯联邦/272, server: 195.133.197.254, port: 443, type: vmess, uuid: ba4b9133-5a39-4015-808b-bcfaaa8962a8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: CN/中国/273, server: pp1.zhengzhongfeizhu.xyz, port: 32002, type: trojan, password: eb2f8154-ff58-3b99-b393-28c8eecdbe64, sni: ip3884414509.mobgslb.tbcache.com, skip-cert-verify: true, udp: true}
+  - {name: CN/中国/274, server: in-us-1.onebox6.org, port: 38401, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: in-us-1.onebox6.org}}, udp: true}
+  - {name: CN/中国/275, server: sg-cn-relay-6-689145.dk-3a4e.com, port: 9306, type: trojan, password: f2a28b26-3462-11e9-96d3-020b85e0a428, skip-cert-verify: true, udp: true}
+  - {name: MY/马来西亚/276, server: 103.159.132.102, port: 31372, type: vmess, uuid: c11236af-56a6-49b3-c1b9-7b54ac3acb42, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US/美国/277, server: 44.229.68.40, port: 50677, type: ss, cipher: chacha20-ietf-poly1305, password: voikEcjit26565!23, udp: true}
+  - {name: JP/日本/278, server: 185.172.113.100, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: CN/中国/279, server: pp1.zhengzhongfeizhu.xyz, port: 33002, type: trojan, password: eb2f8154-ff58-3b99-b393-28c8eecdbe64, skip-cert-verify: true, udp: true}
+  - {name: SG/新加坡/280, server: 730tw01.ok365.cyou, port: 443, type: trojan, password: e2482c85-3009-4761-bce7-01f886623e3e, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN/1
-      - CN/2
-      - HK/3
-      - HK/4
-      - CN/5
-      - CN/6
-      - JP/7
-      - JP/8
-      - JP/9
-      - CN/10
-      - JP/11
-      - JP/12
-      - CN/13
-      - JP/14
-      - US/15
-      - JP/16
-      - JP/17
-      - JP/18
-      - JP/19
-      - JP/20
-      - US/21
-      - JP/22
-      - CN/23
-      - US/24
-      - JP/25
-      - JP/26
-      - US/27
-      - JP/28
-      - JP/29
-      - JP/30
-      - US/31
-      - CZ/32
-      - JP/33
-      - JP/34
-      - CA/35
-      - CA/36
-      - JP/37
-      - CA/38
-      - GB/39
-      - GB/40
-      - GB/41
-      - GB/42
-      - GB/43
-      - JP/44
-      - GB/45
-      - JP/46
-      - JP/47
-      - GB/48
-      - GB/49
-      - GB/50
-      - JP/51
-      - JP/52
-      - GB/53
-      - GB/54
-      - GB/55
-      - JP/56
-      - CA/57
-      - JP/58
-      - GB/59
-      - CA/60
-      - CA/61
-      - GB/62
-      - GB/63
-      - HK/64
-      - FR/65
-      - GB/66
-      - CA/67
-      - JP/68
-      - CA/69
-      - JP/70
-      - JP/71
-      - CA/72
-      - CA/73
-      - GB/74
-      - GB/75
-      - GB/76
-      - US/77
-      - GB/78
-      - GB/79
-      - US/80
-      - CA/81
-      - GB/82
-      - US/83
-      - CN/84
-      - GB/85
-      - GB/86
-      - US/87
-      - JP/88
-      - CN/89
-      - CN/90
-      - HK/91
-      - HK/92
-      - US/93
-      - JP/94
-      - CN/95
-      - JP/96
-      - JP/97
-      - JP/98
-      - JP/99
-      - CN/100
-      - GB/101
-      - JP/102
-      - JP/103
-      - JP/104
-      - JP/105
-      - CN/106
-      - JP/107
-      - CN/108
-      - JP/109
-      - CN/110
-      - JP/111
-      - CN/112
-      - JP/113
-      - JP/114
-      - CN/115
-      - CN/116
-      - US/117
-      - JP/118
-      - US/119
-      - JP/120
-      - CN/121
-      - HK/122
-      - HK/123
-      - JP/124
-      - CN/125
-      - GB/126
-      - CN/127
-      - JP/128
-      - JP/129
-      - GB/130
-      - GB/131
-      - JP/132
-      - CN/133
-      - JP/134
-      - TW/135
-      - CN/136
-      - CN/137
-      - CN/138
-      - CN/139
-      - HK/140
-      - US/141
+      - CN/中国/1
+      - JP/日本/2
+      - CN/中国/3
+      - JP/日本/4
+      - JP/日本/5
+      - JP/日本/6
+      - SG/新加坡/7
+      - TW/台湾/8
+      - CN/中国/9
+      - JP/日本/10
+      - TW/台湾/11
+      - CN/中国/12
+      - CN/中国/13
+      - KR/韩国/14
+      - CN/中国/15
+      - CN/中国/16
+      - JP/日本/17
+      - AU/澳大利亚/18
+      - CN/中国/19
+      - CN/中国/20
+      - US/美国/21
+      - CN/中国/22
+      - CN/中国/23
+      - CN/中国/24
+      - NL/荷兰/25
+      - US/美国/26
+      - US/美国/27
+      - JP/日本/28
+      - JP/日本/29
+      - JP/日本/30
+      - JP/日本/31
+      - JP/日本/32
+      - JP/日本/33
+      - JP/日本/34
+      - JP/日本/35
+      - JP/日本/36
+      - JP/日本/37
+      - JP/日本/38
+      - JP/日本/39
+      - JP/日本/40
+      - JP/日本/41
+      - JP/日本/42
+      - JP/日本/43
+      - JP/日本/44
+      - JP/日本/45
+      - JP/日本/46
+      - JP/日本/47
+      - JP/日本/48
+      - JP/日本/49
+      - JP/日本/50
+      - JP/日本/51
+      - JP/日本/52
+      - JP/日本/53
+      - JP/日本/54
+      - JP/日本/55
+      - JP/日本/56
+      - JP/日本/57
+      - JP/日本/58
+      - JP/日本/59
+      - JP/日本/60
+      - JP/日本/61
+      - JP/日本/62
+      - JP/日本/63
+      - JP/日本/64
+      - JP/日本/65
+      - JP/日本/66
+      - JP/日本/67
+      - JP/日本/68
+      - JP/日本/69
+      - JP/日本/70
+      - JP/日本/71
+      - US/美国/72
+      - JP/日本/73
+      - KR/韩国/74
+      - JP/日本/75
+      - HK/香港/76
+      - HK/香港/77
+      - CO/哥伦比亚/78
+      - US/美国/79
+      - KR/韩国/80
+      - CN/中国/81
+      - US/美国/82
+      - IN/印度/83
+      - NL/荷兰/84
+      - US/美国/85
+      - US/美国/86
+      - US/美国/87
+      - FR/法国/88
+      - HK/香港/89
+      - CN/中国/90
+      - US/美国/91
+      - US/美国/92
+      - US/美国/93
+      - US/美国/94
+      - GB/英国/95
+      - KR/韩国/96
+      - US/美国/97
+      - US/美国/98
+      - US/美国/99
+      - US/美国/100
+      - US/美国/101
+      - CN/中国/102
+      - US/美国/103
+      - HK/香港/104
+      - US/美国/105
+      - US/美国/106
+      - NL/荷兰/107
+      - US/美国/108
+      - NL/荷兰/109
+      - US/美国/110
+      - US/美国/111
+      - JP/日本/112
+      - US/美国/113
+      - JP/日本/114
+      - US/美国/115
+      - JP/日本/116
+      - JP/日本/117
+      - GB/英国/118
+      - JP/日本/119
+      - CA/加拿大/120
+      - CA/加拿大/121
+      - GB/英国/122
+      - JP/日本/123
+      - JP/日本/124
+      - SG/新加坡/125
+      - US/美国/126
+      - JP/日本/127
+      - CA/加拿大/128
+      - CA/加拿大/129
+      - CA/加拿大/130
+      - JP/日本/131
+      - JP/日本/132
+      - JP/日本/133
+      - JP/日本/134
+      - JP/日本/135
+      - FR/法国/136
+      - CA/加拿大/137
+      - JP/日本/138
+      - JP/日本/139
+      - JP/日本/140
+      - JP/日本/141
+      - CA/加拿大/142
+      - CA/加拿大/143
+      - CA/加拿大/144
+      - CA/加拿大/145
+      - SG/新加坡/146
+      - US/美国/147
+      - US/美国/148
+      - US/美国/149
+      - FR/法国/150
+      - US/美国/151
+      - US/美国/152
+      - FR/法国/153
+      - US/美国/154
+      - JP/日本/155
+      - US/美国/156
+      - US/美国/157
+      - US/美国/158
+      - US/美国/159
+      - US/美国/160
+      - US/美国/161
+      - CN/中国/162
+      - US/美国/163
+      - US/美国/164
+      - RU/俄罗斯联邦/165
+      - US/美国/166
+      - RO/罗马尼亚/167
+      - US/美国/168
+      - BG/保加利亚/169
+      - KR/韩国/170
+      - CZ/捷克/171
+      - US/美国/172
+      - BG/保加利亚/173
+      - US/美国/174
+      - US/美国/175
+      - CA/加拿大/176
+      - US/美国/177
+      - US/美国/178
+      - US/美国/179
+      - US/美国/180
+      - JP/日本/181
+      - US/美国/182
+      - CA/加拿大/183
+      - US/美国/184
+      - CA/加拿大/185
+      - CA/加拿大/186
+      - CA/加拿大/187
+      - CA/加拿大/188
+      - CA/加拿大/189
+      - US/美国/190
+      - BG/保加利亚/191
+      - GB/英国/192
+      - GB/英国/193
+      - GB/英国/194
+      - GB/英国/195
+      - GB/英国/196
+      - GB/英国/197
+      - GB/英国/198
+      - GB/英国/199
+      - GB/英国/200
+      - GB/英国/201
+      - GB/英国/202
+      - GB/英国/203
+      - GB/英国/204
+      - GB/英国/205
+      - US/美国/206
+      - GB/英国/207
+      - GB/英国/208
+      - GB/英国/209
+      - GB/英国/210
+      - CZ/捷克/211
+      - JP/日本/212
+      - US/美国/213
+      - RU/俄罗斯联邦/214
+      - US/美国/215
+      - KR/韩国/216
+      - GB/英国/217
+      - GB/英国/218
+      - IT/意大利/219
+      - SG/新加坡/220
+      - GB/英国/221
+      - GB/英国/222
+      - GB/英国/223
+      - GB/英国/224
+      - GB/英国/225
+      - GB/英国/226
+      - US/美国/227
+      - US/美国/228
+      - SG/新加坡/229
+      - JP/日本/230
+      - FR/法国/231
+      - BG/保加利亚/232
+      - HK/香港/233
+      - BG/保加利亚/234
+      - CN/中国/235
+      - GB/英国/236
+      - RU/俄罗斯联邦/237
+      - HK/香港/238
+      - CN/中国/239
+      - SG/新加坡/240
+      - GB/英国/241
+      - JP/日本/242
+      - CN/中国/243
+      - JP/日本/244
+      - JP/日本/245
+      - JP/日本/246
+      - MY/马来西亚/247
+      - CN/中国/248
+      - JP/日本/249
+      - JP/日本/250
+      - JP/日本/251
+      - CN/中国/252
+      - CN/中国/253
+      - JP/日本/254
+      - CN/中国/255
+      - US/美国/256
+      - CN/中国/257
+      - US/美国/258
+      - US/美国/259
+      - CN/中国/260
+      - CN/中国/261
+      - CN/中国/262
+      - CN/中国/263
+      - CN/中国/264
+      - CY/塞浦路斯/265
+      - JP/日本/266
+      - MY/马来西亚/267
+      - CN/中国/268
+      - CN/中国/269
+      - CN/中国/270
+      - US/美国/271
+      - RU/俄罗斯联邦/272
+      - CN/中国/273
+      - CN/中国/274
+      - CN/中国/275
+      - MY/马来西亚/276
+      - US/美国/277
+      - JP/日本/278
+      - CN/中国/279
+      - SG/新加坡/280
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - CN/1
-      - CN/2
-      - HK/3
-      - HK/4
-      - CN/5
-      - CN/6
-      - JP/7
-      - JP/8
-      - JP/9
-      - CN/10
-      - JP/11
-      - JP/12
-      - CN/13
-      - JP/14
-      - US/15
-      - JP/16
-      - JP/17
-      - JP/18
-      - JP/19
-      - JP/20
-      - US/21
-      - JP/22
-      - CN/23
-      - US/24
-      - JP/25
-      - JP/26
-      - US/27
-      - JP/28
-      - JP/29
-      - JP/30
-      - US/31
-      - CZ/32
-      - JP/33
-      - JP/34
-      - CA/35
-      - CA/36
-      - JP/37
-      - CA/38
-      - GB/39
-      - GB/40
-      - GB/41
-      - GB/42
-      - GB/43
-      - JP/44
-      - GB/45
-      - JP/46
-      - JP/47
-      - GB/48
-      - GB/49
-      - GB/50
-      - JP/51
-      - JP/52
-      - GB/53
-      - GB/54
-      - GB/55
-      - JP/56
-      - CA/57
-      - JP/58
-      - GB/59
-      - CA/60
-      - CA/61
-      - GB/62
-      - GB/63
-      - HK/64
-      - FR/65
-      - GB/66
-      - CA/67
-      - JP/68
-      - CA/69
-      - JP/70
-      - JP/71
-      - CA/72
-      - CA/73
-      - GB/74
-      - GB/75
-      - GB/76
-      - US/77
-      - GB/78
-      - GB/79
-      - US/80
-      - CA/81
-      - GB/82
-      - US/83
-      - CN/84
-      - GB/85
-      - GB/86
-      - US/87
-      - JP/88
-      - CN/89
-      - CN/90
-      - HK/91
-      - HK/92
-      - US/93
-      - JP/94
-      - CN/95
-      - JP/96
-      - JP/97
-      - JP/98
-      - JP/99
-      - CN/100
-      - GB/101
-      - JP/102
-      - JP/103
-      - JP/104
-      - JP/105
-      - CN/106
-      - JP/107
-      - CN/108
-      - JP/109
-      - CN/110
-      - JP/111
-      - CN/112
-      - JP/113
-      - JP/114
-      - CN/115
-      - CN/116
-      - US/117
-      - JP/118
-      - US/119
-      - JP/120
-      - CN/121
-      - HK/122
-      - HK/123
-      - JP/124
-      - CN/125
-      - GB/126
-      - CN/127
-      - JP/128
-      - JP/129
-      - GB/130
-      - GB/131
-      - JP/132
-      - CN/133
-      - JP/134
-      - TW/135
-      - CN/136
-      - CN/137
-      - CN/138
-      - CN/139
-      - HK/140
-      - US/141
+      - CN/中国/1
+      - JP/日本/2
+      - CN/中国/3
+      - JP/日本/4
+      - JP/日本/5
+      - JP/日本/6
+      - SG/新加坡/7
+      - TW/台湾/8
+      - CN/中国/9
+      - JP/日本/10
+      - TW/台湾/11
+      - CN/中国/12
+      - CN/中国/13
+      - KR/韩国/14
+      - CN/中国/15
+      - CN/中国/16
+      - JP/日本/17
+      - AU/澳大利亚/18
+      - CN/中国/19
+      - CN/中国/20
+      - US/美国/21
+      - CN/中国/22
+      - CN/中国/23
+      - CN/中国/24
+      - NL/荷兰/25
+      - US/美国/26
+      - US/美国/27
+      - JP/日本/28
+      - JP/日本/29
+      - JP/日本/30
+      - JP/日本/31
+      - JP/日本/32
+      - JP/日本/33
+      - JP/日本/34
+      - JP/日本/35
+      - JP/日本/36
+      - JP/日本/37
+      - JP/日本/38
+      - JP/日本/39
+      - JP/日本/40
+      - JP/日本/41
+      - JP/日本/42
+      - JP/日本/43
+      - JP/日本/44
+      - JP/日本/45
+      - JP/日本/46
+      - JP/日本/47
+      - JP/日本/48
+      - JP/日本/49
+      - JP/日本/50
+      - JP/日本/51
+      - JP/日本/52
+      - JP/日本/53
+      - JP/日本/54
+      - JP/日本/55
+      - JP/日本/56
+      - JP/日本/57
+      - JP/日本/58
+      - JP/日本/59
+      - JP/日本/60
+      - JP/日本/61
+      - JP/日本/62
+      - JP/日本/63
+      - JP/日本/64
+      - JP/日本/65
+      - JP/日本/66
+      - JP/日本/67
+      - JP/日本/68
+      - JP/日本/69
+      - JP/日本/70
+      - JP/日本/71
+      - US/美国/72
+      - JP/日本/73
+      - KR/韩国/74
+      - JP/日本/75
+      - HK/香港/76
+      - HK/香港/77
+      - CO/哥伦比亚/78
+      - US/美国/79
+      - KR/韩国/80
+      - CN/中国/81
+      - US/美国/82
+      - IN/印度/83
+      - NL/荷兰/84
+      - US/美国/85
+      - US/美国/86
+      - US/美国/87
+      - FR/法国/88
+      - HK/香港/89
+      - CN/中国/90
+      - US/美国/91
+      - US/美国/92
+      - US/美国/93
+      - US/美国/94
+      - GB/英国/95
+      - KR/韩国/96
+      - US/美国/97
+      - US/美国/98
+      - US/美国/99
+      - US/美国/100
+      - US/美国/101
+      - CN/中国/102
+      - US/美国/103
+      - HK/香港/104
+      - US/美国/105
+      - US/美国/106
+      - NL/荷兰/107
+      - US/美国/108
+      - NL/荷兰/109
+      - US/美国/110
+      - US/美国/111
+      - JP/日本/112
+      - US/美国/113
+      - JP/日本/114
+      - US/美国/115
+      - JP/日本/116
+      - JP/日本/117
+      - GB/英国/118
+      - JP/日本/119
+      - CA/加拿大/120
+      - CA/加拿大/121
+      - GB/英国/122
+      - JP/日本/123
+      - JP/日本/124
+      - SG/新加坡/125
+      - US/美国/126
+      - JP/日本/127
+      - CA/加拿大/128
+      - CA/加拿大/129
+      - CA/加拿大/130
+      - JP/日本/131
+      - JP/日本/132
+      - JP/日本/133
+      - JP/日本/134
+      - JP/日本/135
+      - FR/法国/136
+      - CA/加拿大/137
+      - JP/日本/138
+      - JP/日本/139
+      - JP/日本/140
+      - JP/日本/141
+      - CA/加拿大/142
+      - CA/加拿大/143
+      - CA/加拿大/144
+      - CA/加拿大/145
+      - SG/新加坡/146
+      - US/美国/147
+      - US/美国/148
+      - US/美国/149
+      - FR/法国/150
+      - US/美国/151
+      - US/美国/152
+      - FR/法国/153
+      - US/美国/154
+      - JP/日本/155
+      - US/美国/156
+      - US/美国/157
+      - US/美国/158
+      - US/美国/159
+      - US/美国/160
+      - US/美国/161
+      - CN/中国/162
+      - US/美国/163
+      - US/美国/164
+      - RU/俄罗斯联邦/165
+      - US/美国/166
+      - RO/罗马尼亚/167
+      - US/美国/168
+      - BG/保加利亚/169
+      - KR/韩国/170
+      - CZ/捷克/171
+      - US/美国/172
+      - BG/保加利亚/173
+      - US/美国/174
+      - US/美国/175
+      - CA/加拿大/176
+      - US/美国/177
+      - US/美国/178
+      - US/美国/179
+      - US/美国/180
+      - JP/日本/181
+      - US/美国/182
+      - CA/加拿大/183
+      - US/美国/184
+      - CA/加拿大/185
+      - CA/加拿大/186
+      - CA/加拿大/187
+      - CA/加拿大/188
+      - CA/加拿大/189
+      - US/美国/190
+      - BG/保加利亚/191
+      - GB/英国/192
+      - GB/英国/193
+      - GB/英国/194
+      - GB/英国/195
+      - GB/英国/196
+      - GB/英国/197
+      - GB/英国/198
+      - GB/英国/199
+      - GB/英国/200
+      - GB/英国/201
+      - GB/英国/202
+      - GB/英国/203
+      - GB/英国/204
+      - GB/英国/205
+      - US/美国/206
+      - GB/英国/207
+      - GB/英国/208
+      - GB/英国/209
+      - GB/英国/210
+      - CZ/捷克/211
+      - JP/日本/212
+      - US/美国/213
+      - RU/俄罗斯联邦/214
+      - US/美国/215
+      - KR/韩国/216
+      - GB/英国/217
+      - GB/英国/218
+      - IT/意大利/219
+      - SG/新加坡/220
+      - GB/英国/221
+      - GB/英国/222
+      - GB/英国/223
+      - GB/英国/224
+      - GB/英国/225
+      - GB/英国/226
+      - US/美国/227
+      - US/美国/228
+      - SG/新加坡/229
+      - JP/日本/230
+      - FR/法国/231
+      - BG/保加利亚/232
+      - HK/香港/233
+      - BG/保加利亚/234
+      - CN/中国/235
+      - GB/英国/236
+      - RU/俄罗斯联邦/237
+      - HK/香港/238
+      - CN/中国/239
+      - SG/新加坡/240
+      - GB/英国/241
+      - JP/日本/242
+      - CN/中国/243
+      - JP/日本/244
+      - JP/日本/245
+      - JP/日本/246
+      - MY/马来西亚/247
+      - CN/中国/248
+      - JP/日本/249
+      - JP/日本/250
+      - JP/日本/251
+      - CN/中国/252
+      - CN/中国/253
+      - JP/日本/254
+      - CN/中国/255
+      - US/美国/256
+      - CN/中国/257
+      - US/美国/258
+      - US/美国/259
+      - CN/中国/260
+      - CN/中国/261
+      - CN/中国/262
+      - CN/中国/263
+      - CN/中国/264
+      - CY/塞浦路斯/265
+      - JP/日本/266
+      - MY/马来西亚/267
+      - CN/中国/268
+      - CN/中国/269
+      - CN/中国/270
+      - US/美国/271
+      - RU/俄罗斯联邦/272
+      - CN/中国/273
+      - CN/中国/274
+      - CN/中国/275
+      - MY/马来西亚/276
+      - US/美国/277
+      - JP/日本/278
+      - CN/中国/279
+      - SG/新加坡/280
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN/1
-      - CN/2
-      - HK/3
-      - HK/4
-      - CN/5
-      - CN/6
-      - JP/7
-      - JP/8
-      - JP/9
-      - CN/10
-      - JP/11
-      - JP/12
-      - CN/13
-      - JP/14
-      - US/15
-      - JP/16
-      - JP/17
-      - JP/18
-      - JP/19
-      - JP/20
-      - US/21
-      - JP/22
-      - CN/23
-      - US/24
-      - JP/25
-      - JP/26
-      - US/27
-      - JP/28
-      - JP/29
-      - JP/30
-      - US/31
-      - CZ/32
-      - JP/33
-      - JP/34
-      - CA/35
-      - CA/36
-      - JP/37
-      - CA/38
-      - GB/39
-      - GB/40
-      - GB/41
-      - GB/42
-      - GB/43
-      - JP/44
-      - GB/45
-      - JP/46
-      - JP/47
-      - GB/48
-      - GB/49
-      - GB/50
-      - JP/51
-      - JP/52
-      - GB/53
-      - GB/54
-      - GB/55
-      - JP/56
-      - CA/57
-      - JP/58
-      - GB/59
-      - CA/60
-      - CA/61
-      - GB/62
-      - GB/63
-      - HK/64
-      - FR/65
-      - GB/66
-      - CA/67
-      - JP/68
-      - CA/69
-      - JP/70
-      - JP/71
-      - CA/72
-      - CA/73
-      - GB/74
-      - GB/75
-      - GB/76
-      - US/77
-      - GB/78
-      - GB/79
-      - US/80
-      - CA/81
-      - GB/82
-      - US/83
-      - CN/84
-      - GB/85
-      - GB/86
-      - US/87
-      - JP/88
-      - CN/89
-      - CN/90
-      - HK/91
-      - HK/92
-      - US/93
-      - JP/94
-      - CN/95
-      - JP/96
-      - JP/97
-      - JP/98
-      - JP/99
-      - CN/100
-      - GB/101
-      - JP/102
-      - JP/103
-      - JP/104
-      - JP/105
-      - CN/106
-      - JP/107
-      - CN/108
-      - JP/109
-      - CN/110
-      - JP/111
-      - CN/112
-      - JP/113
-      - JP/114
-      - CN/115
-      - CN/116
-      - US/117
-      - JP/118
-      - US/119
-      - JP/120
-      - CN/121
-      - HK/122
-      - HK/123
-      - JP/124
-      - CN/125
-      - GB/126
-      - CN/127
-      - JP/128
-      - JP/129
-      - GB/130
-      - GB/131
-      - JP/132
-      - CN/133
-      - JP/134
-      - TW/135
-      - CN/136
-      - CN/137
-      - CN/138
-      - CN/139
-      - HK/140
-      - US/141
+      - CN/中国/1
+      - JP/日本/2
+      - CN/中国/3
+      - JP/日本/4
+      - JP/日本/5
+      - JP/日本/6
+      - SG/新加坡/7
+      - TW/台湾/8
+      - CN/中国/9
+      - JP/日本/10
+      - TW/台湾/11
+      - CN/中国/12
+      - CN/中国/13
+      - KR/韩国/14
+      - CN/中国/15
+      - CN/中国/16
+      - JP/日本/17
+      - AU/澳大利亚/18
+      - CN/中国/19
+      - CN/中国/20
+      - US/美国/21
+      - CN/中国/22
+      - CN/中国/23
+      - CN/中国/24
+      - NL/荷兰/25
+      - US/美国/26
+      - US/美国/27
+      - JP/日本/28
+      - JP/日本/29
+      - JP/日本/30
+      - JP/日本/31
+      - JP/日本/32
+      - JP/日本/33
+      - JP/日本/34
+      - JP/日本/35
+      - JP/日本/36
+      - JP/日本/37
+      - JP/日本/38
+      - JP/日本/39
+      - JP/日本/40
+      - JP/日本/41
+      - JP/日本/42
+      - JP/日本/43
+      - JP/日本/44
+      - JP/日本/45
+      - JP/日本/46
+      - JP/日本/47
+      - JP/日本/48
+      - JP/日本/49
+      - JP/日本/50
+      - JP/日本/51
+      - JP/日本/52
+      - JP/日本/53
+      - JP/日本/54
+      - JP/日本/55
+      - JP/日本/56
+      - JP/日本/57
+      - JP/日本/58
+      - JP/日本/59
+      - JP/日本/60
+      - JP/日本/61
+      - JP/日本/62
+      - JP/日本/63
+      - JP/日本/64
+      - JP/日本/65
+      - JP/日本/66
+      - JP/日本/67
+      - JP/日本/68
+      - JP/日本/69
+      - JP/日本/70
+      - JP/日本/71
+      - US/美国/72
+      - JP/日本/73
+      - KR/韩国/74
+      - JP/日本/75
+      - HK/香港/76
+      - HK/香港/77
+      - CO/哥伦比亚/78
+      - US/美国/79
+      - KR/韩国/80
+      - CN/中国/81
+      - US/美国/82
+      - IN/印度/83
+      - NL/荷兰/84
+      - US/美国/85
+      - US/美国/86
+      - US/美国/87
+      - FR/法国/88
+      - HK/香港/89
+      - CN/中国/90
+      - US/美国/91
+      - US/美国/92
+      - US/美国/93
+      - US/美国/94
+      - GB/英国/95
+      - KR/韩国/96
+      - US/美国/97
+      - US/美国/98
+      - US/美国/99
+      - US/美国/100
+      - US/美国/101
+      - CN/中国/102
+      - US/美国/103
+      - HK/香港/104
+      - US/美国/105
+      - US/美国/106
+      - NL/荷兰/107
+      - US/美国/108
+      - NL/荷兰/109
+      - US/美国/110
+      - US/美国/111
+      - JP/日本/112
+      - US/美国/113
+      - JP/日本/114
+      - US/美国/115
+      - JP/日本/116
+      - JP/日本/117
+      - GB/英国/118
+      - JP/日本/119
+      - CA/加拿大/120
+      - CA/加拿大/121
+      - GB/英国/122
+      - JP/日本/123
+      - JP/日本/124
+      - SG/新加坡/125
+      - US/美国/126
+      - JP/日本/127
+      - CA/加拿大/128
+      - CA/加拿大/129
+      - CA/加拿大/130
+      - JP/日本/131
+      - JP/日本/132
+      - JP/日本/133
+      - JP/日本/134
+      - JP/日本/135
+      - FR/法国/136
+      - CA/加拿大/137
+      - JP/日本/138
+      - JP/日本/139
+      - JP/日本/140
+      - JP/日本/141
+      - CA/加拿大/142
+      - CA/加拿大/143
+      - CA/加拿大/144
+      - CA/加拿大/145
+      - SG/新加坡/146
+      - US/美国/147
+      - US/美国/148
+      - US/美国/149
+      - FR/法国/150
+      - US/美国/151
+      - US/美国/152
+      - FR/法国/153
+      - US/美国/154
+      - JP/日本/155
+      - US/美国/156
+      - US/美国/157
+      - US/美国/158
+      - US/美国/159
+      - US/美国/160
+      - US/美国/161
+      - CN/中国/162
+      - US/美国/163
+      - US/美国/164
+      - RU/俄罗斯联邦/165
+      - US/美国/166
+      - RO/罗马尼亚/167
+      - US/美国/168
+      - BG/保加利亚/169
+      - KR/韩国/170
+      - CZ/捷克/171
+      - US/美国/172
+      - BG/保加利亚/173
+      - US/美国/174
+      - US/美国/175
+      - CA/加拿大/176
+      - US/美国/177
+      - US/美国/178
+      - US/美国/179
+      - US/美国/180
+      - JP/日本/181
+      - US/美国/182
+      - CA/加拿大/183
+      - US/美国/184
+      - CA/加拿大/185
+      - CA/加拿大/186
+      - CA/加拿大/187
+      - CA/加拿大/188
+      - CA/加拿大/189
+      - US/美国/190
+      - BG/保加利亚/191
+      - GB/英国/192
+      - GB/英国/193
+      - GB/英国/194
+      - GB/英国/195
+      - GB/英国/196
+      - GB/英国/197
+      - GB/英国/198
+      - GB/英国/199
+      - GB/英国/200
+      - GB/英国/201
+      - GB/英国/202
+      - GB/英国/203
+      - GB/英国/204
+      - GB/英国/205
+      - US/美国/206
+      - GB/英国/207
+      - GB/英国/208
+      - GB/英国/209
+      - GB/英国/210
+      - CZ/捷克/211
+      - JP/日本/212
+      - US/美国/213
+      - RU/俄罗斯联邦/214
+      - US/美国/215
+      - KR/韩国/216
+      - GB/英国/217
+      - GB/英国/218
+      - IT/意大利/219
+      - SG/新加坡/220
+      - GB/英国/221
+      - GB/英国/222
+      - GB/英国/223
+      - GB/英国/224
+      - GB/英国/225
+      - GB/英国/226
+      - US/美国/227
+      - US/美国/228
+      - SG/新加坡/229
+      - JP/日本/230
+      - FR/法国/231
+      - BG/保加利亚/232
+      - HK/香港/233
+      - BG/保加利亚/234
+      - CN/中国/235
+      - GB/英国/236
+      - RU/俄罗斯联邦/237
+      - HK/香港/238
+      - CN/中国/239
+      - SG/新加坡/240
+      - GB/英国/241
+      - JP/日本/242
+      - CN/中国/243
+      - JP/日本/244
+      - JP/日本/245
+      - JP/日本/246
+      - MY/马来西亚/247
+      - CN/中国/248
+      - JP/日本/249
+      - JP/日本/250
+      - JP/日本/251
+      - CN/中国/252
+      - CN/中国/253
+      - JP/日本/254
+      - CN/中国/255
+      - US/美国/256
+      - CN/中国/257
+      - US/美国/258
+      - US/美国/259
+      - CN/中国/260
+      - CN/中国/261
+      - CN/中国/262
+      - CN/中国/263
+      - CN/中国/264
+      - CY/塞浦路斯/265
+      - JP/日本/266
+      - MY/马来西亚/267
+      - CN/中国/268
+      - CN/中国/269
+      - CN/中国/270
+      - US/美国/271
+      - RU/俄罗斯联邦/272
+      - CN/中国/273
+      - CN/中国/274
+      - CN/中国/275
+      - MY/马来西亚/276
+      - US/美国/277
+      - JP/日本/278
+      - CN/中国/279
+      - SG/新加坡/280
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -604,591 +1160,1155 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN/1
-      - CN/2
-      - HK/3
-      - HK/4
-      - CN/5
-      - CN/6
-      - JP/7
-      - JP/8
-      - JP/9
-      - CN/10
-      - JP/11
-      - JP/12
-      - CN/13
-      - JP/14
-      - US/15
-      - JP/16
-      - JP/17
-      - JP/18
-      - JP/19
-      - JP/20
-      - US/21
-      - JP/22
-      - CN/23
-      - US/24
-      - JP/25
-      - JP/26
-      - US/27
-      - JP/28
-      - JP/29
-      - JP/30
-      - US/31
-      - CZ/32
-      - JP/33
-      - JP/34
-      - CA/35
-      - CA/36
-      - JP/37
-      - CA/38
-      - GB/39
-      - GB/40
-      - GB/41
-      - GB/42
-      - GB/43
-      - JP/44
-      - GB/45
-      - JP/46
-      - JP/47
-      - GB/48
-      - GB/49
-      - GB/50
-      - JP/51
-      - JP/52
-      - GB/53
-      - GB/54
-      - GB/55
-      - JP/56
-      - CA/57
-      - JP/58
-      - GB/59
-      - CA/60
-      - CA/61
-      - GB/62
-      - GB/63
-      - HK/64
-      - FR/65
-      - GB/66
-      - CA/67
-      - JP/68
-      - CA/69
-      - JP/70
-      - JP/71
-      - CA/72
-      - CA/73
-      - GB/74
-      - GB/75
-      - GB/76
-      - US/77
-      - GB/78
-      - GB/79
-      - US/80
-      - CA/81
-      - GB/82
-      - US/83
-      - CN/84
-      - GB/85
-      - GB/86
-      - US/87
-      - JP/88
-      - CN/89
-      - CN/90
-      - HK/91
-      - HK/92
-      - US/93
-      - JP/94
-      - CN/95
-      - JP/96
-      - JP/97
-      - JP/98
-      - JP/99
-      - CN/100
-      - GB/101
-      - JP/102
-      - JP/103
-      - JP/104
-      - JP/105
-      - CN/106
-      - JP/107
-      - CN/108
-      - JP/109
-      - CN/110
-      - JP/111
-      - CN/112
-      - JP/113
-      - JP/114
-      - CN/115
-      - CN/116
-      - US/117
-      - JP/118
-      - US/119
-      - JP/120
-      - CN/121
-      - HK/122
-      - HK/123
-      - JP/124
-      - CN/125
-      - GB/126
-      - CN/127
-      - JP/128
-      - JP/129
-      - GB/130
-      - GB/131
-      - JP/132
-      - CN/133
-      - JP/134
-      - TW/135
-      - CN/136
-      - CN/137
-      - CN/138
-      - CN/139
-      - HK/140
-      - US/141
+      - CN/中国/1
+      - JP/日本/2
+      - CN/中国/3
+      - JP/日本/4
+      - JP/日本/5
+      - JP/日本/6
+      - SG/新加坡/7
+      - TW/台湾/8
+      - CN/中国/9
+      - JP/日本/10
+      - TW/台湾/11
+      - CN/中国/12
+      - CN/中国/13
+      - KR/韩国/14
+      - CN/中国/15
+      - CN/中国/16
+      - JP/日本/17
+      - AU/澳大利亚/18
+      - CN/中国/19
+      - CN/中国/20
+      - US/美国/21
+      - CN/中国/22
+      - CN/中国/23
+      - CN/中国/24
+      - NL/荷兰/25
+      - US/美国/26
+      - US/美国/27
+      - JP/日本/28
+      - JP/日本/29
+      - JP/日本/30
+      - JP/日本/31
+      - JP/日本/32
+      - JP/日本/33
+      - JP/日本/34
+      - JP/日本/35
+      - JP/日本/36
+      - JP/日本/37
+      - JP/日本/38
+      - JP/日本/39
+      - JP/日本/40
+      - JP/日本/41
+      - JP/日本/42
+      - JP/日本/43
+      - JP/日本/44
+      - JP/日本/45
+      - JP/日本/46
+      - JP/日本/47
+      - JP/日本/48
+      - JP/日本/49
+      - JP/日本/50
+      - JP/日本/51
+      - JP/日本/52
+      - JP/日本/53
+      - JP/日本/54
+      - JP/日本/55
+      - JP/日本/56
+      - JP/日本/57
+      - JP/日本/58
+      - JP/日本/59
+      - JP/日本/60
+      - JP/日本/61
+      - JP/日本/62
+      - JP/日本/63
+      - JP/日本/64
+      - JP/日本/65
+      - JP/日本/66
+      - JP/日本/67
+      - JP/日本/68
+      - JP/日本/69
+      - JP/日本/70
+      - JP/日本/71
+      - US/美国/72
+      - JP/日本/73
+      - KR/韩国/74
+      - JP/日本/75
+      - HK/香港/76
+      - HK/香港/77
+      - CO/哥伦比亚/78
+      - US/美国/79
+      - KR/韩国/80
+      - CN/中国/81
+      - US/美国/82
+      - IN/印度/83
+      - NL/荷兰/84
+      - US/美国/85
+      - US/美国/86
+      - US/美国/87
+      - FR/法国/88
+      - HK/香港/89
+      - CN/中国/90
+      - US/美国/91
+      - US/美国/92
+      - US/美国/93
+      - US/美国/94
+      - GB/英国/95
+      - KR/韩国/96
+      - US/美国/97
+      - US/美国/98
+      - US/美国/99
+      - US/美国/100
+      - US/美国/101
+      - CN/中国/102
+      - US/美国/103
+      - HK/香港/104
+      - US/美国/105
+      - US/美国/106
+      - NL/荷兰/107
+      - US/美国/108
+      - NL/荷兰/109
+      - US/美国/110
+      - US/美国/111
+      - JP/日本/112
+      - US/美国/113
+      - JP/日本/114
+      - US/美国/115
+      - JP/日本/116
+      - JP/日本/117
+      - GB/英国/118
+      - JP/日本/119
+      - CA/加拿大/120
+      - CA/加拿大/121
+      - GB/英国/122
+      - JP/日本/123
+      - JP/日本/124
+      - SG/新加坡/125
+      - US/美国/126
+      - JP/日本/127
+      - CA/加拿大/128
+      - CA/加拿大/129
+      - CA/加拿大/130
+      - JP/日本/131
+      - JP/日本/132
+      - JP/日本/133
+      - JP/日本/134
+      - JP/日本/135
+      - FR/法国/136
+      - CA/加拿大/137
+      - JP/日本/138
+      - JP/日本/139
+      - JP/日本/140
+      - JP/日本/141
+      - CA/加拿大/142
+      - CA/加拿大/143
+      - CA/加拿大/144
+      - CA/加拿大/145
+      - SG/新加坡/146
+      - US/美国/147
+      - US/美国/148
+      - US/美国/149
+      - FR/法国/150
+      - US/美国/151
+      - US/美国/152
+      - FR/法国/153
+      - US/美国/154
+      - JP/日本/155
+      - US/美国/156
+      - US/美国/157
+      - US/美国/158
+      - US/美国/159
+      - US/美国/160
+      - US/美国/161
+      - CN/中国/162
+      - US/美国/163
+      - US/美国/164
+      - RU/俄罗斯联邦/165
+      - US/美国/166
+      - RO/罗马尼亚/167
+      - US/美国/168
+      - BG/保加利亚/169
+      - KR/韩国/170
+      - CZ/捷克/171
+      - US/美国/172
+      - BG/保加利亚/173
+      - US/美国/174
+      - US/美国/175
+      - CA/加拿大/176
+      - US/美国/177
+      - US/美国/178
+      - US/美国/179
+      - US/美国/180
+      - JP/日本/181
+      - US/美国/182
+      - CA/加拿大/183
+      - US/美国/184
+      - CA/加拿大/185
+      - CA/加拿大/186
+      - CA/加拿大/187
+      - CA/加拿大/188
+      - CA/加拿大/189
+      - US/美国/190
+      - BG/保加利亚/191
+      - GB/英国/192
+      - GB/英国/193
+      - GB/英国/194
+      - GB/英国/195
+      - GB/英国/196
+      - GB/英国/197
+      - GB/英国/198
+      - GB/英国/199
+      - GB/英国/200
+      - GB/英国/201
+      - GB/英国/202
+      - GB/英国/203
+      - GB/英国/204
+      - GB/英国/205
+      - US/美国/206
+      - GB/英国/207
+      - GB/英国/208
+      - GB/英国/209
+      - GB/英国/210
+      - CZ/捷克/211
+      - JP/日本/212
+      - US/美国/213
+      - RU/俄罗斯联邦/214
+      - US/美国/215
+      - KR/韩国/216
+      - GB/英国/217
+      - GB/英国/218
+      - IT/意大利/219
+      - SG/新加坡/220
+      - GB/英国/221
+      - GB/英国/222
+      - GB/英国/223
+      - GB/英国/224
+      - GB/英国/225
+      - GB/英国/226
+      - US/美国/227
+      - US/美国/228
+      - SG/新加坡/229
+      - JP/日本/230
+      - FR/法国/231
+      - BG/保加利亚/232
+      - HK/香港/233
+      - BG/保加利亚/234
+      - CN/中国/235
+      - GB/英国/236
+      - RU/俄罗斯联邦/237
+      - HK/香港/238
+      - CN/中国/239
+      - SG/新加坡/240
+      - GB/英国/241
+      - JP/日本/242
+      - CN/中国/243
+      - JP/日本/244
+      - JP/日本/245
+      - JP/日本/246
+      - MY/马来西亚/247
+      - CN/中国/248
+      - JP/日本/249
+      - JP/日本/250
+      - JP/日本/251
+      - CN/中国/252
+      - CN/中国/253
+      - JP/日本/254
+      - CN/中国/255
+      - US/美国/256
+      - CN/中国/257
+      - US/美国/258
+      - US/美国/259
+      - CN/中国/260
+      - CN/中国/261
+      - CN/中国/262
+      - CN/中国/263
+      - CN/中国/264
+      - CY/塞浦路斯/265
+      - JP/日本/266
+      - MY/马来西亚/267
+      - CN/中国/268
+      - CN/中国/269
+      - CN/中国/270
+      - US/美国/271
+      - RU/俄罗斯联邦/272
+      - CN/中国/273
+      - CN/中国/274
+      - CN/中国/275
+      - MY/马来西亚/276
+      - US/美国/277
+      - JP/日本/278
+      - CN/中国/279
+      - SG/新加坡/280
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - TW/台湾/8
+      - TW/台湾/11
+      - HK/香港/76
+      - HK/香港/77
+      - HK/香港/89
+      - HK/香港/104
+      - HK/香港/233
+      - HK/香港/238
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - CN/1
-      - CN/2
-      - HK/3
-      - HK/4
-      - CN/5
-      - CN/6
-      - JP/7
-      - JP/8
-      - JP/9
-      - CN/10
-      - JP/11
-      - JP/12
-      - CN/13
-      - JP/14
-      - US/15
-      - JP/16
-      - JP/17
-      - JP/18
-      - JP/19
-      - JP/20
-      - US/21
-      - JP/22
-      - CN/23
-      - US/24
-      - JP/25
-      - JP/26
-      - US/27
-      - JP/28
-      - JP/29
-      - JP/30
-      - US/31
-      - CZ/32
-      - JP/33
-      - JP/34
-      - CA/35
-      - CA/36
-      - JP/37
-      - CA/38
-      - GB/39
-      - GB/40
-      - GB/41
-      - GB/42
-      - GB/43
-      - JP/44
-      - GB/45
-      - JP/46
-      - JP/47
-      - GB/48
-      - GB/49
-      - GB/50
-      - JP/51
-      - JP/52
-      - GB/53
-      - GB/54
-      - GB/55
-      - JP/56
-      - CA/57
-      - JP/58
-      - GB/59
-      - CA/60
-      - CA/61
-      - GB/62
-      - GB/63
-      - HK/64
-      - FR/65
-      - GB/66
-      - CA/67
-      - JP/68
-      - CA/69
-      - JP/70
-      - JP/71
-      - CA/72
-      - CA/73
-      - GB/74
-      - GB/75
-      - GB/76
-      - US/77
-      - GB/78
-      - GB/79
-      - US/80
-      - CA/81
-      - GB/82
-      - US/83
-      - CN/84
-      - GB/85
-      - GB/86
-      - US/87
-      - JP/88
-      - CN/89
-      - CN/90
-      - HK/91
-      - HK/92
-      - US/93
-      - JP/94
-      - CN/95
-      - JP/96
-      - JP/97
-      - JP/98
-      - JP/99
-      - CN/100
-      - GB/101
-      - JP/102
-      - JP/103
-      - JP/104
-      - JP/105
-      - CN/106
-      - JP/107
-      - CN/108
-      - JP/109
-      - CN/110
-      - JP/111
-      - CN/112
-      - JP/113
-      - JP/114
-      - CN/115
-      - CN/116
-      - US/117
-      - JP/118
-      - US/119
-      - JP/120
-      - CN/121
-      - HK/122
-      - HK/123
-      - JP/124
-      - CN/125
-      - GB/126
-      - CN/127
-      - JP/128
-      - JP/129
-      - GB/130
-      - GB/131
-      - JP/132
-      - CN/133
-      - JP/134
-      - TW/135
-      - CN/136
-      - CN/137
-      - CN/138
-      - CN/139
-      - HK/140
-      - US/141
+      - CN/中国/1
+      - JP/日本/2
+      - CN/中国/3
+      - JP/日本/4
+      - JP/日本/5
+      - JP/日本/6
+      - SG/新加坡/7
+      - TW/台湾/8
+      - CN/中国/9
+      - JP/日本/10
+      - TW/台湾/11
+      - CN/中国/12
+      - CN/中国/13
+      - KR/韩国/14
+      - CN/中国/15
+      - CN/中国/16
+      - JP/日本/17
+      - AU/澳大利亚/18
+      - CN/中国/19
+      - CN/中国/20
+      - US/美国/21
+      - CN/中国/22
+      - CN/中国/23
+      - CN/中国/24
+      - NL/荷兰/25
+      - US/美国/26
+      - US/美国/27
+      - JP/日本/28
+      - JP/日本/29
+      - JP/日本/30
+      - JP/日本/31
+      - JP/日本/32
+      - JP/日本/33
+      - JP/日本/34
+      - JP/日本/35
+      - JP/日本/36
+      - JP/日本/37
+      - JP/日本/38
+      - JP/日本/39
+      - JP/日本/40
+      - JP/日本/41
+      - JP/日本/42
+      - JP/日本/43
+      - JP/日本/44
+      - JP/日本/45
+      - JP/日本/46
+      - JP/日本/47
+      - JP/日本/48
+      - JP/日本/49
+      - JP/日本/50
+      - JP/日本/51
+      - JP/日本/52
+      - JP/日本/53
+      - JP/日本/54
+      - JP/日本/55
+      - JP/日本/56
+      - JP/日本/57
+      - JP/日本/58
+      - JP/日本/59
+      - JP/日本/60
+      - JP/日本/61
+      - JP/日本/62
+      - JP/日本/63
+      - JP/日本/64
+      - JP/日本/65
+      - JP/日本/66
+      - JP/日本/67
+      - JP/日本/68
+      - JP/日本/69
+      - JP/日本/70
+      - JP/日本/71
+      - US/美国/72
+      - JP/日本/73
+      - KR/韩国/74
+      - JP/日本/75
+      - HK/香港/76
+      - HK/香港/77
+      - CO/哥伦比亚/78
+      - US/美国/79
+      - KR/韩国/80
+      - CN/中国/81
+      - US/美国/82
+      - IN/印度/83
+      - NL/荷兰/84
+      - US/美国/85
+      - US/美国/86
+      - US/美国/87
+      - FR/法国/88
+      - HK/香港/89
+      - CN/中国/90
+      - US/美国/91
+      - US/美国/92
+      - US/美国/93
+      - US/美国/94
+      - GB/英国/95
+      - KR/韩国/96
+      - US/美国/97
+      - US/美国/98
+      - US/美国/99
+      - US/美国/100
+      - US/美国/101
+      - CN/中国/102
+      - US/美国/103
+      - HK/香港/104
+      - US/美国/105
+      - US/美国/106
+      - NL/荷兰/107
+      - US/美国/108
+      - NL/荷兰/109
+      - US/美国/110
+      - US/美国/111
+      - JP/日本/112
+      - US/美国/113
+      - JP/日本/114
+      - US/美国/115
+      - JP/日本/116
+      - JP/日本/117
+      - GB/英国/118
+      - JP/日本/119
+      - CA/加拿大/120
+      - CA/加拿大/121
+      - GB/英国/122
+      - JP/日本/123
+      - JP/日本/124
+      - SG/新加坡/125
+      - US/美国/126
+      - JP/日本/127
+      - CA/加拿大/128
+      - CA/加拿大/129
+      - CA/加拿大/130
+      - JP/日本/131
+      - JP/日本/132
+      - JP/日本/133
+      - JP/日本/134
+      - JP/日本/135
+      - FR/法国/136
+      - CA/加拿大/137
+      - JP/日本/138
+      - JP/日本/139
+      - JP/日本/140
+      - JP/日本/141
+      - CA/加拿大/142
+      - CA/加拿大/143
+      - CA/加拿大/144
+      - CA/加拿大/145
+      - SG/新加坡/146
+      - US/美国/147
+      - US/美国/148
+      - US/美国/149
+      - FR/法国/150
+      - US/美国/151
+      - US/美国/152
+      - FR/法国/153
+      - US/美国/154
+      - JP/日本/155
+      - US/美国/156
+      - US/美国/157
+      - US/美国/158
+      - US/美国/159
+      - US/美国/160
+      - US/美国/161
+      - CN/中国/162
+      - US/美国/163
+      - US/美国/164
+      - RU/俄罗斯联邦/165
+      - US/美国/166
+      - RO/罗马尼亚/167
+      - US/美国/168
+      - BG/保加利亚/169
+      - KR/韩国/170
+      - CZ/捷克/171
+      - US/美国/172
+      - BG/保加利亚/173
+      - US/美国/174
+      - US/美国/175
+      - CA/加拿大/176
+      - US/美国/177
+      - US/美国/178
+      - US/美国/179
+      - US/美国/180
+      - JP/日本/181
+      - US/美国/182
+      - CA/加拿大/183
+      - US/美国/184
+      - CA/加拿大/185
+      - CA/加拿大/186
+      - CA/加拿大/187
+      - CA/加拿大/188
+      - CA/加拿大/189
+      - US/美国/190
+      - BG/保加利亚/191
+      - GB/英国/192
+      - GB/英国/193
+      - GB/英国/194
+      - GB/英国/195
+      - GB/英国/196
+      - GB/英国/197
+      - GB/英国/198
+      - GB/英国/199
+      - GB/英国/200
+      - GB/英国/201
+      - GB/英国/202
+      - GB/英国/203
+      - GB/英国/204
+      - GB/英国/205
+      - US/美国/206
+      - GB/英国/207
+      - GB/英国/208
+      - GB/英国/209
+      - GB/英国/210
+      - CZ/捷克/211
+      - JP/日本/212
+      - US/美国/213
+      - RU/俄罗斯联邦/214
+      - US/美国/215
+      - KR/韩国/216
+      - GB/英国/217
+      - GB/英国/218
+      - IT/意大利/219
+      - SG/新加坡/220
+      - GB/英国/221
+      - GB/英国/222
+      - GB/英国/223
+      - GB/英国/224
+      - GB/英国/225
+      - GB/英国/226
+      - US/美国/227
+      - US/美国/228
+      - SG/新加坡/229
+      - JP/日本/230
+      - FR/法国/231
+      - BG/保加利亚/232
+      - HK/香港/233
+      - BG/保加利亚/234
+      - CN/中国/235
+      - GB/英国/236
+      - RU/俄罗斯联邦/237
+      - HK/香港/238
+      - CN/中国/239
+      - SG/新加坡/240
+      - GB/英国/241
+      - JP/日本/242
+      - CN/中国/243
+      - JP/日本/244
+      - JP/日本/245
+      - JP/日本/246
+      - MY/马来西亚/247
+      - CN/中国/248
+      - JP/日本/249
+      - JP/日本/250
+      - JP/日本/251
+      - CN/中国/252
+      - CN/中国/253
+      - JP/日本/254
+      - CN/中国/255
+      - US/美国/256
+      - CN/中国/257
+      - US/美国/258
+      - US/美国/259
+      - CN/中国/260
+      - CN/中国/261
+      - CN/中国/262
+      - CN/中国/263
+      - CN/中国/264
+      - CY/塞浦路斯/265
+      - JP/日本/266
+      - MY/马来西亚/267
+      - CN/中国/268
+      - CN/中国/269
+      - CN/中国/270
+      - US/美国/271
+      - RU/俄罗斯联邦/272
+      - CN/中国/273
+      - CN/中国/274
+      - CN/中国/275
+      - MY/马来西亚/276
+      - US/美国/277
+      - JP/日本/278
+      - CN/中国/279
+      - SG/新加坡/280
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - CN/1
-      - CN/2
-      - HK/3
-      - HK/4
-      - CN/5
-      - CN/6
-      - JP/7
-      - JP/8
-      - JP/9
-      - CN/10
-      - JP/11
-      - JP/12
-      - CN/13
-      - JP/14
-      - US/15
-      - JP/16
-      - JP/17
-      - JP/18
-      - JP/19
-      - JP/20
-      - US/21
-      - JP/22
-      - CN/23
-      - US/24
-      - JP/25
-      - JP/26
-      - US/27
-      - JP/28
-      - JP/29
-      - JP/30
-      - US/31
-      - CZ/32
-      - JP/33
-      - JP/34
-      - CA/35
-      - CA/36
-      - JP/37
-      - CA/38
-      - GB/39
-      - GB/40
-      - GB/41
-      - GB/42
-      - GB/43
-      - JP/44
-      - GB/45
-      - JP/46
-      - JP/47
-      - GB/48
-      - GB/49
-      - GB/50
-      - JP/51
-      - JP/52
-      - GB/53
-      - GB/54
-      - GB/55
-      - JP/56
-      - CA/57
-      - JP/58
-      - GB/59
-      - CA/60
-      - CA/61
-      - GB/62
-      - GB/63
-      - HK/64
-      - FR/65
-      - GB/66
-      - CA/67
-      - JP/68
-      - CA/69
-      - JP/70
-      - JP/71
-      - CA/72
-      - CA/73
-      - GB/74
-      - GB/75
-      - GB/76
-      - US/77
-      - GB/78
-      - GB/79
-      - US/80
-      - CA/81
-      - GB/82
-      - US/83
-      - CN/84
-      - GB/85
-      - GB/86
-      - US/87
-      - JP/88
-      - CN/89
-      - CN/90
-      - HK/91
-      - HK/92
-      - US/93
-      - JP/94
-      - CN/95
-      - JP/96
-      - JP/97
-      - JP/98
-      - JP/99
-      - CN/100
-      - GB/101
-      - JP/102
-      - JP/103
-      - JP/104
-      - JP/105
-      - CN/106
-      - JP/107
-      - CN/108
-      - JP/109
-      - CN/110
-      - JP/111
-      - CN/112
-      - JP/113
-      - JP/114
-      - CN/115
-      - CN/116
-      - US/117
-      - JP/118
-      - US/119
-      - JP/120
-      - CN/121
-      - HK/122
-      - HK/123
-      - JP/124
-      - CN/125
-      - GB/126
-      - CN/127
-      - JP/128
-      - JP/129
-      - GB/130
-      - GB/131
-      - JP/132
-      - CN/133
-      - JP/134
-      - TW/135
-      - CN/136
-      - CN/137
-      - CN/138
-      - CN/139
-      - HK/140
-      - US/141
+      - CN/中国/1
+      - JP/日本/2
+      - CN/中国/3
+      - JP/日本/4
+      - JP/日本/5
+      - JP/日本/6
+      - SG/新加坡/7
+      - TW/台湾/8
+      - CN/中国/9
+      - JP/日本/10
+      - TW/台湾/11
+      - CN/中国/12
+      - CN/中国/13
+      - KR/韩国/14
+      - CN/中国/15
+      - CN/中国/16
+      - JP/日本/17
+      - AU/澳大利亚/18
+      - CN/中国/19
+      - CN/中国/20
+      - US/美国/21
+      - CN/中国/22
+      - CN/中国/23
+      - CN/中国/24
+      - NL/荷兰/25
+      - US/美国/26
+      - US/美国/27
+      - JP/日本/28
+      - JP/日本/29
+      - JP/日本/30
+      - JP/日本/31
+      - JP/日本/32
+      - JP/日本/33
+      - JP/日本/34
+      - JP/日本/35
+      - JP/日本/36
+      - JP/日本/37
+      - JP/日本/38
+      - JP/日本/39
+      - JP/日本/40
+      - JP/日本/41
+      - JP/日本/42
+      - JP/日本/43
+      - JP/日本/44
+      - JP/日本/45
+      - JP/日本/46
+      - JP/日本/47
+      - JP/日本/48
+      - JP/日本/49
+      - JP/日本/50
+      - JP/日本/51
+      - JP/日本/52
+      - JP/日本/53
+      - JP/日本/54
+      - JP/日本/55
+      - JP/日本/56
+      - JP/日本/57
+      - JP/日本/58
+      - JP/日本/59
+      - JP/日本/60
+      - JP/日本/61
+      - JP/日本/62
+      - JP/日本/63
+      - JP/日本/64
+      - JP/日本/65
+      - JP/日本/66
+      - JP/日本/67
+      - JP/日本/68
+      - JP/日本/69
+      - JP/日本/70
+      - JP/日本/71
+      - US/美国/72
+      - JP/日本/73
+      - KR/韩国/74
+      - JP/日本/75
+      - HK/香港/76
+      - HK/香港/77
+      - CO/哥伦比亚/78
+      - US/美国/79
+      - KR/韩国/80
+      - CN/中国/81
+      - US/美国/82
+      - IN/印度/83
+      - NL/荷兰/84
+      - US/美国/85
+      - US/美国/86
+      - US/美国/87
+      - FR/法国/88
+      - HK/香港/89
+      - CN/中国/90
+      - US/美国/91
+      - US/美国/92
+      - US/美国/93
+      - US/美国/94
+      - GB/英国/95
+      - KR/韩国/96
+      - US/美国/97
+      - US/美国/98
+      - US/美国/99
+      - US/美国/100
+      - US/美国/101
+      - CN/中国/102
+      - US/美国/103
+      - HK/香港/104
+      - US/美国/105
+      - US/美国/106
+      - NL/荷兰/107
+      - US/美国/108
+      - NL/荷兰/109
+      - US/美国/110
+      - US/美国/111
+      - JP/日本/112
+      - US/美国/113
+      - JP/日本/114
+      - US/美国/115
+      - JP/日本/116
+      - JP/日本/117
+      - GB/英国/118
+      - JP/日本/119
+      - CA/加拿大/120
+      - CA/加拿大/121
+      - GB/英国/122
+      - JP/日本/123
+      - JP/日本/124
+      - SG/新加坡/125
+      - US/美国/126
+      - JP/日本/127
+      - CA/加拿大/128
+      - CA/加拿大/129
+      - CA/加拿大/130
+      - JP/日本/131
+      - JP/日本/132
+      - JP/日本/133
+      - JP/日本/134
+      - JP/日本/135
+      - FR/法国/136
+      - CA/加拿大/137
+      - JP/日本/138
+      - JP/日本/139
+      - JP/日本/140
+      - JP/日本/141
+      - CA/加拿大/142
+      - CA/加拿大/143
+      - CA/加拿大/144
+      - CA/加拿大/145
+      - SG/新加坡/146
+      - US/美国/147
+      - US/美国/148
+      - US/美国/149
+      - FR/法国/150
+      - US/美国/151
+      - US/美国/152
+      - FR/法国/153
+      - US/美国/154
+      - JP/日本/155
+      - US/美国/156
+      - US/美国/157
+      - US/美国/158
+      - US/美国/159
+      - US/美国/160
+      - US/美国/161
+      - CN/中国/162
+      - US/美国/163
+      - US/美国/164
+      - RU/俄罗斯联邦/165
+      - US/美国/166
+      - RO/罗马尼亚/167
+      - US/美国/168
+      - BG/保加利亚/169
+      - KR/韩国/170
+      - CZ/捷克/171
+      - US/美国/172
+      - BG/保加利亚/173
+      - US/美国/174
+      - US/美国/175
+      - CA/加拿大/176
+      - US/美国/177
+      - US/美国/178
+      - US/美国/179
+      - US/美国/180
+      - JP/日本/181
+      - US/美国/182
+      - CA/加拿大/183
+      - US/美国/184
+      - CA/加拿大/185
+      - CA/加拿大/186
+      - CA/加拿大/187
+      - CA/加拿大/188
+      - CA/加拿大/189
+      - US/美国/190
+      - BG/保加利亚/191
+      - GB/英国/192
+      - GB/英国/193
+      - GB/英国/194
+      - GB/英国/195
+      - GB/英国/196
+      - GB/英国/197
+      - GB/英国/198
+      - GB/英国/199
+      - GB/英国/200
+      - GB/英国/201
+      - GB/英国/202
+      - GB/英国/203
+      - GB/英国/204
+      - GB/英国/205
+      - US/美国/206
+      - GB/英国/207
+      - GB/英国/208
+      - GB/英国/209
+      - GB/英国/210
+      - CZ/捷克/211
+      - JP/日本/212
+      - US/美国/213
+      - RU/俄罗斯联邦/214
+      - US/美国/215
+      - KR/韩国/216
+      - GB/英国/217
+      - GB/英国/218
+      - IT/意大利/219
+      - SG/新加坡/220
+      - GB/英国/221
+      - GB/英国/222
+      - GB/英国/223
+      - GB/英国/224
+      - GB/英国/225
+      - GB/英国/226
+      - US/美国/227
+      - US/美国/228
+      - SG/新加坡/229
+      - JP/日本/230
+      - FR/法国/231
+      - BG/保加利亚/232
+      - HK/香港/233
+      - BG/保加利亚/234
+      - CN/中国/235
+      - GB/英国/236
+      - RU/俄罗斯联邦/237
+      - HK/香港/238
+      - CN/中国/239
+      - SG/新加坡/240
+      - GB/英国/241
+      - JP/日本/242
+      - CN/中国/243
+      - JP/日本/244
+      - JP/日本/245
+      - JP/日本/246
+      - MY/马来西亚/247
+      - CN/中国/248
+      - JP/日本/249
+      - JP/日本/250
+      - JP/日本/251
+      - CN/中国/252
+      - CN/中国/253
+      - JP/日本/254
+      - CN/中国/255
+      - US/美国/256
+      - CN/中国/257
+      - US/美国/258
+      - US/美国/259
+      - CN/中国/260
+      - CN/中国/261
+      - CN/中国/262
+      - CN/中国/263
+      - CN/中国/264
+      - CY/塞浦路斯/265
+      - JP/日本/266
+      - MY/马来西亚/267
+      - CN/中国/268
+      - CN/中国/269
+      - CN/中国/270
+      - US/美国/271
+      - RU/俄罗斯联邦/272
+      - CN/中国/273
+      - CN/中国/274
+      - CN/中国/275
+      - MY/马来西亚/276
+      - US/美国/277
+      - JP/日本/278
+      - CN/中国/279
+      - SG/新加坡/280
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CN/1
-      - CN/2
-      - HK/3
-      - HK/4
-      - CN/5
-      - CN/6
-      - JP/7
-      - JP/8
-      - JP/9
-      - CN/10
-      - JP/11
-      - JP/12
-      - CN/13
-      - JP/14
-      - US/15
-      - JP/16
-      - JP/17
-      - JP/18
-      - JP/19
-      - JP/20
-      - US/21
-      - JP/22
-      - CN/23
-      - US/24
-      - JP/25
-      - JP/26
-      - US/27
-      - JP/28
-      - JP/29
-      - JP/30
-      - US/31
-      - CZ/32
-      - JP/33
-      - JP/34
-      - CA/35
-      - CA/36
-      - JP/37
-      - CA/38
-      - GB/39
-      - GB/40
-      - GB/41
-      - GB/42
-      - GB/43
-      - JP/44
-      - GB/45
-      - JP/46
-      - JP/47
-      - GB/48
-      - GB/49
-      - GB/50
-      - JP/51
-      - JP/52
-      - GB/53
-      - GB/54
-      - GB/55
-      - JP/56
-      - CA/57
-      - JP/58
-      - GB/59
-      - CA/60
-      - CA/61
-      - GB/62
-      - GB/63
-      - HK/64
-      - FR/65
-      - GB/66
-      - CA/67
-      - JP/68
-      - CA/69
-      - JP/70
-      - JP/71
-      - CA/72
-      - CA/73
-      - GB/74
-      - GB/75
-      - GB/76
-      - US/77
-      - GB/78
-      - GB/79
-      - US/80
-      - CA/81
-      - GB/82
-      - US/83
-      - CN/84
-      - GB/85
-      - GB/86
-      - US/87
-      - JP/88
-      - CN/89
-      - CN/90
-      - HK/91
-      - HK/92
-      - US/93
-      - JP/94
-      - CN/95
-      - JP/96
-      - JP/97
-      - JP/98
-      - JP/99
-      - CN/100
-      - GB/101
-      - JP/102
-      - JP/103
-      - JP/104
-      - JP/105
-      - CN/106
-      - JP/107
-      - CN/108
-      - JP/109
-      - CN/110
-      - JP/111
-      - CN/112
-      - JP/113
-      - JP/114
-      - CN/115
-      - CN/116
-      - US/117
-      - JP/118
-      - US/119
-      - JP/120
-      - CN/121
-      - HK/122
-      - HK/123
-      - JP/124
-      - CN/125
-      - GB/126
-      - CN/127
-      - JP/128
-      - JP/129
-      - GB/130
-      - GB/131
-      - JP/132
-      - CN/133
-      - JP/134
-      - TW/135
-      - CN/136
-      - CN/137
-      - CN/138
-      - CN/139
-      - HK/140
-      - US/141
+      - CN/中国/1
+      - JP/日本/2
+      - CN/中国/3
+      - JP/日本/4
+      - JP/日本/5
+      - JP/日本/6
+      - SG/新加坡/7
+      - TW/台湾/8
+      - CN/中国/9
+      - JP/日本/10
+      - TW/台湾/11
+      - CN/中国/12
+      - CN/中国/13
+      - KR/韩国/14
+      - CN/中国/15
+      - CN/中国/16
+      - JP/日本/17
+      - AU/澳大利亚/18
+      - CN/中国/19
+      - CN/中国/20
+      - US/美国/21
+      - CN/中国/22
+      - CN/中国/23
+      - CN/中国/24
+      - NL/荷兰/25
+      - US/美国/26
+      - US/美国/27
+      - JP/日本/28
+      - JP/日本/29
+      - JP/日本/30
+      - JP/日本/31
+      - JP/日本/32
+      - JP/日本/33
+      - JP/日本/34
+      - JP/日本/35
+      - JP/日本/36
+      - JP/日本/37
+      - JP/日本/38
+      - JP/日本/39
+      - JP/日本/40
+      - JP/日本/41
+      - JP/日本/42
+      - JP/日本/43
+      - JP/日本/44
+      - JP/日本/45
+      - JP/日本/46
+      - JP/日本/47
+      - JP/日本/48
+      - JP/日本/49
+      - JP/日本/50
+      - JP/日本/51
+      - JP/日本/52
+      - JP/日本/53
+      - JP/日本/54
+      - JP/日本/55
+      - JP/日本/56
+      - JP/日本/57
+      - JP/日本/58
+      - JP/日本/59
+      - JP/日本/60
+      - JP/日本/61
+      - JP/日本/62
+      - JP/日本/63
+      - JP/日本/64
+      - JP/日本/65
+      - JP/日本/66
+      - JP/日本/67
+      - JP/日本/68
+      - JP/日本/69
+      - JP/日本/70
+      - JP/日本/71
+      - US/美国/72
+      - JP/日本/73
+      - KR/韩国/74
+      - JP/日本/75
+      - HK/香港/76
+      - HK/香港/77
+      - CO/哥伦比亚/78
+      - US/美国/79
+      - KR/韩国/80
+      - CN/中国/81
+      - US/美国/82
+      - IN/印度/83
+      - NL/荷兰/84
+      - US/美国/85
+      - US/美国/86
+      - US/美国/87
+      - FR/法国/88
+      - HK/香港/89
+      - CN/中国/90
+      - US/美国/91
+      - US/美国/92
+      - US/美国/93
+      - US/美国/94
+      - GB/英国/95
+      - KR/韩国/96
+      - US/美国/97
+      - US/美国/98
+      - US/美国/99
+      - US/美国/100
+      - US/美国/101
+      - CN/中国/102
+      - US/美国/103
+      - HK/香港/104
+      - US/美国/105
+      - US/美国/106
+      - NL/荷兰/107
+      - US/美国/108
+      - NL/荷兰/109
+      - US/美国/110
+      - US/美国/111
+      - JP/日本/112
+      - US/美国/113
+      - JP/日本/114
+      - US/美国/115
+      - JP/日本/116
+      - JP/日本/117
+      - GB/英国/118
+      - JP/日本/119
+      - CA/加拿大/120
+      - CA/加拿大/121
+      - GB/英国/122
+      - JP/日本/123
+      - JP/日本/124
+      - SG/新加坡/125
+      - US/美国/126
+      - JP/日本/127
+      - CA/加拿大/128
+      - CA/加拿大/129
+      - CA/加拿大/130
+      - JP/日本/131
+      - JP/日本/132
+      - JP/日本/133
+      - JP/日本/134
+      - JP/日本/135
+      - FR/法国/136
+      - CA/加拿大/137
+      - JP/日本/138
+      - JP/日本/139
+      - JP/日本/140
+      - JP/日本/141
+      - CA/加拿大/142
+      - CA/加拿大/143
+      - CA/加拿大/144
+      - CA/加拿大/145
+      - SG/新加坡/146
+      - US/美国/147
+      - US/美国/148
+      - US/美国/149
+      - FR/法国/150
+      - US/美国/151
+      - US/美国/152
+      - FR/法国/153
+      - US/美国/154
+      - JP/日本/155
+      - US/美国/156
+      - US/美国/157
+      - US/美国/158
+      - US/美国/159
+      - US/美国/160
+      - US/美国/161
+      - CN/中国/162
+      - US/美国/163
+      - US/美国/164
+      - RU/俄罗斯联邦/165
+      - US/美国/166
+      - RO/罗马尼亚/167
+      - US/美国/168
+      - BG/保加利亚/169
+      - KR/韩国/170
+      - CZ/捷克/171
+      - US/美国/172
+      - BG/保加利亚/173
+      - US/美国/174
+      - US/美国/175
+      - CA/加拿大/176
+      - US/美国/177
+      - US/美国/178
+      - US/美国/179
+      - US/美国/180
+      - JP/日本/181
+      - US/美国/182
+      - CA/加拿大/183
+      - US/美国/184
+      - CA/加拿大/185
+      - CA/加拿大/186
+      - CA/加拿大/187
+      - CA/加拿大/188
+      - CA/加拿大/189
+      - US/美国/190
+      - BG/保加利亚/191
+      - GB/英国/192
+      - GB/英国/193
+      - GB/英国/194
+      - GB/英国/195
+      - GB/英国/196
+      - GB/英国/197
+      - GB/英国/198
+      - GB/英国/199
+      - GB/英国/200
+      - GB/英国/201
+      - GB/英国/202
+      - GB/英国/203
+      - GB/英国/204
+      - GB/英国/205
+      - US/美国/206
+      - GB/英国/207
+      - GB/英国/208
+      - GB/英国/209
+      - GB/英国/210
+      - CZ/捷克/211
+      - JP/日本/212
+      - US/美国/213
+      - RU/俄罗斯联邦/214
+      - US/美国/215
+      - KR/韩国/216
+      - GB/英国/217
+      - GB/英国/218
+      - IT/意大利/219
+      - SG/新加坡/220
+      - GB/英国/221
+      - GB/英国/222
+      - GB/英国/223
+      - GB/英国/224
+      - GB/英国/225
+      - GB/英国/226
+      - US/美国/227
+      - US/美国/228
+      - SG/新加坡/229
+      - JP/日本/230
+      - FR/法国/231
+      - BG/保加利亚/232
+      - HK/香港/233
+      - BG/保加利亚/234
+      - CN/中国/235
+      - GB/英国/236
+      - RU/俄罗斯联邦/237
+      - HK/香港/238
+      - CN/中国/239
+      - SG/新加坡/240
+      - GB/英国/241
+      - JP/日本/242
+      - CN/中国/243
+      - JP/日本/244
+      - JP/日本/245
+      - JP/日本/246
+      - MY/马来西亚/247
+      - CN/中国/248
+      - JP/日本/249
+      - JP/日本/250
+      - JP/日本/251
+      - CN/中国/252
+      - CN/中国/253
+      - JP/日本/254
+      - CN/中国/255
+      - US/美国/256
+      - CN/中国/257
+      - US/美国/258
+      - US/美国/259
+      - CN/中国/260
+      - CN/中国/261
+      - CN/中国/262
+      - CN/中国/263
+      - CN/中国/264
+      - CY/塞浦路斯/265
+      - JP/日本/266
+      - MY/马来西亚/267
+      - CN/中国/268
+      - CN/中国/269
+      - CN/中国/270
+      - US/美国/271
+      - RU/俄罗斯联邦/272
+      - CN/中国/273
+      - CN/中国/274
+      - CN/中国/275
+      - MY/马来西亚/276
+      - US/美国/277
+      - JP/日本/278
+      - CN/中国/279
+      - SG/新加坡/280
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1204,147 +2324,286 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CN/1
-      - CN/2
-      - HK/3
-      - HK/4
-      - CN/5
-      - CN/6
-      - JP/7
-      - JP/8
-      - JP/9
-      - CN/10
-      - JP/11
-      - JP/12
-      - CN/13
-      - JP/14
-      - US/15
-      - JP/16
-      - JP/17
-      - JP/18
-      - JP/19
-      - JP/20
-      - US/21
-      - JP/22
-      - CN/23
-      - US/24
-      - JP/25
-      - JP/26
-      - US/27
-      - JP/28
-      - JP/29
-      - JP/30
-      - US/31
-      - CZ/32
-      - JP/33
-      - JP/34
-      - CA/35
-      - CA/36
-      - JP/37
-      - CA/38
-      - GB/39
-      - GB/40
-      - GB/41
-      - GB/42
-      - GB/43
-      - JP/44
-      - GB/45
-      - JP/46
-      - JP/47
-      - GB/48
-      - GB/49
-      - GB/50
-      - JP/51
-      - JP/52
-      - GB/53
-      - GB/54
-      - GB/55
-      - JP/56
-      - CA/57
-      - JP/58
-      - GB/59
-      - CA/60
-      - CA/61
-      - GB/62
-      - GB/63
-      - HK/64
-      - FR/65
-      - GB/66
-      - CA/67
-      - JP/68
-      - CA/69
-      - JP/70
-      - JP/71
-      - CA/72
-      - CA/73
-      - GB/74
-      - GB/75
-      - GB/76
-      - US/77
-      - GB/78
-      - GB/79
-      - US/80
-      - CA/81
-      - GB/82
-      - US/83
-      - CN/84
-      - GB/85
-      - GB/86
-      - US/87
-      - JP/88
-      - CN/89
-      - CN/90
-      - HK/91
-      - HK/92
-      - US/93
-      - JP/94
-      - CN/95
-      - JP/96
-      - JP/97
-      - JP/98
-      - JP/99
-      - CN/100
-      - GB/101
-      - JP/102
-      - JP/103
-      - JP/104
-      - JP/105
-      - CN/106
-      - JP/107
-      - CN/108
-      - JP/109
-      - CN/110
-      - JP/111
-      - CN/112
-      - JP/113
-      - JP/114
-      - CN/115
-      - CN/116
-      - US/117
-      - JP/118
-      - US/119
-      - JP/120
-      - CN/121
-      - HK/122
-      - HK/123
-      - JP/124
-      - CN/125
-      - GB/126
-      - CN/127
-      - JP/128
-      - JP/129
-      - GB/130
-      - GB/131
-      - JP/132
-      - CN/133
-      - JP/134
-      - TW/135
-      - CN/136
-      - CN/137
-      - CN/138
-      - CN/139
-      - HK/140
-      - US/141
+      - CN/中国/1
+      - JP/日本/2
+      - CN/中国/3
+      - JP/日本/4
+      - JP/日本/5
+      - JP/日本/6
+      - SG/新加坡/7
+      - TW/台湾/8
+      - CN/中国/9
+      - JP/日本/10
+      - TW/台湾/11
+      - CN/中国/12
+      - CN/中国/13
+      - KR/韩国/14
+      - CN/中国/15
+      - CN/中国/16
+      - JP/日本/17
+      - AU/澳大利亚/18
+      - CN/中国/19
+      - CN/中国/20
+      - US/美国/21
+      - CN/中国/22
+      - CN/中国/23
+      - CN/中国/24
+      - NL/荷兰/25
+      - US/美国/26
+      - US/美国/27
+      - JP/日本/28
+      - JP/日本/29
+      - JP/日本/30
+      - JP/日本/31
+      - JP/日本/32
+      - JP/日本/33
+      - JP/日本/34
+      - JP/日本/35
+      - JP/日本/36
+      - JP/日本/37
+      - JP/日本/38
+      - JP/日本/39
+      - JP/日本/40
+      - JP/日本/41
+      - JP/日本/42
+      - JP/日本/43
+      - JP/日本/44
+      - JP/日本/45
+      - JP/日本/46
+      - JP/日本/47
+      - JP/日本/48
+      - JP/日本/49
+      - JP/日本/50
+      - JP/日本/51
+      - JP/日本/52
+      - JP/日本/53
+      - JP/日本/54
+      - JP/日本/55
+      - JP/日本/56
+      - JP/日本/57
+      - JP/日本/58
+      - JP/日本/59
+      - JP/日本/60
+      - JP/日本/61
+      - JP/日本/62
+      - JP/日本/63
+      - JP/日本/64
+      - JP/日本/65
+      - JP/日本/66
+      - JP/日本/67
+      - JP/日本/68
+      - JP/日本/69
+      - JP/日本/70
+      - JP/日本/71
+      - US/美国/72
+      - JP/日本/73
+      - KR/韩国/74
+      - JP/日本/75
+      - HK/香港/76
+      - HK/香港/77
+      - CO/哥伦比亚/78
+      - US/美国/79
+      - KR/韩国/80
+      - CN/中国/81
+      - US/美国/82
+      - IN/印度/83
+      - NL/荷兰/84
+      - US/美国/85
+      - US/美国/86
+      - US/美国/87
+      - FR/法国/88
+      - HK/香港/89
+      - CN/中国/90
+      - US/美国/91
+      - US/美国/92
+      - US/美国/93
+      - US/美国/94
+      - GB/英国/95
+      - KR/韩国/96
+      - US/美国/97
+      - US/美国/98
+      - US/美国/99
+      - US/美国/100
+      - US/美国/101
+      - CN/中国/102
+      - US/美国/103
+      - HK/香港/104
+      - US/美国/105
+      - US/美国/106
+      - NL/荷兰/107
+      - US/美国/108
+      - NL/荷兰/109
+      - US/美国/110
+      - US/美国/111
+      - JP/日本/112
+      - US/美国/113
+      - JP/日本/114
+      - US/美国/115
+      - JP/日本/116
+      - JP/日本/117
+      - GB/英国/118
+      - JP/日本/119
+      - CA/加拿大/120
+      - CA/加拿大/121
+      - GB/英国/122
+      - JP/日本/123
+      - JP/日本/124
+      - SG/新加坡/125
+      - US/美国/126
+      - JP/日本/127
+      - CA/加拿大/128
+      - CA/加拿大/129
+      - CA/加拿大/130
+      - JP/日本/131
+      - JP/日本/132
+      - JP/日本/133
+      - JP/日本/134
+      - JP/日本/135
+      - FR/法国/136
+      - CA/加拿大/137
+      - JP/日本/138
+      - JP/日本/139
+      - JP/日本/140
+      - JP/日本/141
+      - CA/加拿大/142
+      - CA/加拿大/143
+      - CA/加拿大/144
+      - CA/加拿大/145
+      - SG/新加坡/146
+      - US/美国/147
+      - US/美国/148
+      - US/美国/149
+      - FR/法国/150
+      - US/美国/151
+      - US/美国/152
+      - FR/法国/153
+      - US/美国/154
+      - JP/日本/155
+      - US/美国/156
+      - US/美国/157
+      - US/美国/158
+      - US/美国/159
+      - US/美国/160
+      - US/美国/161
+      - CN/中国/162
+      - US/美国/163
+      - US/美国/164
+      - RU/俄罗斯联邦/165
+      - US/美国/166
+      - RO/罗马尼亚/167
+      - US/美国/168
+      - BG/保加利亚/169
+      - KR/韩国/170
+      - CZ/捷克/171
+      - US/美国/172
+      - BG/保加利亚/173
+      - US/美国/174
+      - US/美国/175
+      - CA/加拿大/176
+      - US/美国/177
+      - US/美国/178
+      - US/美国/179
+      - US/美国/180
+      - JP/日本/181
+      - US/美国/182
+      - CA/加拿大/183
+      - US/美国/184
+      - CA/加拿大/185
+      - CA/加拿大/186
+      - CA/加拿大/187
+      - CA/加拿大/188
+      - CA/加拿大/189
+      - US/美国/190
+      - BG/保加利亚/191
+      - GB/英国/192
+      - GB/英国/193
+      - GB/英国/194
+      - GB/英国/195
+      - GB/英国/196
+      - GB/英国/197
+      - GB/英国/198
+      - GB/英国/199
+      - GB/英国/200
+      - GB/英国/201
+      - GB/英国/202
+      - GB/英国/203
+      - GB/英国/204
+      - GB/英国/205
+      - US/美国/206
+      - GB/英国/207
+      - GB/英国/208
+      - GB/英国/209
+      - GB/英国/210
+      - CZ/捷克/211
+      - JP/日本/212
+      - US/美国/213
+      - RU/俄罗斯联邦/214
+      - US/美国/215
+      - KR/韩国/216
+      - GB/英国/217
+      - GB/英国/218
+      - IT/意大利/219
+      - SG/新加坡/220
+      - GB/英国/221
+      - GB/英国/222
+      - GB/英国/223
+      - GB/英国/224
+      - GB/英国/225
+      - GB/英国/226
+      - US/美国/227
+      - US/美国/228
+      - SG/新加坡/229
+      - JP/日本/230
+      - FR/法国/231
+      - BG/保加利亚/232
+      - HK/香港/233
+      - BG/保加利亚/234
+      - CN/中国/235
+      - GB/英国/236
+      - RU/俄罗斯联邦/237
+      - HK/香港/238
+      - CN/中国/239
+      - SG/新加坡/240
+      - GB/英国/241
+      - JP/日本/242
+      - CN/中国/243
+      - JP/日本/244
+      - JP/日本/245
+      - JP/日本/246
+      - MY/马来西亚/247
+      - CN/中国/248
+      - JP/日本/249
+      - JP/日本/250
+      - JP/日本/251
+      - CN/中国/252
+      - CN/中国/253
+      - JP/日本/254
+      - CN/中国/255
+      - US/美国/256
+      - CN/中国/257
+      - US/美国/258
+      - US/美国/259
+      - CN/中国/260
+      - CN/中国/261
+      - CN/中国/262
+      - CN/中国/263
+      - CN/中国/264
+      - CY/塞浦路斯/265
+      - JP/日本/266
+      - MY/马来西亚/267
+      - CN/中国/268
+      - CN/中国/269
+      - CN/中国/270
+      - US/美国/271
+      - RU/俄罗斯联邦/272
+      - CN/中国/273
+      - CN/中国/274
+      - CN/中国/275
+      - MY/马来西亚/276
+      - US/美国/277
+      - JP/日本/278
+      - CN/中国/279
+      - SG/新加坡/280
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
