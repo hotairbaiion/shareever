@@ -9,14 +9,14 @@ proxies:
   - {name: DE2, server: dev-1.openv2ray.com, port: 443, type: vmess, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/opentunnel?user=opentunnel.net-2jj44lcjahun", headers: {Host: dev-1.openv2ray.com}}, udp: true}
   - {name: HK1, server: hkt-1.opensvr.net, port: 443, type: trojan, password: opentunnel.net-bmej9c5nwqikx0shndxg, sni: hkt-1.opensvr.net, skip-cert-verify: true, udp: true}
   - {name: HK2, server: hkv-1.openv2ray.com, port: 443, type: vmess, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/opentunnel?user=opentunnel.net-r6zdadkgtxuj", headers: {Host: hkv-1.openv2ray.com}}, udp: true}
+  - {name: ID1, server: idv-2.openv2ray.com, port: 443, type: vmess, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/opentunnel?user=opentunnel.net-wmvqpcqevgp3", headers: {Host: idv-2.openv2ray.com}}, udp: true}
   - {name: KR8 PRO, server: kr4.317542476.tk, port: 55779, type: trojan, password: XxhoMH2xBcO9yBllWbPM, sni: mripniria-msppl.run.goorm.io, skip-cert-verify: true, udp: true}
   - {name: NL1, server: nlt-1.opensvr.net, port: 443, type: trojan, password: opentunnel.net-jp24kq02r78xxotwhkpm, sni: nlt-1.opensvr.net, skip-cert-verify: true, udp: true}
+  - {name: NL2, server: nlv-1.openv2ray.com, port: 443, type: vmess, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/opentunnel?user=opentunnel.net-xpbvrnbn7gsi", headers: {Host: nlv-1.openv2ray.com}}, udp: true}
   - {name: SG1, server: sgt-1.opensvr.net, port: 443, type: trojan, password: opentunnel.net-1l1tdr1hmcq7g32ndx7g, sni: sgt-1.opensvr.net, skip-cert-verify: true, udp: true}
   - {name: SG3, server: sgv-3.openv2ray.com, port: 443, type: vmess, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/opentunnel?user=opentunnel.net-3j999etu7c1f", headers: {Host: sgv-3.openv2ray.com}}, udp: true}
-  - {name: US10, server: usv-4.openv2ray.com, port: 443, type: vmess, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/opentunnel?user=opentunnel.net-kb3ujx6trwp0", headers: {Host: usv-4.openv2ray.com}}, udp: true}
-  - {name: US11, server: us11.317542476.tk, port: 443, type: vmess, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/opentunnel?user=opentunnel.net-kb3ujx6trwp0", headers: {Host: usv-4.openv2ray.com}}, udp: true}
-  - {name: US12, server: us12.317542476.tk, port: 443, type: vmess, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/opentunnel?user=opentunnel.net-kb3ujx6trwp0", headers: {Host: usv-4.openv2ray.com}}, udp: true}
   - {name: US9, server: us9.317542476.tk, port: 51119, type: trojan, password: uFvGm2YiVjGSm5pUHLMm, sni: hxyrhtxbces-ouxvv.run-us-west2.goorm.io, skip-cert-verify: true, udp: true}
+  - {name: US10, server: usv-4.openv2ray.com, port: 443, type: vmess, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/opentunnel?user=opentunnel.net-kb3ujx6trwp0", headers: {Host: usv-4.openv2ray.com}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -27,14 +27,14 @@ proxy-groups:
       - DE2
       - HK1
       - HK2
+      - ID1
       - KR8 PRO
       - NL1
+      - NL2
       - SG1
       - SG3
-      - US10
-      - US11
-      - US12
       - US9
+      - US10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -44,14 +44,14 @@ proxy-groups:
       - DE2
       - HK1
       - HK2
+      - ID1
       - KR8 PRO
       - NL1
+      - NL2
       - SG1
       - SG3
-      - US10
-      - US11
-      - US12
       - US9
+      - US10
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -62,14 +62,14 @@ proxy-groups:
       - DE2
       - HK1
       - HK2
+      - ID1
       - KR8 PRO
       - NL1
+      - NL2
       - SG1
       - SG3
-      - US10
-      - US11
-      - US12
       - US9
+      - US10
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -92,14 +92,14 @@ proxy-groups:
       - DE2
       - HK1
       - HK2
+      - ID1
       - KR8 PRO
       - NL1
+      - NL2
       - SG1
       - SG3
-      - US10
-      - US11
-      - US12
       - US9
+      - US10
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -114,14 +114,14 @@ proxy-groups:
       - DE2
       - HK1
       - HK2
+      - ID1
       - KR8 PRO
       - NL1
+      - NL2
       - SG1
       - SG3
-      - US10
-      - US11
-      - US12
       - US9
+      - US10
   - name: 📲 电报信息
     type: select
     proxies:
@@ -131,14 +131,14 @@ proxy-groups:
       - DE2
       - HK1
       - HK2
+      - ID1
       - KR8 PRO
       - NL1
+      - NL2
       - SG1
       - SG3
-      - US10
-      - US11
-      - US12
       - US9
+      - US10
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -149,14 +149,14 @@ proxy-groups:
       - DE2
       - HK1
       - HK2
+      - ID1
       - KR8 PRO
       - NL1
+      - NL2
       - SG1
       - SG3
-      - US10
-      - US11
-      - US12
       - US9
+      - US10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -176,14 +176,14 @@ proxy-groups:
       - DE2
       - HK1
       - HK2
+      - ID1
       - KR8 PRO
       - NL1
+      - NL2
       - SG1
       - SG3
-      - US10
-      - US11
-      - US12
       - US9
+      - US10
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
