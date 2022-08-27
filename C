@@ -5,279 +5,71 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Premium Hong Kong 01, server: anycast.hk.868b.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: Premium Hong Kong 02, server: anycast.hk.c7a0.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: Premium Hong Kong 03, server: anycast.hk.ab6c.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: Premium Hong Kong 04, server: anycast.hk.1016.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: Premium Hong Kong 05, server: anycast.hk.621a.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: Premium Japan 01, server: anycast.jp.98d7.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: Premium Japan 02, server: anycast.jp.1afb.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: Premium Singapore 01, server: anycast.sg.5df7.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: Premium Singapore 02, server: anycast.sg.eaeb.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: Premium United States 01, server: anycast.us.vdw3.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: Premium United States 02, server: anycast.us.2154.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: Hong Kong 01, server: iepl.hk.02d0.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: Hong Kong 02, server: iepl.hk.c474.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: Hong Kong 03, server: iepl.hk.9e09.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: Hong Kong 04, server: iepl.hk.a934.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: Hong Kong 05, server: iepl.hk.f6e8.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: Hong Kong 06, server: iepl.hk.0686.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: Hong Kong 07, server: iepl.hk.cc38.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: Hong Kong 08, server: iepl.hk.4a75.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: Hong Kong 09, server: iepl.hk.023d.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: Hong Kong 10, server: iepl.hk.fda0.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: Hong Kong 11, server: iepl.hk.206f.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: Hong Kong 12, server: iepl.hk.b22f.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: Hong Kong 13, server: iepl.hk.31c4.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: Hong Kong 14, server: iepl.hk.71bc.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: Hong Kong 15, server: iepl.hk.7512.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: Hong Kong 16, server: iepl.hk.f663.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: Japan 01 | Media, server: iepl.jp.883b.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: Japan 02 | Media, server: iepl.jp.f43f.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: Japan 03 | Media, server: iepl.jp.44cc.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: Japan 04 | Media, server: iepl.jp.e688.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: Japan 05 | Media, server: iepl.jp.ab0c.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: Japan 06 | Media, server: iepl.jp.22e5.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: Singapore 01 | Media, server: iepl.sg.21ce.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: Singapore 02 | Media, server: iepl.sg.d6e4.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: Singapore 03 | Media, server: iepl.sg.bd6f.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: Singapore 04 | Media, server: iepl.sg.e0c4.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: Singapore 05 | Media, server: iepl.sg.f84d.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: Singapore 06 | Media, server: iepl.sg.1312.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: Taiwan 01, server: iepl.tw.4edb.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: Taiwan 02, server: iepl.tw.a4a2.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: Taiwan 03, server: iepl.tw.5e24.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: Taiwan 04, server: iepl.tw.9548.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: Taiwan 05, server: iepl.tw.8eb5.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: Taiwan 06, server: iepl.tw.93f2.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: Taiwan 07, server: iepl.tw.s9f3.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: Taiwan 08, server: iepl.tw.3q3b.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: United States 01 | Media, server: iepl.us.e99c.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: United States 02 | Media, server: iepl.us.e8c3.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: United States 03 | Media, server: iepl.us.4447.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: United States 04 | Media, server: iepl.us.6e28.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: United States 05 | Media, server: iepl.us.4bcf.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: Argentina, server: iepl.ar.839f.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: Australia, server: iepl.au.10v4.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: Brazil, server: iepl.bz.102f.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: Ireland, server: iepl.ie.i45g.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: Russia, server: iepl.ru.jv39.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: South Africa, server: iepl.za.v29g.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: Switzerland, server: iepl.ch.93fr.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: Turkey, server: iepl.tr.iv19.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: KR, server: kr.317542476.tk, port: 56550, type: trojan, password: aWmxc9WC6JTZ2bRG, sni: kewrymcz-htckf.run.goorm.io, skip-cert-verify: true, udp: true}
-  - {name: US, server: us.317542476.tk, port: 51046, type: trojan, password: 2SjXiTbTmVkUeaMJ, sni: wqqde.run-us-west2.goorm.io, skip-cert-verify: true, udp: true}
-  - {name: US2, server: us1.317542476.tk, port: 56193, type: trojan, password: PAm111oOjiODRvRsZ6qX, sni: bkkgbf5o541o.run-us-west2.goorm.io, skip-cert-verify: true, udp: true}
-  - {name: US3, server: us3.317542476.tk, port: 54000, type: trojan, password: hCelTdVFwZY5Aq4vHAB7, sni: g-ufekz.run-us-west2.goorm.io, skip-cert-verify: true, udp: true}
+  - {name: DE1, server: det-1.opensvr.net, port: 443, type: trojan, password: opentunnel.net-qe27t3x1m924z140b9rv, sni: det-1.opensvr.net, skip-cert-verify: true, udp: true}
+  - {name: DE2, server: dev-1.openv2ray.com, port: 443, type: vmess, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/opentunnel?user=opentunnel.net-2jj44lcjahun", headers: {Host: dev-1.openv2ray.com}}, udp: true}
+  - {name: HK1, server: hkt-1.opensvr.net, port: 443, type: trojan, password: opentunnel.net-bmej9c5nwqikx0shndxg, sni: hkt-1.opensvr.net, skip-cert-verify: true, udp: true}
+  - {name: HK2, server: hkv-1.openv2ray.com, port: 443, type: vmess, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/opentunnel?user=opentunnel.net-r6zdadkgtxuj", headers: {Host: hkv-1.openv2ray.com}}, udp: true}
+  - {name: KR8 PRO, server: kr4.317542476.tk, port: 55779, type: trojan, password: XxhoMH2xBcO9yBllWbPM, sni: mripniria-msppl.run.goorm.io, skip-cert-verify: true, udp: true}
+  - {name: NL1, server: nlt-1.opensvr.net, port: 443, type: trojan, password: opentunnel.net-jp24kq02r78xxotwhkpm, sni: nlt-1.opensvr.net, skip-cert-verify: true, udp: true}
+  - {name: SG1, server: sgt-1.opensvr.net, port: 443, type: trojan, password: opentunnel.net-1l1tdr1hmcq7g32ndx7g, sni: sgt-1.opensvr.net, skip-cert-verify: true, udp: true}
+  - {name: SG3, server: sgv-3.openv2ray.com, port: 443, type: vmess, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/opentunnel?user=opentunnel.net-3j999etu7c1f", headers: {Host: sgv-3.openv2ray.com}}, udp: true}
+  - {name: US10, server: usv-4.openv2ray.com, port: 443, type: vmess, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/opentunnel?user=opentunnel.net-kb3ujx6trwp0", headers: {Host: usv-4.openv2ray.com}}, udp: true}
+  - {name: US11, server: us11.317542476.tk, port: 443, type: vmess, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/opentunnel?user=opentunnel.net-kb3ujx6trwp0", headers: {Host: usv-4.openv2ray.com}}, udp: true}
+  - {name: US12, server: us12.317542476.tk, port: 443, type: vmess, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/opentunnel?user=opentunnel.net-kb3ujx6trwp0", headers: {Host: usv-4.openv2ray.com}}, udp: true}
+  - {name: US9, server: us9.317542476.tk, port: 51119, type: trojan, password: uFvGm2YiVjGSm5pUHLMm, sni: hxyrhtxbces-ouxvv.run-us-west2.goorm.io, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Premium Hong Kong 01
-      - Premium Hong Kong 02
-      - Premium Hong Kong 03
-      - Premium Hong Kong 04
-      - Premium Hong Kong 05
-      - Premium Japan 01
-      - Premium Japan 02
-      - Premium Singapore 01
-      - Premium Singapore 02
-      - Premium United States 01
-      - Premium United States 02
-      - Hong Kong 01
-      - Hong Kong 02
-      - Hong Kong 03
-      - Hong Kong 04
-      - Hong Kong 05
-      - Hong Kong 06
-      - Hong Kong 07
-      - Hong Kong 08
-      - Hong Kong 09
-      - Hong Kong 10
-      - Hong Kong 11
-      - Hong Kong 12
-      - Hong Kong 13
-      - Hong Kong 14
-      - Hong Kong 15
-      - Hong Kong 16
-      - Japan 01 | Media
-      - Japan 02 | Media
-      - Japan 03 | Media
-      - Japan 04 | Media
-      - Japan 05 | Media
-      - Japan 06 | Media
-      - Singapore 01 | Media
-      - Singapore 02 | Media
-      - Singapore 03 | Media
-      - Singapore 04 | Media
-      - Singapore 05 | Media
-      - Singapore 06 | Media
-      - Taiwan 01
-      - Taiwan 02
-      - Taiwan 03
-      - Taiwan 04
-      - Taiwan 05
-      - Taiwan 06
-      - Taiwan 07
-      - Taiwan 08
-      - United States 01 | Media
-      - United States 02 | Media
-      - United States 03 | Media
-      - United States 04 | Media
-      - United States 05 | Media
-      - Argentina
-      - Australia
-      - Brazil
-      - Ireland
-      - Russia
-      - South Africa
-      - Switzerland
-      - Turkey
-      - KR
-      - US
-      - US2
-      - US3
+      - DE1
+      - DE2
+      - HK1
+      - HK2
+      - KR8 PRO
+      - NL1
+      - SG1
+      - SG3
+      - US10
+      - US11
+      - US12
+      - US9
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Premium Hong Kong 01
-      - Premium Hong Kong 02
-      - Premium Hong Kong 03
-      - Premium Hong Kong 04
-      - Premium Hong Kong 05
-      - Premium Japan 01
-      - Premium Japan 02
-      - Premium Singapore 01
-      - Premium Singapore 02
-      - Premium United States 01
-      - Premium United States 02
-      - Hong Kong 01
-      - Hong Kong 02
-      - Hong Kong 03
-      - Hong Kong 04
-      - Hong Kong 05
-      - Hong Kong 06
-      - Hong Kong 07
-      - Hong Kong 08
-      - Hong Kong 09
-      - Hong Kong 10
-      - Hong Kong 11
-      - Hong Kong 12
-      - Hong Kong 13
-      - Hong Kong 14
-      - Hong Kong 15
-      - Hong Kong 16
-      - Japan 01 | Media
-      - Japan 02 | Media
-      - Japan 03 | Media
-      - Japan 04 | Media
-      - Japan 05 | Media
-      - Japan 06 | Media
-      - Singapore 01 | Media
-      - Singapore 02 | Media
-      - Singapore 03 | Media
-      - Singapore 04 | Media
-      - Singapore 05 | Media
-      - Singapore 06 | Media
-      - Taiwan 01
-      - Taiwan 02
-      - Taiwan 03
-      - Taiwan 04
-      - Taiwan 05
-      - Taiwan 06
-      - Taiwan 07
-      - Taiwan 08
-      - United States 01 | Media
-      - United States 02 | Media
-      - United States 03 | Media
-      - United States 04 | Media
-      - United States 05 | Media
-      - Argentina
-      - Australia
-      - Brazil
-      - Ireland
-      - Russia
-      - South Africa
-      - Switzerland
-      - Turkey
-      - KR
-      - US
-      - US2
-      - US3
+      - DE1
+      - DE2
+      - HK1
+      - HK2
+      - KR8 PRO
+      - NL1
+      - SG1
+      - SG3
+      - US10
+      - US11
+      - US12
+      - US9
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Premium Hong Kong 01
-      - Premium Hong Kong 02
-      - Premium Hong Kong 03
-      - Premium Hong Kong 04
-      - Premium Hong Kong 05
-      - Premium Japan 01
-      - Premium Japan 02
-      - Premium Singapore 01
-      - Premium Singapore 02
-      - Premium United States 01
-      - Premium United States 02
-      - Hong Kong 01
-      - Hong Kong 02
-      - Hong Kong 03
-      - Hong Kong 04
-      - Hong Kong 05
-      - Hong Kong 06
-      - Hong Kong 07
-      - Hong Kong 08
-      - Hong Kong 09
-      - Hong Kong 10
-      - Hong Kong 11
-      - Hong Kong 12
-      - Hong Kong 13
-      - Hong Kong 14
-      - Hong Kong 15
-      - Hong Kong 16
-      - Japan 01 | Media
-      - Japan 02 | Media
-      - Japan 03 | Media
-      - Japan 04 | Media
-      - Japan 05 | Media
-      - Japan 06 | Media
-      - Singapore 01 | Media
-      - Singapore 02 | Media
-      - Singapore 03 | Media
-      - Singapore 04 | Media
-      - Singapore 05 | Media
-      - Singapore 06 | Media
-      - Taiwan 01
-      - Taiwan 02
-      - Taiwan 03
-      - Taiwan 04
-      - Taiwan 05
-      - Taiwan 06
-      - Taiwan 07
-      - Taiwan 08
-      - United States 01 | Media
-      - United States 02 | Media
-      - United States 03 | Media
-      - United States 04 | Media
-      - United States 05 | Media
-      - Argentina
-      - Australia
-      - Brazil
-      - Ireland
-      - Russia
-      - South Africa
-      - Switzerland
-      - Turkey
-      - KR
-      - US
-      - US2
-      - US3
+      - DE1
+      - DE2
+      - HK1
+      - HK2
+      - KR8 PRO
+      - NL1
+      - SG1
+      - SG3
+      - US10
+      - US11
+      - US12
+      - US9
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -296,70 +88,18 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Premium Hong Kong 01
-      - Premium Hong Kong 02
-      - Premium Hong Kong 03
-      - Premium Hong Kong 04
-      - Premium Hong Kong 05
-      - Premium Japan 01
-      - Premium Japan 02
-      - Premium Singapore 01
-      - Premium Singapore 02
-      - Premium United States 01
-      - Premium United States 02
-      - Hong Kong 01
-      - Hong Kong 02
-      - Hong Kong 03
-      - Hong Kong 04
-      - Hong Kong 05
-      - Hong Kong 06
-      - Hong Kong 07
-      - Hong Kong 08
-      - Hong Kong 09
-      - Hong Kong 10
-      - Hong Kong 11
-      - Hong Kong 12
-      - Hong Kong 13
-      - Hong Kong 14
-      - Hong Kong 15
-      - Hong Kong 16
-      - Japan 01 | Media
-      - Japan 02 | Media
-      - Japan 03 | Media
-      - Japan 04 | Media
-      - Japan 05 | Media
-      - Japan 06 | Media
-      - Singapore 01 | Media
-      - Singapore 02 | Media
-      - Singapore 03 | Media
-      - Singapore 04 | Media
-      - Singapore 05 | Media
-      - Singapore 06 | Media
-      - Taiwan 01
-      - Taiwan 02
-      - Taiwan 03
-      - Taiwan 04
-      - Taiwan 05
-      - Taiwan 06
-      - Taiwan 07
-      - Taiwan 08
-      - United States 01 | Media
-      - United States 02 | Media
-      - United States 03 | Media
-      - United States 04 | Media
-      - United States 05 | Media
-      - Argentina
-      - Australia
-      - Brazil
-      - Ireland
-      - Russia
-      - South Africa
-      - Switzerland
-      - Turkey
-      - KR
-      - US
-      - US2
-      - US3
+      - DE1
+      - DE2
+      - HK1
+      - HK2
+      - KR8 PRO
+      - NL1
+      - SG1
+      - SG3
+      - US10
+      - US11
+      - US12
+      - US9
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -370,209 +110,53 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Premium Hong Kong 01
-      - Premium Hong Kong 02
-      - Premium Hong Kong 03
-      - Premium Hong Kong 04
-      - Premium Hong Kong 05
-      - Premium Japan 01
-      - Premium Japan 02
-      - Premium Singapore 01
-      - Premium Singapore 02
-      - Premium United States 01
-      - Premium United States 02
-      - Hong Kong 01
-      - Hong Kong 02
-      - Hong Kong 03
-      - Hong Kong 04
-      - Hong Kong 05
-      - Hong Kong 06
-      - Hong Kong 07
-      - Hong Kong 08
-      - Hong Kong 09
-      - Hong Kong 10
-      - Hong Kong 11
-      - Hong Kong 12
-      - Hong Kong 13
-      - Hong Kong 14
-      - Hong Kong 15
-      - Hong Kong 16
-      - Japan 01 | Media
-      - Japan 02 | Media
-      - Japan 03 | Media
-      - Japan 04 | Media
-      - Japan 05 | Media
-      - Japan 06 | Media
-      - Singapore 01 | Media
-      - Singapore 02 | Media
-      - Singapore 03 | Media
-      - Singapore 04 | Media
-      - Singapore 05 | Media
-      - Singapore 06 | Media
-      - Taiwan 01
-      - Taiwan 02
-      - Taiwan 03
-      - Taiwan 04
-      - Taiwan 05
-      - Taiwan 06
-      - Taiwan 07
-      - Taiwan 08
-      - United States 01 | Media
-      - United States 02 | Media
-      - United States 03 | Media
-      - United States 04 | Media
-      - United States 05 | Media
-      - Argentina
-      - Australia
-      - Brazil
-      - Ireland
-      - Russia
-      - South Africa
-      - Switzerland
-      - Turkey
-      - KR
-      - US
-      - US2
-      - US3
+      - DE1
+      - DE2
+      - HK1
+      - HK2
+      - KR8 PRO
+      - NL1
+      - SG1
+      - SG3
+      - US10
+      - US11
+      - US12
+      - US9
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Premium Hong Kong 01
-      - Premium Hong Kong 02
-      - Premium Hong Kong 03
-      - Premium Hong Kong 04
-      - Premium Hong Kong 05
-      - Premium Japan 01
-      - Premium Japan 02
-      - Premium Singapore 01
-      - Premium Singapore 02
-      - Premium United States 01
-      - Premium United States 02
-      - Hong Kong 01
-      - Hong Kong 02
-      - Hong Kong 03
-      - Hong Kong 04
-      - Hong Kong 05
-      - Hong Kong 06
-      - Hong Kong 07
-      - Hong Kong 08
-      - Hong Kong 09
-      - Hong Kong 10
-      - Hong Kong 11
-      - Hong Kong 12
-      - Hong Kong 13
-      - Hong Kong 14
-      - Hong Kong 15
-      - Hong Kong 16
-      - Japan 01 | Media
-      - Japan 02 | Media
-      - Japan 03 | Media
-      - Japan 04 | Media
-      - Japan 05 | Media
-      - Japan 06 | Media
-      - Singapore 01 | Media
-      - Singapore 02 | Media
-      - Singapore 03 | Media
-      - Singapore 04 | Media
-      - Singapore 05 | Media
-      - Singapore 06 | Media
-      - Taiwan 01
-      - Taiwan 02
-      - Taiwan 03
-      - Taiwan 04
-      - Taiwan 05
-      - Taiwan 06
-      - Taiwan 07
-      - Taiwan 08
-      - United States 01 | Media
-      - United States 02 | Media
-      - United States 03 | Media
-      - United States 04 | Media
-      - United States 05 | Media
-      - Argentina
-      - Australia
-      - Brazil
-      - Ireland
-      - Russia
-      - South Africa
-      - Switzerland
-      - Turkey
-      - KR
-      - US
-      - US2
-      - US3
+      - DE1
+      - DE2
+      - HK1
+      - HK2
+      - KR8 PRO
+      - NL1
+      - SG1
+      - SG3
+      - US10
+      - US11
+      - US12
+      - US9
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Premium Hong Kong 01
-      - Premium Hong Kong 02
-      - Premium Hong Kong 03
-      - Premium Hong Kong 04
-      - Premium Hong Kong 05
-      - Premium Japan 01
-      - Premium Japan 02
-      - Premium Singapore 01
-      - Premium Singapore 02
-      - Premium United States 01
-      - Premium United States 02
-      - Hong Kong 01
-      - Hong Kong 02
-      - Hong Kong 03
-      - Hong Kong 04
-      - Hong Kong 05
-      - Hong Kong 06
-      - Hong Kong 07
-      - Hong Kong 08
-      - Hong Kong 09
-      - Hong Kong 10
-      - Hong Kong 11
-      - Hong Kong 12
-      - Hong Kong 13
-      - Hong Kong 14
-      - Hong Kong 15
-      - Hong Kong 16
-      - Japan 01 | Media
-      - Japan 02 | Media
-      - Japan 03 | Media
-      - Japan 04 | Media
-      - Japan 05 | Media
-      - Japan 06 | Media
-      - Singapore 01 | Media
-      - Singapore 02 | Media
-      - Singapore 03 | Media
-      - Singapore 04 | Media
-      - Singapore 05 | Media
-      - Singapore 06 | Media
-      - Taiwan 01
-      - Taiwan 02
-      - Taiwan 03
-      - Taiwan 04
-      - Taiwan 05
-      - Taiwan 06
-      - Taiwan 07
-      - Taiwan 08
-      - United States 01 | Media
-      - United States 02 | Media
-      - United States 03 | Media
-      - United States 04 | Media
-      - United States 05 | Media
-      - Argentina
-      - Australia
-      - Brazil
-      - Ireland
-      - Russia
-      - South Africa
-      - Switzerland
-      - Turkey
-      - KR
-      - US
-      - US2
-      - US3
+      - DE1
+      - DE2
+      - HK1
+      - HK2
+      - KR8 PRO
+      - NL1
+      - SG1
+      - SG3
+      - US10
+      - US11
+      - US12
+      - US9
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -588,70 +172,18 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Premium Hong Kong 01
-      - Premium Hong Kong 02
-      - Premium Hong Kong 03
-      - Premium Hong Kong 04
-      - Premium Hong Kong 05
-      - Premium Japan 01
-      - Premium Japan 02
-      - Premium Singapore 01
-      - Premium Singapore 02
-      - Premium United States 01
-      - Premium United States 02
-      - Hong Kong 01
-      - Hong Kong 02
-      - Hong Kong 03
-      - Hong Kong 04
-      - Hong Kong 05
-      - Hong Kong 06
-      - Hong Kong 07
-      - Hong Kong 08
-      - Hong Kong 09
-      - Hong Kong 10
-      - Hong Kong 11
-      - Hong Kong 12
-      - Hong Kong 13
-      - Hong Kong 14
-      - Hong Kong 15
-      - Hong Kong 16
-      - Japan 01 | Media
-      - Japan 02 | Media
-      - Japan 03 | Media
-      - Japan 04 | Media
-      - Japan 05 | Media
-      - Japan 06 | Media
-      - Singapore 01 | Media
-      - Singapore 02 | Media
-      - Singapore 03 | Media
-      - Singapore 04 | Media
-      - Singapore 05 | Media
-      - Singapore 06 | Media
-      - Taiwan 01
-      - Taiwan 02
-      - Taiwan 03
-      - Taiwan 04
-      - Taiwan 05
-      - Taiwan 06
-      - Taiwan 07
-      - Taiwan 08
-      - United States 01 | Media
-      - United States 02 | Media
-      - United States 03 | Media
-      - United States 04 | Media
-      - United States 05 | Media
-      - Argentina
-      - Australia
-      - Brazil
-      - Ireland
-      - Russia
-      - South Africa
-      - Switzerland
-      - Turkey
-      - KR
-      - US
-      - US2
-      - US3
+      - DE1
+      - DE2
+      - HK1
+      - HK2
+      - KR8 PRO
+      - NL1
+      - SG1
+      - SG3
+      - US10
+      - US11
+      - US12
+      - US9
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
