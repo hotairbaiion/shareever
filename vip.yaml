@@ -65,188 +65,62 @@ proxies:
   - {name: South Africa, server: iepl.za.v29g.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
   - {name: Switzerland, server: iepl.ch.93fr.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
   - {name: Turkey, server: iepl.tr.iv19.enp4s0f2.in, port: 18450, type: ss, cipher: aes-256-gcm, password: vrX1mZ, udp: true}
-  - {name: ★自动选择|香港最优线路, server: aliyun.moble.vnupgcn.cn, port: 9000, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ★自动选择|美国最优线路, server: aliyun.unicom.vnupgcn.cn, port: 9001, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港01|原生解锁|BGPHK, server: aliyun.moble.vnupgcn.cn, port: 9002, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港02|原生解锁|BGPHK, server: aliyun.moble.vnupgcn.cn, port: 9003, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港03|原生解锁|BGPHK, server: aliyun.moble.vnupgcn.cn, port: 9004, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港04|原生解锁|BGPHK, server: aliyun.moble.vnupgcn.cn, port: 9005, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港05|原生解锁|BGPHK, server: aliyun.moble.vnupgcn.cn, port: 9006, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港06|原生解锁|CMIHK, server: aliyun.moble.vnupgcn.cn, port: 9007, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港07|原生解锁|CMIHK, server: aliyun.moble.vnupgcn.cn, port: 9008, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港08|原生解锁|CMIHK, server: aliyun.moble.vnupgcn.cn, port: 9009, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港09|原生解锁|CMIHK, server: aliyun.moble.vnupgcn.cn, port: 9010, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港10|原生解锁|CMIHK, server: aliyun.moble.vnupgcn.cn, port: 9011, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国01|原生解锁|APERNET, server: aliyun.unicom.vnupgcn.cn, port: 9022, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国02|原生解锁|APERNET, server: aliyun.unicom.vnupgcn.cn, port: 9023, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国03|原生解锁|APERNET, server: aliyun.unicom.vnupgcn.cn, port: 9024, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国04|原生解锁|APERNET, server: aliyun.unicom.vnupgcn.cn, port: 9025, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国05|原生解锁|APERNET, server: aliyun.unicom.vnupgcn.cn, port: 9026, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国06|原生解锁|APERNET, server: aliyun.unicom.vnupgcn.cn, port: 9027, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国07|原生解锁|APERNET, server: aliyun.unicom.vnupgcn.cn, port: 9028, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国08|原生解锁|APERNET, server: aliyun.unicom.vnupgcn.cn, port: 9029, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本01|负载均衡|東京LLC, server: aliyun.moble.vnupgcn.cn, port: 9030, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本02|负载均衡|東京LLC, server: aliyun.moble.vnupgcn.cn, port: 9031, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本03|负载均衡|東京LLC, server: aliyun.moble.vnupgcn.cn, port: 9032, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本04|负载均衡|東京LLC, server: aliyun.moble.vnupgcn.cn, port: 9033, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本05|负载均衡|東京LLC, server: aliyun.moble.vnupgcn.cn, port: 9034, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本06|负载均衡|東京LLC, server: aliyun.moble.vnupgcn.cn, port: 9035, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本07|负载均衡|東京LLC, server: aliyun.moble.vnupgcn.cn, port: 9036, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本08|负载均衡|東京LLC, server: aliyun.moble.vnupgcn.cn, port: 9037, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 台湾01|原生解锁|中華電信, server: aliyun.moble.vnupgcn.cn, port: 9012, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 台湾02|原生解锁|中華電信, server: aliyun.moble.vnupgcn.cn, port: 9013, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 台湾03|原生解锁|中華電信, server: aliyun.moble.vnupgcn.cn, port: 9014, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 台湾04|原生解锁|中華電信, server: aliyun.moble.vnupgcn.cn, port: 9015, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 台湾05|原生解锁|中華電信, server: aliyun.moble.vnupgcn.cn, port: 9016, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 台湾06|原生解锁|中華電信, server: aliyun.moble.vnupgcn.cn, port: 9017, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 台湾07|原生解锁|中華電信, server: aliyun.moble.vnupgcn.cn, port: 9018, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 台湾08|原生解锁|中華電信, server: aliyun.moble.vnupgcn.cn, port: 9019, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 台湾09|原生解锁|中華電信, server: aliyun.moble.vnupgcn.cn, port: 9020, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 台湾10|原生解锁|中華電信, server: aliyun.moble.vnupgcn.cn, port: 9021, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡01|负载均衡|DIGITAL, server: aliyun.moble.vnupgcn.cn, port: 9038, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡02|负载均衡|DIGITAL, server: aliyun.moble.vnupgcn.cn, port: 9039, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡03|负载均衡|DIGITAL, server: aliyun.moble.vnupgcn.cn, port: 9040, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡04|负载均衡|DIGITAL, server: aliyun.moble.vnupgcn.cn, port: 9041, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡05|负载均衡|DIGITAL, server: aliyun.moble.vnupgcn.cn, port: 9042, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡06|负载均衡|DIGITAL, server: aliyun.moble.vnupgcn.cn, port: 9043, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡07|负载均衡|DIGITAL, server: aliyun.moble.vnupgcn.cn, port: 9044, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡08|负载均衡|DIGITAL, server: aliyun.moble.vnupgcn.cn, port: 9045, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 澳大利亚01|内网专线|Australia, server: aliyun.install01.vnupgcn.cn, port: 11925, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 澳大利亚02|内网专线|Australia, server: aliyun.install02.vnupgcn.cn, port: 11925, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 澳大利亚03|内网专线|Australia, server: aliyun.install03.vnupgcn.cn, port: 11925, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 澳大利亚04|内网专线|Australia, server: aliyun.install04.vnupgcn.cn, port: 11925, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 韩国01|内网专线|한국, server: aliyun.install01.vnupgcn.cn, port: 11923, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 韩国02|内网专线|한국, server: aliyun.install02.vnupgcn.cn, port: 11923, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 韩国03|内网专线|한국, server: aliyun.install03.vnupgcn.cn, port: 11923, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 韩国04|内网专线|한국, server: aliyun.install04.vnupgcn.cn, port: 11923, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 乌克兰01|内网专线|Україна, server: aliyun.install01.vnupgcn.cn, port: 11919, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 乌克兰02|内网专线|Україна, server: aliyun.install02.vnupgcn.cn, port: 11919, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 乌克兰03|内网专线|Україна, server: aliyun.install03.vnupgcn.cn, port: 11919, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 乌克兰04|内网专线|Україна, server: aliyun.install04.vnupgcn.cn, port: 11919, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 以色列01|内网专线|מדינת ישראל‬‎, server: aliyun.install01.vnupgcn.cn, port: 11934, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 以色列02|内网专线|מדינת ישראל‬‎, server: aliyun.install02.vnupgcn.cn, port: 11934, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 以色列03|内网专线|מדינת ישראל‬‎, server: aliyun.install03.vnupgcn.cn, port: 11934, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 以色列04|内网专线|מדינת ישראל‬‎, server: aliyun.install04.vnupgcn.cn, port: 11934, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 俄罗斯01|内网专线|Россия, server: aliyun.install01.vnupgcn.cn, port: 11911, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 俄罗斯02|内网专线|Россия, server: aliyun.install02.vnupgcn.cn, port: 11911, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 俄罗斯03|内网专线|Россия, server: aliyun.install03.vnupgcn.cn, port: 11911, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 俄罗斯04|内网专线|Россия, server: aliyun.install04.vnupgcn.cn, port: 11911, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 保加利亚01|内网专线|България, server: aliyun.install01.vnupgcn.cn, port: 11913, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 保加利亚02|内网专线|България, server: aliyun.install02.vnupgcn.cn, port: 11913, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 保加利亚03|内网专线|България, server: aliyun.install03.vnupgcn.cn, port: 11913, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 保加利亚04|内网专线|България, server: aliyun.install04.vnupgcn.cn, port: 11913, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 加拿大01|内网专线|OVHSAS, server: aliyun.install01.vnupgcn.cn, port: 11902, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 加拿大02|内网专线|OVHSAS, server: aliyun.install02.vnupgcn.cn, port: 11902, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 加拿大03|内网专线|OVHSAS, server: aliyun.install03.vnupgcn.cn, port: 11902, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 加拿大04|内网专线|OVHSAS, server: aliyun.install04.vnupgcn.cn, port: 11902, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 南非01|内网专线|Suid-Afrika, server: aliyun.install01.vnupgcn.cn, port: 11909, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 南非02|内网专线|Suid-Afrika, server: aliyun.install02.vnupgcn.cn, port: 11909, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 南非03|内网专线|Suid-Afrika, server: aliyun.install03.vnupgcn.cn, port: 11909, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 南非04|内网专线|Suid-Afrika, server: aliyun.install04.vnupgcn.cn, port: 11909, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 印度01|内网专线|भारत गणराज्य, server: aliyun.install01.vnupgcn.cn, port: 11929, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 印度02|内网专线|भारत गणराज्य, server: aliyun.install02.vnupgcn.cn, port: 11929, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 印度03|内网专线|भारत गणराज्य, server: aliyun.install03.vnupgcn.cn, port: 11929, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 印度04|内网专线|भारत गणराज्य, server: aliyun.install04.vnupgcn.cn, port: 11929, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 哥伦比亚01|内网专线|Colombia, server: aliyun.install01.vnupgcn.cn, port: 11922, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 哥伦比亚02|内网专线|Colombia, server: aliyun.install02.vnupgcn.cn, port: 11922, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 哥伦比亚03|内网专线|Colombia, server: aliyun.install03.vnupgcn.cn, port: 11922, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 哥伦比亚04|内网专线|Colombia, server: aliyun.install04.vnupgcn.cn, port: 11922, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 土耳其01|内网专线|Türkiye, server: aliyun.install01.vnupgcn.cn, port: 11912, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 土耳其02|内网专线|Türkiye, server: aliyun.install02.vnupgcn.cn, port: 11912, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 土耳其03|内网专线|Türkiye, server: aliyun.install03.vnupgcn.cn, port: 11912, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 土耳其04|内网专线|Türkiye, server: aliyun.install04.vnupgcn.cn, port: 11912, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 埃及01|内网专线|ⲭⲏⲙⲓ, server: aliyun.install01.vnupgcn.cn, port: 11928, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 埃及02|内网专线|ⲭⲏⲙⲓ, server: aliyun.install02.vnupgcn.cn, port: 11928, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 埃及03|内网专线|ⲭⲏⲙⲓ, server: aliyun.install03.vnupgcn.cn, port: 11928, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 埃及04|内网专线|ⲭⲏⲙⲓ, server: aliyun.install04.vnupgcn.cn, port: 11928, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 奥地利01|内网专线|Österreich, server: aliyun.install01.vnupgcn.cn, port: 11927, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 奥地利02|内网专线|Österreich, server: aliyun.install02.vnupgcn.cn, port: 11927, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 奥地利03|内网专线|Österreich, server: aliyun.install03.vnupgcn.cn, port: 11927, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 奥地利04|内网专线|Österreich, server: aliyun.install04.vnupgcn.cn, port: 11927, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 孟加拉国01|内网专线|বাংলাদেশ, server: aliyun.install01.vnupgcn.cn, port: 11908, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 孟加拉国02|内网专线|বাংলাদেশ, server: aliyun.install02.vnupgcn.cn, port: 11908, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 孟加拉国03|内网专线|বাংলাদেশ, server: aliyun.install03.vnupgcn.cn, port: 11908, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 孟加拉国04|内网专线|বাংলাদেশ, server: aliyun.install04.vnupgcn.cn, port: 11908, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 巴基斯坦01|内网专线|اسلامی جمہوریہ پاکستان, server: aliyun.install01.vnupgcn.cn, port: 11932, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 巴基斯坦02|内网专线|اسلامی جمہوریہ پاکستان, server: aliyun.install02.vnupgcn.cn, port: 11932, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 巴基斯坦03|内网专线|اسلامی جمہوریہ پاکستان, server: aliyun.install03.vnupgcn.cn, port: 11932, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 巴基斯坦04|内网专线|اسلامی جمہوریہ پاکستان, server: aliyun.install04.vnupgcn.cn, port: 11932, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 巴西01|内网专线|Brasil, server: aliyun.install01.vnupgcn.cn, port: 11931, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 巴西02|内网专线|Brasil, server: aliyun.install02.vnupgcn.cn, port: 11931, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 巴西03|内网专线|Brasil, server: aliyun.install03.vnupgcn.cn, port: 11931, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 巴西04|内网专线|Brasil, server: aliyun.install04.vnupgcn.cn, port: 11931, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 拉脱维亚01|内网专线|LeţmōVabāmō, server: aliyun.install01.vnupgcn.cn, port: 11917, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 拉脱维亚02|内网专线|LeţmōVabāmō, server: aliyun.install02.vnupgcn.cn, port: 11917, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 拉脱维亚03|内网专线|LeţmōVabāmō, server: aliyun.install03.vnupgcn.cn, port: 11917, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 拉脱维亚04|内网专线|LeţmōVabāmō, server: aliyun.install04.vnupgcn.cn, port: 11917, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 捷克01|内网专线|Česko, server: aliyun.install01.vnupgcn.cn, port: 11916, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 捷克02|内网专线|Česko, server: aliyun.install02.vnupgcn.cn, port: 11916, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 捷克03|内网专线|Česko, server: aliyun.install03.vnupgcn.cn, port: 11916, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 捷克04|内网专线|Česko, server: aliyun.install04.vnupgcn.cn, port: 11916, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 智利01|内网专线|Chile, server: aliyun.install01.vnupgcn.cn, port: 11935, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 智利02|内网专线|Chile, server: aliyun.install02.vnupgcn.cn, port: 11935, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 智利03|内网专线|Chile, server: aliyun.install03.vnupgcn.cn, port: 11935, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 智利04|内网专线|Chile, server: aliyun.install04.vnupgcn.cn, port: 11935, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 柬埔寨01|内网专线|ក្រុងភ្នំពេញ, server: aliyun.install01.vnupgcn.cn, port: 11907, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 柬埔寨02|内网专线|ក្រុងភ្នំពេញ, server: aliyun.install02.vnupgcn.cn, port: 11907, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 柬埔寨03|内网专线|ក្រុងភ្នំពេញ, server: aliyun.install03.vnupgcn.cn, port: 11907, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 柬埔寨04|内网专线|ក្រុងភ្នំពេញ, server: aliyun.install04.vnupgcn.cn, port: 11907, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 沙特阿拉伯01|内网专线|العربية السعودية‎, server: aliyun.install01.vnupgcn.cn, port: 11910, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 沙特阿拉伯02|内网专线|العربية السعودية‎, server: aliyun.install02.vnupgcn.cn, port: 11910, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 沙特阿拉伯03|内网专线|العربية السعودية‎, server: aliyun.install03.vnupgcn.cn, port: 11910, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 沙特阿拉伯04|内网专线|العربية السعودية‎, server: aliyun.install04.vnupgcn.cn, port: 11910, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 波兰01|内网专线|Polska, server: aliyun.install01.vnupgcn.cn, port: 11914, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 波兰02|内网专线|Polska, server: aliyun.install02.vnupgcn.cn, port: 11914, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 波兰03|内网专线|Polska, server: aliyun.install03.vnupgcn.cn, port: 11914, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 波兰04|内网专线|Polska, server: aliyun.install04.vnupgcn.cn, port: 11914, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 泰国01|内网专线|ประเทศไทย, server: aliyun.install01.vnupgcn.cn, port: 11920, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 泰国02|内网专线|ประเทศไทย, server: aliyun.install02.vnupgcn.cn, port: 11920, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 泰国03|内网专线|ประเทศไทย, server: aliyun.install03.vnupgcn.cn, port: 11920, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 泰国04|内网专线|ประเทศไทย, server: aliyun.install04.vnupgcn.cn, port: 11920, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 瑞士01|内网专线|Schweiz, server: aliyun.install01.vnupgcn.cn, port: 11918, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 瑞士02|内网专线|Schweiz, server: aliyun.install02.vnupgcn.cn, port: 11918, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 瑞士03|内网专线|Schweiz, server: aliyun.install03.vnupgcn.cn, port: 11918, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 瑞士04|内网专线|Schweiz, server: aliyun.install04.vnupgcn.cn, port: 11918, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 芬兰01|内网专线|Suomi, server: aliyun.install01.vnupgcn.cn, port: 11933, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 芬兰02|内网专线|Suomi, server: aliyun.install02.vnupgcn.cn, port: 11933, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 芬兰03|内网专线|Suomi, server: aliyun.install03.vnupgcn.cn, port: 11933, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 芬兰04|内网专线|Suomi, server: aliyun.install04.vnupgcn.cn, port: 11933, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 荷兰01|内网专线|Nederland, server: aliyun.install01.vnupgcn.cn, port: 11915, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 荷兰02|内网专线|Nederland, server: aliyun.install02.vnupgcn.cn, port: 11915, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 荷兰03|内网专线|Nederland, server: aliyun.install03.vnupgcn.cn, port: 11915, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 荷兰04|内网专线|Nederland, server: aliyun.install04.vnupgcn.cn, port: 11915, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 菲律宾01|内网专线|Manila, server: aliyun.install01.vnupgcn.cn, port: 11906, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 菲律宾02|内网专线|Manila, server: aliyun.install02.vnupgcn.cn, port: 11906, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 菲律宾03|内网专线|Manila, server: aliyun.install03.vnupgcn.cn, port: 11906, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 菲律宾04|内网专线|Manila, server: aliyun.install04.vnupgcn.cn, port: 11906, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 西班牙01|内网专线|España, server: aliyun.install01.vnupgcn.cn, port: 11926, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 西班牙02|内网专线|España, server: aliyun.install02.vnupgcn.cn, port: 11926, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 西班牙03|内网专线|España, server: aliyun.install03.vnupgcn.cn, port: 11926, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 西班牙04|内网专线|España, server: aliyun.install04.vnupgcn.cn, port: 11926, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 越南01|内网专线|HồChíMinh, server: aliyun.install01.vnupgcn.cn, port: 11904, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 越南02|内网专线|HồChíMinh, server: aliyun.install02.vnupgcn.cn, port: 11904, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 越南03|内网专线|HồChíMinh, server: aliyun.install03.vnupgcn.cn, port: 11904, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 越南04|内网专线|HồChíMinh, server: aliyun.install04.vnupgcn.cn, port: 11904, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 阿塞拜疆01|内网专线|Azərbaycan, server: aliyun.install01.vnupgcn.cn, port: 11930, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 阿塞拜疆02|内网专线|Azərbaycan, server: aliyun.install02.vnupgcn.cn, port: 11930, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 阿塞拜疆03|内网专线|Azərbaycan, server: aliyun.install03.vnupgcn.cn, port: 11930, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 阿塞拜疆04|内网专线|Azərbaycan, server: aliyun.install04.vnupgcn.cn, port: 11930, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 阿根廷01|内网专线|Argentina, server: aliyun.install01.vnupgcn.cn, port: 11921, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 阿根廷02|内网专线|Argentina, server: aliyun.install02.vnupgcn.cn, port: 11921, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 阿根廷03|内网专线|Argentina, server: aliyun.install03.vnupgcn.cn, port: 11921, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 阿根廷04|内网专线|Argentina, server: aliyun.install04.vnupgcn.cn, port: 11921, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 阿联酋01|内网专线|Dubai, server: aliyun.install01.vnupgcn.cn, port: 11905, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 阿联酋02|内网专线|Dubai, server: aliyun.install02.vnupgcn.cn, port: 11905, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 阿联酋03|内网专线|Dubai, server: aliyun.install03.vnupgcn.cn, port: 11905, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 阿联酋04|内网专线|Dubai, server: aliyun.install04.vnupgcn.cn, port: 11905, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 德国01|内网专线|LINODE, server: aliyun.install01.vnupgcn.cn, port: 11903, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 德国02|内网专线|LINODE, server: aliyun.install02.vnupgcn.cn, port: 11903, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 德国03|内网专线|LINODE, server: aliyun.install03.vnupgcn.cn, port: 11903, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 德国04|内网专线|LINODE, server: aliyun.install04.vnupgcn.cn, port: 11903, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 英国01|内网专线|OVHSAS, server: aliyun.install01.vnupgcn.cn, port: 11901, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 英国02|内网专线|OVHSAS, server: aliyun.install02.vnupgcn.cn, port: 11901, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 英国03|内网专线|OVHSAS, server: aliyun.install03.vnupgcn.cn, port: 11901, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 英国04|内网专线|OVHSAS, server: aliyun.install04.vnupgcn.cn, port: 11901, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 台湾-SS/SSR-01-Taiwan01, server: cmrelay01.newcome.xyz, port: 5700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 85986:GPSIgt, obfs-param: 5d44d85986.microsoft.com, udp: true}
+  - {name: 台湾-SS/SSR-02-Taiwan02, server: cmrelay01.newcome.xyz, port: 5701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 85986:GPSIgt, obfs-param: 5d44d85986.microsoft.com, udp: true}
+  - {name: 台湾-SS/SSR-03-Taiwan03, server: cmrelay01.newcome.xyz, port: 5702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 85986:GPSIgt, obfs-param: 5d44d85986.microsoft.com, udp: true}
+  - {name: 台湾-SS/SSR-04-Taiwan04, server: cmrelay01.newcome.xyz, port: 5703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 85986:GPSIgt, obfs-param: 5d44d85986.microsoft.com, udp: true}
+  - {name: 台湾-SS/SSR-05-Taiwan05, server: cmrelay01.newcome.xyz, port: 5704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 85986:GPSIgt, obfs-param: 5d44d85986.microsoft.com, udp: true}
+  - {name: 台湾-SS/SSR-06-Taiwan06, server: cmrelay01.newcome.xyz, port: 5705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 85986:GPSIgt, obfs-param: 5d44d85986.microsoft.com, udp: true}
+  - {name: 台湾-TROJAN-01(Trojan Taiwan01), server: tj-tw01.yiyo2way.xyz, port: 9980, type: trojan, password: 44b7a1a3-e841-350e-bac6-b065a2a728aa, sni: tj-tw01.yiyo2way.xyz, skip-cert-verify: flase, udp: true}
+  - {name: 台湾-TROJAN-02(Trojan Taiwan02), server: tj-tw02.yiyo2way.xyz, port: 9980, type: trojan, password: 44b7a1a3-e841-350e-bac6-b065a2a728aa, sni: tj-tw02.yiyo2way.xyz, skip-cert-verify: flase, udp: true}
+  - {name: 新加坡-SS/SSR-01-Singapore01, server: cmrelay01.newcome.xyz, port: 6700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 85986:GPSIgt, obfs-param: 5d44d85986.microsoft.com, udp: true}
+  - {name: 新加坡-SS/SSR-02-Singapore02, server: cmrelay01.newcome.xyz, port: 6701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 85986:GPSIgt, obfs-param: 5d44d85986.microsoft.com, udp: true}
+  - {name: 新加坡-SS/SSR-03-Singapore03, server: cmrelay01.newcome.xyz, port: 6702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 85986:GPSIgt, obfs-param: 5d44d85986.microsoft.com, udp: true}
+  - {name: 新加坡-SS/SSR-04-Singapore04, server: cmrelay01.newcome.xyz, port: 6703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 85986:GPSIgt, obfs-param: 5d44d85986.microsoft.com, udp: true}
+  - {name: 新加坡-SS/SSR-05-Singapore05, server: cmrelay01.newcome.xyz, port: 6704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 85986:GPSIgt, obfs-param: 5d44d85986.microsoft.com, udp: true}
+  - {name: 新加坡-SS/SSR-06-Singapore06, server: cmrelay01.newcome.xyz, port: 6705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 85986:GPSIgt, obfs-param: 5d44d85986.microsoft.com, udp: true}
+  - {name: 新加坡-SS/SSR-07-Singapore07, server: cmrelay01.newcome.xyz, port: 6706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 85986:GPSIgt, obfs-param: 5d44d85986.microsoft.com, udp: true}
+  - {name: 新加坡-SS/SSR-08-Singapore08, server: cmrelay01.newcome.xyz, port: 6707, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 85986:GPSIgt, obfs-param: 5d44d85986.microsoft.com, udp: true}
+  - {name: 新加坡-SS/SSR-09-Singapore09, server: cmrelay01.newcome.xyz, port: 6708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 85986:GPSIgt, obfs-param: 5d44d85986.microsoft.com, udp: true}
+  - {name: 新加坡-SS/SSR-10-Singapore10, server: cmrelay01.newcome.xyz, port: 6709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 85986:GPSIgt, obfs-param: 5d44d85986.microsoft.com, udp: true}
+  - {name: 新加坡-TROJAN-01(Trojan Singapore01), server: tj-sg01.yiyo2way.xyz, port: 9980, type: trojan, password: 44b7a1a3-e841-350e-bac6-b065a2a728aa, sni: tj-sg01.yiyo2way.xyz, skip-cert-verify: flase, udp: true}
+  - {name: 新加坡-TROJAN-02(Trojan Singapore02), server: tj-sg02.yiyo2way.xyz, port: 9980, type: trojan, password: 44b7a1a3-e841-350e-bac6-b065a2a728aa, sni: tj-sg02.yiyo2way.xyz, skip-cert-verify: flase, udp: true}
+  - {name: 日本-SS/SSR-01-Japan01, server: cmrelay01.newcome.xyz, port: 3700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 85986:GPSIgt, obfs-param: 5d44d85986.microsoft.com, udp: true}
+  - {name: 日本-SS/SSR-02-Japan02, server: cmrelay01.newcome.xyz, port: 3701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 85986:GPSIgt, obfs-param: 5d44d85986.microsoft.com, udp: true}
+  - {name: 日本-SS/SSR-03-Japan03, server: cmrelay01.newcome.xyz, port: 3702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 85986:GPSIgt, obfs-param: 5d44d85986.microsoft.com, udp: true}
+  - {name: 日本-SS/SSR-04-Japan04, server: cmrelay01.newcome.xyz, port: 3703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 85986:GPSIgt, obfs-param: 5d44d85986.microsoft.com, udp: true}
+  - {name: 日本-SS/SSR-05-Japan05, server: cmrelay01.newcome.xyz, port: 3704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 85986:GPSIgt, obfs-param: 5d44d85986.microsoft.com, udp: true}
+  - {name: 日本-SS/SSR-06-Japan06, server: cmrelay01.newcome.xyz, port: 3705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 85986:GPSIgt, obfs-param: 5d44d85986.microsoft.com, udp: true}
+  - {name: 日本-SS/SSR-07-Japan07, server: cmrelay01.newcome.xyz, port: 3706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 85986:GPSIgt, obfs-param: 5d44d85986.microsoft.com, udp: true}
+  - {name: 日本-SS/SSR-08-Japan08, server: cmrelay01.newcome.xyz, port: 3707, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 85986:GPSIgt, obfs-param: 5d44d85986.microsoft.com, udp: true}
+  - {name: 日本-SS/SSR-09-Japan09, server: cmrelay01.newcome.xyz, port: 3708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 85986:GPSIgt, obfs-param: 5d44d85986.microsoft.com, udp: true}
+  - {name: 日本-SS/SSR-10-Japan10, server: cmrelay01.newcome.xyz, port: 3709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 85986:GPSIgt, obfs-param: 5d44d85986.microsoft.com, udp: true}
+  - {name: 日本-TROJAN-01(Trojan Japan01), server: tj-jp01.yiyo2way.xyz, port: 9980, type: trojan, password: 44b7a1a3-e841-350e-bac6-b065a2a728aa, sni: tj-jp01.yiyo2way.xyz, skip-cert-verify: flase, udp: true}
+  - {name: 日本-TROJAN-02(Trojan Japan02), server: tj-jp02.yiyo2way.xyz, port: 9980, type: trojan, password: 44b7a1a3-e841-350e-bac6-b065a2a728aa, sni: tj-jp02.yiyo2way.xyz, skip-cert-verify: flase, udp: true}
+  - {name: 美国-SS/SSR-01-Usa01, server: cmrelay01.newcome.xyz, port: 7700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 85986:GPSIgt, obfs-param: 5d44d85986.microsoft.com, udp: true}
+  - {name: 美国-SS/SSR-02-Usa02, server: cmrelay01.newcome.xyz, port: 7701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 85986:GPSIgt, obfs-param: 5d44d85986.microsoft.com, udp: true}
+  - {name: 美国-SS/SSR-03-Usa03, server: cmrelay01.newcome.xyz, port: 7702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 85986:GPSIgt, obfs-param: 5d44d85986.microsoft.com, udp: true}
+  - {name: 美国-SS/SSR-04-Usa04, server: cmrelay01.newcome.xyz, port: 7703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 85986:GPSIgt, obfs-param: 5d44d85986.microsoft.com, udp: true}
+  - {name: 美国-SS/SSR-05-Usa05, server: cmrelay01.newcome.xyz, port: 7704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 85986:GPSIgt, obfs-param: 5d44d85986.microsoft.com, udp: true}
+  - {name: 美国-SS/SSR-06-Usa06, server: cmrelay01.newcome.xyz, port: 7705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 85986:GPSIgt, obfs-param: 5d44d85986.microsoft.com, udp: true}
+  - {name: 美国-SS/SSR-07-Usa07, server: cmrelay01.newcome.xyz, port: 7706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 85986:GPSIgt, obfs-param: 5d44d85986.microsoft.com, udp: true}
+  - {name: 美国-SS/SSR-08-Usa08, server: cmrelay01.newcome.xyz, port: 7707, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 85986:GPSIgt, obfs-param: 5d44d85986.microsoft.com, udp: true}
+  - {name: 美国-SS/SSR-09-Usa09, server: cmrelay01.newcome.xyz, port: 7708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 85986:GPSIgt, obfs-param: 5d44d85986.microsoft.com, udp: true}
+  - {name: 美国-SS/SSR-10-Usa10, server: cmrelay01.newcome.xyz, port: 7709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 85986:GPSIgt, obfs-param: 5d44d85986.microsoft.com, udp: true}
+  - {name: 美国-TROJAN-01(Trojan USA01), server: tj-us01.yiyo2way.xyz, port: 9980, type: trojan, password: 44b7a1a3-e841-350e-bac6-b065a2a728aa, sni: tj-us01.yiyo2way.xyz, skip-cert-verify: flase, udp: true}
+  - {name: 美国-TROJAN-02(Trojan USA02), server: tj-us02.yiyo2way.xyz, port: 9980, type: trojan, password: 44b7a1a3-e841-350e-bac6-b065a2a728aa, sni: tj-us02.yiyo2way.xyz, skip-cert-verify: flase, udp: true}
+  - {name: 香港-SS/SSR-01-Hongkong01, server: cmrelay02.newcome.xyz, port: 2700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 85986:GPSIgt, obfs-param: 5d44d85986.microsoft.com, udp: true}
+  - {name: 香港-SS/SSR-02-Hongkong02, server: cmrelay02.newcome.xyz, port: 2701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 85986:GPSIgt, obfs-param: 5d44d85986.microsoft.com, udp: true}
+  - {name: 香港-SS/SSR-03-Hongkong03, server: cmrelay02.newcome.xyz, port: 2702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 85986:GPSIgt, obfs-param: 5d44d85986.microsoft.com, udp: true}
+  - {name: 香港-SS/SSR-04-Hongkong04, server: cmrelay02.newcome.xyz, port: 2703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 85986:GPSIgt, obfs-param: 5d44d85986.microsoft.com, udp: true}
+  - {name: 香港-SS/SSR-05-Hongkong05, server: cmrelay02.newcome.xyz, port: 2704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 85986:GPSIgt, obfs-param: 5d44d85986.microsoft.com, udp: true}
+  - {name: 香港-SS/SSR-06-Hongkong06, server: cmrelay02.newcome.xyz, port: 2705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 85986:GPSIgt, obfs-param: 5d44d85986.microsoft.com, udp: true}
+  - {name: 香港-SS/SSR-07-Hongkong07, server: cmrelay02.newcome.xyz, port: 2706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 85986:GPSIgt, obfs-param: 5d44d85986.microsoft.com, udp: true}
+  - {name: 香港-SS/SSR-08-Hongkong08, server: cmrelay02.newcome.xyz, port: 2707, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 85986:GPSIgt, obfs-param: 5d44d85986.microsoft.com, udp: true}
+  - {name: 香港-SS/SSR-09-Hongkong09, server: cmrelay02.newcome.xyz, port: 2708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 85986:GPSIgt, obfs-param: 5d44d85986.microsoft.com, udp: true}
+  - {name: 香港-SS/SSR-10-Hongkong10, server: cmrelay02.newcome.xyz, port: 2709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 85986:GPSIgt, obfs-param: 5d44d85986.microsoft.com, udp: true}
+  - {name: 香港-TROJAN-01(Trojan HongKong01), server: tj-hk01.yiyo2way.xyz, port: 9980, type: trojan, password: 44b7a1a3-e841-350e-bac6-b065a2a728aa, sni: tj-hk01.yiyo2way.xyz, skip-cert-verify: flase, udp: true}
+  - {name: 香港-TROJAN-02(Trojan HongKong02), server: tj-hk02.yiyo2way.xyz, port: 9980, type: trojan, password: 44b7a1a3-e841-350e-bac6-b065a2a728aa, sni: tj-hk02.yiyo2way.xyz, skip-cert-verify: flase, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -313,188 +187,62 @@ proxy-groups:
       - South Africa
       - Switzerland
       - Turkey
-      - ★自动选择|香港最优线路
-      - ★自动选择|美国最优线路
-      - 香港01|原生解锁|BGPHK
-      - 香港02|原生解锁|BGPHK
-      - 香港03|原生解锁|BGPHK
-      - 香港04|原生解锁|BGPHK
-      - 香港05|原生解锁|BGPHK
-      - 香港06|原生解锁|CMIHK
-      - 香港07|原生解锁|CMIHK
-      - 香港08|原生解锁|CMIHK
-      - 香港09|原生解锁|CMIHK
-      - 香港10|原生解锁|CMIHK
-      - 美国01|原生解锁|APERNET
-      - 美国02|原生解锁|APERNET
-      - 美国03|原生解锁|APERNET
-      - 美国04|原生解锁|APERNET
-      - 美国05|原生解锁|APERNET
-      - 美国06|原生解锁|APERNET
-      - 美国07|原生解锁|APERNET
-      - 美国08|原生解锁|APERNET
-      - 日本01|负载均衡|東京LLC
-      - 日本02|负载均衡|東京LLC
-      - 日本03|负载均衡|東京LLC
-      - 日本04|负载均衡|東京LLC
-      - 日本05|负载均衡|東京LLC
-      - 日本06|负载均衡|東京LLC
-      - 日本07|负载均衡|東京LLC
-      - 日本08|负载均衡|東京LLC
-      - 台湾01|原生解锁|中華電信
-      - 台湾02|原生解锁|中華電信
-      - 台湾03|原生解锁|中華電信
-      - 台湾04|原生解锁|中華電信
-      - 台湾05|原生解锁|中華電信
-      - 台湾06|原生解锁|中華電信
-      - 台湾07|原生解锁|中華電信
-      - 台湾08|原生解锁|中華電信
-      - 台湾09|原生解锁|中華電信
-      - 台湾10|原生解锁|中華電信
-      - 新加坡01|负载均衡|DIGITAL
-      - 新加坡02|负载均衡|DIGITAL
-      - 新加坡03|负载均衡|DIGITAL
-      - 新加坡04|负载均衡|DIGITAL
-      - 新加坡05|负载均衡|DIGITAL
-      - 新加坡06|负载均衡|DIGITAL
-      - 新加坡07|负载均衡|DIGITAL
-      - 新加坡08|负载均衡|DIGITAL
-      - 澳大利亚01|内网专线|Australia
-      - 澳大利亚02|内网专线|Australia
-      - 澳大利亚03|内网专线|Australia
-      - 澳大利亚04|内网专线|Australia
-      - 韩国01|内网专线|한국
-      - 韩国02|内网专线|한국
-      - 韩国03|内网专线|한국
-      - 韩国04|内网专线|한국
-      - 乌克兰01|内网专线|Україна
-      - 乌克兰02|内网专线|Україна
-      - 乌克兰03|内网专线|Україна
-      - 乌克兰04|内网专线|Україна
-      - 以色列01|内网专线|מדינת ישראל‬‎
-      - 以色列02|内网专线|מדינת ישראל‬‎
-      - 以色列03|内网专线|מדינת ישראל‬‎
-      - 以色列04|内网专线|מדינת ישראל‬‎
-      - 俄罗斯01|内网专线|Россия
-      - 俄罗斯02|内网专线|Россия
-      - 俄罗斯03|内网专线|Россия
-      - 俄罗斯04|内网专线|Россия
-      - 保加利亚01|内网专线|България
-      - 保加利亚02|内网专线|България
-      - 保加利亚03|内网专线|България
-      - 保加利亚04|内网专线|България
-      - 加拿大01|内网专线|OVHSAS
-      - 加拿大02|内网专线|OVHSAS
-      - 加拿大03|内网专线|OVHSAS
-      - 加拿大04|内网专线|OVHSAS
-      - 南非01|内网专线|Suid-Afrika
-      - 南非02|内网专线|Suid-Afrika
-      - 南非03|内网专线|Suid-Afrika
-      - 南非04|内网专线|Suid-Afrika
-      - 印度01|内网专线|भारत गणराज्य
-      - 印度02|内网专线|भारत गणराज्य
-      - 印度03|内网专线|भारत गणराज्य
-      - 印度04|内网专线|भारत गणराज्य
-      - 哥伦比亚01|内网专线|Colombia
-      - 哥伦比亚02|内网专线|Colombia
-      - 哥伦比亚03|内网专线|Colombia
-      - 哥伦比亚04|内网专线|Colombia
-      - 土耳其01|内网专线|Türkiye
-      - 土耳其02|内网专线|Türkiye
-      - 土耳其03|内网专线|Türkiye
-      - 土耳其04|内网专线|Türkiye
-      - 埃及01|内网专线|ⲭⲏⲙⲓ
-      - 埃及02|内网专线|ⲭⲏⲙⲓ
-      - 埃及03|内网专线|ⲭⲏⲙⲓ
-      - 埃及04|内网专线|ⲭⲏⲙⲓ
-      - 奥地利01|内网专线|Österreich
-      - 奥地利02|内网专线|Österreich
-      - 奥地利03|内网专线|Österreich
-      - 奥地利04|内网专线|Österreich
-      - 孟加拉国01|内网专线|বাংলাদেশ
-      - 孟加拉国02|内网专线|বাংলাদেশ
-      - 孟加拉国03|内网专线|বাংলাদেশ
-      - 孟加拉国04|内网专线|বাংলাদেশ
-      - 巴基斯坦01|内网专线|اسلامی جمہوریہ پاکستان
-      - 巴基斯坦02|内网专线|اسلامی جمہوریہ پاکستان
-      - 巴基斯坦03|内网专线|اسلامی جمہوریہ پاکستان
-      - 巴基斯坦04|内网专线|اسلامی جمہوریہ پاکستان
-      - 巴西01|内网专线|Brasil
-      - 巴西02|内网专线|Brasil
-      - 巴西03|内网专线|Brasil
-      - 巴西04|内网专线|Brasil
-      - 拉脱维亚01|内网专线|LeţmōVabāmō
-      - 拉脱维亚02|内网专线|LeţmōVabāmō
-      - 拉脱维亚03|内网专线|LeţmōVabāmō
-      - 拉脱维亚04|内网专线|LeţmōVabāmō
-      - 捷克01|内网专线|Česko
-      - 捷克02|内网专线|Česko
-      - 捷克03|内网专线|Česko
-      - 捷克04|内网专线|Česko
-      - 智利01|内网专线|Chile
-      - 智利02|内网专线|Chile
-      - 智利03|内网专线|Chile
-      - 智利04|内网专线|Chile
-      - 柬埔寨01|内网专线|ក្រុងភ្នំពេញ
-      - 柬埔寨02|内网专线|ក្រុងភ្នំពេញ
-      - 柬埔寨03|内网专线|ក្រុងភ្នំពេញ
-      - 柬埔寨04|内网专线|ក្រុងភ្នំពេញ
-      - 沙特阿拉伯01|内网专线|العربية السعودية‎
-      - 沙特阿拉伯02|内网专线|العربية السعودية‎
-      - 沙特阿拉伯03|内网专线|العربية السعودية‎
-      - 沙特阿拉伯04|内网专线|العربية السعودية‎
-      - 波兰01|内网专线|Polska
-      - 波兰02|内网专线|Polska
-      - 波兰03|内网专线|Polska
-      - 波兰04|内网专线|Polska
-      - 泰国01|内网专线|ประเทศไทย
-      - 泰国02|内网专线|ประเทศไทย
-      - 泰国03|内网专线|ประเทศไทย
-      - 泰国04|内网专线|ประเทศไทย
-      - 瑞士01|内网专线|Schweiz
-      - 瑞士02|内网专线|Schweiz
-      - 瑞士03|内网专线|Schweiz
-      - 瑞士04|内网专线|Schweiz
-      - 芬兰01|内网专线|Suomi
-      - 芬兰02|内网专线|Suomi
-      - 芬兰03|内网专线|Suomi
-      - 芬兰04|内网专线|Suomi
-      - 荷兰01|内网专线|Nederland
-      - 荷兰02|内网专线|Nederland
-      - 荷兰03|内网专线|Nederland
-      - 荷兰04|内网专线|Nederland
-      - 菲律宾01|内网专线|Manila
-      - 菲律宾02|内网专线|Manila
-      - 菲律宾03|内网专线|Manila
-      - 菲律宾04|内网专线|Manila
-      - 西班牙01|内网专线|España
-      - 西班牙02|内网专线|España
-      - 西班牙03|内网专线|España
-      - 西班牙04|内网专线|España
-      - 越南01|内网专线|HồChíMinh
-      - 越南02|内网专线|HồChíMinh
-      - 越南03|内网专线|HồChíMinh
-      - 越南04|内网专线|HồChíMinh
-      - 阿塞拜疆01|内网专线|Azərbaycan
-      - 阿塞拜疆02|内网专线|Azərbaycan
-      - 阿塞拜疆03|内网专线|Azərbaycan
-      - 阿塞拜疆04|内网专线|Azərbaycan
-      - 阿根廷01|内网专线|Argentina
-      - 阿根廷02|内网专线|Argentina
-      - 阿根廷03|内网专线|Argentina
-      - 阿根廷04|内网专线|Argentina
-      - 阿联酋01|内网专线|Dubai
-      - 阿联酋02|内网专线|Dubai
-      - 阿联酋03|内网专线|Dubai
-      - 阿联酋04|内网专线|Dubai
-      - 德国01|内网专线|LINODE
-      - 德国02|内网专线|LINODE
-      - 德国03|内网专线|LINODE
-      - 德国04|内网专线|LINODE
-      - 英国01|内网专线|OVHSAS
-      - 英国02|内网专线|OVHSAS
-      - 英国03|内网专线|OVHSAS
-      - 英国04|内网专线|OVHSAS
+      - 台湾-SS/SSR-01-Taiwan01
+      - 台湾-SS/SSR-02-Taiwan02
+      - 台湾-SS/SSR-03-Taiwan03
+      - 台湾-SS/SSR-04-Taiwan04
+      - 台湾-SS/SSR-05-Taiwan05
+      - 台湾-SS/SSR-06-Taiwan06
+      - 台湾-TROJAN-01(Trojan Taiwan01)
+      - 台湾-TROJAN-02(Trojan Taiwan02)
+      - 新加坡-SS/SSR-01-Singapore01
+      - 新加坡-SS/SSR-02-Singapore02
+      - 新加坡-SS/SSR-03-Singapore03
+      - 新加坡-SS/SSR-04-Singapore04
+      - 新加坡-SS/SSR-05-Singapore05
+      - 新加坡-SS/SSR-06-Singapore06
+      - 新加坡-SS/SSR-07-Singapore07
+      - 新加坡-SS/SSR-08-Singapore08
+      - 新加坡-SS/SSR-09-Singapore09
+      - 新加坡-SS/SSR-10-Singapore10
+      - 新加坡-TROJAN-01(Trojan Singapore01)
+      - 新加坡-TROJAN-02(Trojan Singapore02)
+      - 日本-SS/SSR-01-Japan01
+      - 日本-SS/SSR-02-Japan02
+      - 日本-SS/SSR-03-Japan03
+      - 日本-SS/SSR-04-Japan04
+      - 日本-SS/SSR-05-Japan05
+      - 日本-SS/SSR-06-Japan06
+      - 日本-SS/SSR-07-Japan07
+      - 日本-SS/SSR-08-Japan08
+      - 日本-SS/SSR-09-Japan09
+      - 日本-SS/SSR-10-Japan10
+      - 日本-TROJAN-01(Trojan Japan01)
+      - 日本-TROJAN-02(Trojan Japan02)
+      - 美国-SS/SSR-01-Usa01
+      - 美国-SS/SSR-02-Usa02
+      - 美国-SS/SSR-03-Usa03
+      - 美国-SS/SSR-04-Usa04
+      - 美国-SS/SSR-05-Usa05
+      - 美国-SS/SSR-06-Usa06
+      - 美国-SS/SSR-07-Usa07
+      - 美国-SS/SSR-08-Usa08
+      - 美国-SS/SSR-09-Usa09
+      - 美国-SS/SSR-10-Usa10
+      - 美国-TROJAN-01(Trojan USA01)
+      - 美国-TROJAN-02(Trojan USA02)
+      - 香港-SS/SSR-01-Hongkong01
+      - 香港-SS/SSR-02-Hongkong02
+      - 香港-SS/SSR-03-Hongkong03
+      - 香港-SS/SSR-04-Hongkong04
+      - 香港-SS/SSR-05-Hongkong05
+      - 香港-SS/SSR-06-Hongkong06
+      - 香港-SS/SSR-07-Hongkong07
+      - 香港-SS/SSR-08-Hongkong08
+      - 香港-SS/SSR-09-Hongkong09
+      - 香港-SS/SSR-10-Hongkong10
+      - 香港-TROJAN-01(Trojan HongKong01)
+      - 香港-TROJAN-02(Trojan HongKong02)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -560,188 +308,62 @@ proxy-groups:
       - South Africa
       - Switzerland
       - Turkey
-      - ★自动选择|香港最优线路
-      - ★自动选择|美国最优线路
-      - 香港01|原生解锁|BGPHK
-      - 香港02|原生解锁|BGPHK
-      - 香港03|原生解锁|BGPHK
-      - 香港04|原生解锁|BGPHK
-      - 香港05|原生解锁|BGPHK
-      - 香港06|原生解锁|CMIHK
-      - 香港07|原生解锁|CMIHK
-      - 香港08|原生解锁|CMIHK
-      - 香港09|原生解锁|CMIHK
-      - 香港10|原生解锁|CMIHK
-      - 美国01|原生解锁|APERNET
-      - 美国02|原生解锁|APERNET
-      - 美国03|原生解锁|APERNET
-      - 美国04|原生解锁|APERNET
-      - 美国05|原生解锁|APERNET
-      - 美国06|原生解锁|APERNET
-      - 美国07|原生解锁|APERNET
-      - 美国08|原生解锁|APERNET
-      - 日本01|负载均衡|東京LLC
-      - 日本02|负载均衡|東京LLC
-      - 日本03|负载均衡|東京LLC
-      - 日本04|负载均衡|東京LLC
-      - 日本05|负载均衡|東京LLC
-      - 日本06|负载均衡|東京LLC
-      - 日本07|负载均衡|東京LLC
-      - 日本08|负载均衡|東京LLC
-      - 台湾01|原生解锁|中華電信
-      - 台湾02|原生解锁|中華電信
-      - 台湾03|原生解锁|中華電信
-      - 台湾04|原生解锁|中華電信
-      - 台湾05|原生解锁|中華電信
-      - 台湾06|原生解锁|中華電信
-      - 台湾07|原生解锁|中華電信
-      - 台湾08|原生解锁|中華電信
-      - 台湾09|原生解锁|中華電信
-      - 台湾10|原生解锁|中華電信
-      - 新加坡01|负载均衡|DIGITAL
-      - 新加坡02|负载均衡|DIGITAL
-      - 新加坡03|负载均衡|DIGITAL
-      - 新加坡04|负载均衡|DIGITAL
-      - 新加坡05|负载均衡|DIGITAL
-      - 新加坡06|负载均衡|DIGITAL
-      - 新加坡07|负载均衡|DIGITAL
-      - 新加坡08|负载均衡|DIGITAL
-      - 澳大利亚01|内网专线|Australia
-      - 澳大利亚02|内网专线|Australia
-      - 澳大利亚03|内网专线|Australia
-      - 澳大利亚04|内网专线|Australia
-      - 韩国01|内网专线|한국
-      - 韩国02|内网专线|한국
-      - 韩国03|内网专线|한국
-      - 韩国04|内网专线|한국
-      - 乌克兰01|内网专线|Україна
-      - 乌克兰02|内网专线|Україна
-      - 乌克兰03|内网专线|Україна
-      - 乌克兰04|内网专线|Україна
-      - 以色列01|内网专线|מדינת ישראל‬‎
-      - 以色列02|内网专线|מדינת ישראל‬‎
-      - 以色列03|内网专线|מדינת ישראל‬‎
-      - 以色列04|内网专线|מדינת ישראל‬‎
-      - 俄罗斯01|内网专线|Россия
-      - 俄罗斯02|内网专线|Россия
-      - 俄罗斯03|内网专线|Россия
-      - 俄罗斯04|内网专线|Россия
-      - 保加利亚01|内网专线|България
-      - 保加利亚02|内网专线|България
-      - 保加利亚03|内网专线|България
-      - 保加利亚04|内网专线|България
-      - 加拿大01|内网专线|OVHSAS
-      - 加拿大02|内网专线|OVHSAS
-      - 加拿大03|内网专线|OVHSAS
-      - 加拿大04|内网专线|OVHSAS
-      - 南非01|内网专线|Suid-Afrika
-      - 南非02|内网专线|Suid-Afrika
-      - 南非03|内网专线|Suid-Afrika
-      - 南非04|内网专线|Suid-Afrika
-      - 印度01|内网专线|भारत गणराज्य
-      - 印度02|内网专线|भारत गणराज्य
-      - 印度03|内网专线|भारत गणराज्य
-      - 印度04|内网专线|भारत गणराज्य
-      - 哥伦比亚01|内网专线|Colombia
-      - 哥伦比亚02|内网专线|Colombia
-      - 哥伦比亚03|内网专线|Colombia
-      - 哥伦比亚04|内网专线|Colombia
-      - 土耳其01|内网专线|Türkiye
-      - 土耳其02|内网专线|Türkiye
-      - 土耳其03|内网专线|Türkiye
-      - 土耳其04|内网专线|Türkiye
-      - 埃及01|内网专线|ⲭⲏⲙⲓ
-      - 埃及02|内网专线|ⲭⲏⲙⲓ
-      - 埃及03|内网专线|ⲭⲏⲙⲓ
-      - 埃及04|内网专线|ⲭⲏⲙⲓ
-      - 奥地利01|内网专线|Österreich
-      - 奥地利02|内网专线|Österreich
-      - 奥地利03|内网专线|Österreich
-      - 奥地利04|内网专线|Österreich
-      - 孟加拉国01|内网专线|বাংলাদেশ
-      - 孟加拉国02|内网专线|বাংলাদেশ
-      - 孟加拉国03|内网专线|বাংলাদেশ
-      - 孟加拉国04|内网专线|বাংলাদেশ
-      - 巴基斯坦01|内网专线|اسلامی جمہوریہ پاکستان
-      - 巴基斯坦02|内网专线|اسلامی جمہوریہ پاکستان
-      - 巴基斯坦03|内网专线|اسلامی جمہوریہ پاکستان
-      - 巴基斯坦04|内网专线|اسلامی جمہوریہ پاکستان
-      - 巴西01|内网专线|Brasil
-      - 巴西02|内网专线|Brasil
-      - 巴西03|内网专线|Brasil
-      - 巴西04|内网专线|Brasil
-      - 拉脱维亚01|内网专线|LeţmōVabāmō
-      - 拉脱维亚02|内网专线|LeţmōVabāmō
-      - 拉脱维亚03|内网专线|LeţmōVabāmō
-      - 拉脱维亚04|内网专线|LeţmōVabāmō
-      - 捷克01|内网专线|Česko
-      - 捷克02|内网专线|Česko
-      - 捷克03|内网专线|Česko
-      - 捷克04|内网专线|Česko
-      - 智利01|内网专线|Chile
-      - 智利02|内网专线|Chile
-      - 智利03|内网专线|Chile
-      - 智利04|内网专线|Chile
-      - 柬埔寨01|内网专线|ក្រុងភ្នំពេញ
-      - 柬埔寨02|内网专线|ក្រុងភ្នំពេញ
-      - 柬埔寨03|内网专线|ក្រុងភ្នំពេញ
-      - 柬埔寨04|内网专线|ក្រុងភ្នំពេញ
-      - 沙特阿拉伯01|内网专线|العربية السعودية‎
-      - 沙特阿拉伯02|内网专线|العربية السعودية‎
-      - 沙特阿拉伯03|内网专线|العربية السعودية‎
-      - 沙特阿拉伯04|内网专线|العربية السعودية‎
-      - 波兰01|内网专线|Polska
-      - 波兰02|内网专线|Polska
-      - 波兰03|内网专线|Polska
-      - 波兰04|内网专线|Polska
-      - 泰国01|内网专线|ประเทศไทย
-      - 泰国02|内网专线|ประเทศไทย
-      - 泰国03|内网专线|ประเทศไทย
-      - 泰国04|内网专线|ประเทศไทย
-      - 瑞士01|内网专线|Schweiz
-      - 瑞士02|内网专线|Schweiz
-      - 瑞士03|内网专线|Schweiz
-      - 瑞士04|内网专线|Schweiz
-      - 芬兰01|内网专线|Suomi
-      - 芬兰02|内网专线|Suomi
-      - 芬兰03|内网专线|Suomi
-      - 芬兰04|内网专线|Suomi
-      - 荷兰01|内网专线|Nederland
-      - 荷兰02|内网专线|Nederland
-      - 荷兰03|内网专线|Nederland
-      - 荷兰04|内网专线|Nederland
-      - 菲律宾01|内网专线|Manila
-      - 菲律宾02|内网专线|Manila
-      - 菲律宾03|内网专线|Manila
-      - 菲律宾04|内网专线|Manila
-      - 西班牙01|内网专线|España
-      - 西班牙02|内网专线|España
-      - 西班牙03|内网专线|España
-      - 西班牙04|内网专线|España
-      - 越南01|内网专线|HồChíMinh
-      - 越南02|内网专线|HồChíMinh
-      - 越南03|内网专线|HồChíMinh
-      - 越南04|内网专线|HồChíMinh
-      - 阿塞拜疆01|内网专线|Azərbaycan
-      - 阿塞拜疆02|内网专线|Azərbaycan
-      - 阿塞拜疆03|内网专线|Azərbaycan
-      - 阿塞拜疆04|内网专线|Azərbaycan
-      - 阿根廷01|内网专线|Argentina
-      - 阿根廷02|内网专线|Argentina
-      - 阿根廷03|内网专线|Argentina
-      - 阿根廷04|内网专线|Argentina
-      - 阿联酋01|内网专线|Dubai
-      - 阿联酋02|内网专线|Dubai
-      - 阿联酋03|内网专线|Dubai
-      - 阿联酋04|内网专线|Dubai
-      - 德国01|内网专线|LINODE
-      - 德国02|内网专线|LINODE
-      - 德国03|内网专线|LINODE
-      - 德国04|内网专线|LINODE
-      - 英国01|内网专线|OVHSAS
-      - 英国02|内网专线|OVHSAS
-      - 英国03|内网专线|OVHSAS
-      - 英国04|内网专线|OVHSAS
+      - 台湾-SS/SSR-01-Taiwan01
+      - 台湾-SS/SSR-02-Taiwan02
+      - 台湾-SS/SSR-03-Taiwan03
+      - 台湾-SS/SSR-04-Taiwan04
+      - 台湾-SS/SSR-05-Taiwan05
+      - 台湾-SS/SSR-06-Taiwan06
+      - 台湾-TROJAN-01(Trojan Taiwan01)
+      - 台湾-TROJAN-02(Trojan Taiwan02)
+      - 新加坡-SS/SSR-01-Singapore01
+      - 新加坡-SS/SSR-02-Singapore02
+      - 新加坡-SS/SSR-03-Singapore03
+      - 新加坡-SS/SSR-04-Singapore04
+      - 新加坡-SS/SSR-05-Singapore05
+      - 新加坡-SS/SSR-06-Singapore06
+      - 新加坡-SS/SSR-07-Singapore07
+      - 新加坡-SS/SSR-08-Singapore08
+      - 新加坡-SS/SSR-09-Singapore09
+      - 新加坡-SS/SSR-10-Singapore10
+      - 新加坡-TROJAN-01(Trojan Singapore01)
+      - 新加坡-TROJAN-02(Trojan Singapore02)
+      - 日本-SS/SSR-01-Japan01
+      - 日本-SS/SSR-02-Japan02
+      - 日本-SS/SSR-03-Japan03
+      - 日本-SS/SSR-04-Japan04
+      - 日本-SS/SSR-05-Japan05
+      - 日本-SS/SSR-06-Japan06
+      - 日本-SS/SSR-07-Japan07
+      - 日本-SS/SSR-08-Japan08
+      - 日本-SS/SSR-09-Japan09
+      - 日本-SS/SSR-10-Japan10
+      - 日本-TROJAN-01(Trojan Japan01)
+      - 日本-TROJAN-02(Trojan Japan02)
+      - 美国-SS/SSR-01-Usa01
+      - 美国-SS/SSR-02-Usa02
+      - 美国-SS/SSR-03-Usa03
+      - 美国-SS/SSR-04-Usa04
+      - 美国-SS/SSR-05-Usa05
+      - 美国-SS/SSR-06-Usa06
+      - 美国-SS/SSR-07-Usa07
+      - 美国-SS/SSR-08-Usa08
+      - 美国-SS/SSR-09-Usa09
+      - 美国-SS/SSR-10-Usa10
+      - 美国-TROJAN-01(Trojan USA01)
+      - 美国-TROJAN-02(Trojan USA02)
+      - 香港-SS/SSR-01-Hongkong01
+      - 香港-SS/SSR-02-Hongkong02
+      - 香港-SS/SSR-03-Hongkong03
+      - 香港-SS/SSR-04-Hongkong04
+      - 香港-SS/SSR-05-Hongkong05
+      - 香港-SS/SSR-06-Hongkong06
+      - 香港-SS/SSR-07-Hongkong07
+      - 香港-SS/SSR-08-Hongkong08
+      - 香港-SS/SSR-09-Hongkong09
+      - 香港-SS/SSR-10-Hongkong10
+      - 香港-TROJAN-01(Trojan HongKong01)
+      - 香港-TROJAN-02(Trojan HongKong02)
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -808,188 +430,62 @@ proxy-groups:
       - South Africa
       - Switzerland
       - Turkey
-      - ★自动选择|香港最优线路
-      - ★自动选择|美国最优线路
-      - 香港01|原生解锁|BGPHK
-      - 香港02|原生解锁|BGPHK
-      - 香港03|原生解锁|BGPHK
-      - 香港04|原生解锁|BGPHK
-      - 香港05|原生解锁|BGPHK
-      - 香港06|原生解锁|CMIHK
-      - 香港07|原生解锁|CMIHK
-      - 香港08|原生解锁|CMIHK
-      - 香港09|原生解锁|CMIHK
-      - 香港10|原生解锁|CMIHK
-      - 美国01|原生解锁|APERNET
-      - 美国02|原生解锁|APERNET
-      - 美国03|原生解锁|APERNET
-      - 美国04|原生解锁|APERNET
-      - 美国05|原生解锁|APERNET
-      - 美国06|原生解锁|APERNET
-      - 美国07|原生解锁|APERNET
-      - 美国08|原生解锁|APERNET
-      - 日本01|负载均衡|東京LLC
-      - 日本02|负载均衡|東京LLC
-      - 日本03|负载均衡|東京LLC
-      - 日本04|负载均衡|東京LLC
-      - 日本05|负载均衡|東京LLC
-      - 日本06|负载均衡|東京LLC
-      - 日本07|负载均衡|東京LLC
-      - 日本08|负载均衡|東京LLC
-      - 台湾01|原生解锁|中華電信
-      - 台湾02|原生解锁|中華電信
-      - 台湾03|原生解锁|中華電信
-      - 台湾04|原生解锁|中華電信
-      - 台湾05|原生解锁|中華電信
-      - 台湾06|原生解锁|中華電信
-      - 台湾07|原生解锁|中華電信
-      - 台湾08|原生解锁|中華電信
-      - 台湾09|原生解锁|中華電信
-      - 台湾10|原生解锁|中華電信
-      - 新加坡01|负载均衡|DIGITAL
-      - 新加坡02|负载均衡|DIGITAL
-      - 新加坡03|负载均衡|DIGITAL
-      - 新加坡04|负载均衡|DIGITAL
-      - 新加坡05|负载均衡|DIGITAL
-      - 新加坡06|负载均衡|DIGITAL
-      - 新加坡07|负载均衡|DIGITAL
-      - 新加坡08|负载均衡|DIGITAL
-      - 澳大利亚01|内网专线|Australia
-      - 澳大利亚02|内网专线|Australia
-      - 澳大利亚03|内网专线|Australia
-      - 澳大利亚04|内网专线|Australia
-      - 韩国01|内网专线|한국
-      - 韩国02|内网专线|한국
-      - 韩国03|内网专线|한국
-      - 韩国04|内网专线|한국
-      - 乌克兰01|内网专线|Україна
-      - 乌克兰02|内网专线|Україна
-      - 乌克兰03|内网专线|Україна
-      - 乌克兰04|内网专线|Україна
-      - 以色列01|内网专线|מדינת ישראל‬‎
-      - 以色列02|内网专线|מדינת ישראל‬‎
-      - 以色列03|内网专线|מדינת ישראל‬‎
-      - 以色列04|内网专线|מדינת ישראל‬‎
-      - 俄罗斯01|内网专线|Россия
-      - 俄罗斯02|内网专线|Россия
-      - 俄罗斯03|内网专线|Россия
-      - 俄罗斯04|内网专线|Россия
-      - 保加利亚01|内网专线|България
-      - 保加利亚02|内网专线|България
-      - 保加利亚03|内网专线|България
-      - 保加利亚04|内网专线|България
-      - 加拿大01|内网专线|OVHSAS
-      - 加拿大02|内网专线|OVHSAS
-      - 加拿大03|内网专线|OVHSAS
-      - 加拿大04|内网专线|OVHSAS
-      - 南非01|内网专线|Suid-Afrika
-      - 南非02|内网专线|Suid-Afrika
-      - 南非03|内网专线|Suid-Afrika
-      - 南非04|内网专线|Suid-Afrika
-      - 印度01|内网专线|भारत गणराज्य
-      - 印度02|内网专线|भारत गणराज्य
-      - 印度03|内网专线|भारत गणराज्य
-      - 印度04|内网专线|भारत गणराज्य
-      - 哥伦比亚01|内网专线|Colombia
-      - 哥伦比亚02|内网专线|Colombia
-      - 哥伦比亚03|内网专线|Colombia
-      - 哥伦比亚04|内网专线|Colombia
-      - 土耳其01|内网专线|Türkiye
-      - 土耳其02|内网专线|Türkiye
-      - 土耳其03|内网专线|Türkiye
-      - 土耳其04|内网专线|Türkiye
-      - 埃及01|内网专线|ⲭⲏⲙⲓ
-      - 埃及02|内网专线|ⲭⲏⲙⲓ
-      - 埃及03|内网专线|ⲭⲏⲙⲓ
-      - 埃及04|内网专线|ⲭⲏⲙⲓ
-      - 奥地利01|内网专线|Österreich
-      - 奥地利02|内网专线|Österreich
-      - 奥地利03|内网专线|Österreich
-      - 奥地利04|内网专线|Österreich
-      - 孟加拉国01|内网专线|বাংলাদেশ
-      - 孟加拉国02|内网专线|বাংলাদেশ
-      - 孟加拉国03|内网专线|বাংলাদেশ
-      - 孟加拉国04|内网专线|বাংলাদেশ
-      - 巴基斯坦01|内网专线|اسلامی جمہوریہ پاکستان
-      - 巴基斯坦02|内网专线|اسلامی جمہوریہ پاکستان
-      - 巴基斯坦03|内网专线|اسلامی جمہوریہ پاکستان
-      - 巴基斯坦04|内网专线|اسلامی جمہوریہ پاکستان
-      - 巴西01|内网专线|Brasil
-      - 巴西02|内网专线|Brasil
-      - 巴西03|内网专线|Brasil
-      - 巴西04|内网专线|Brasil
-      - 拉脱维亚01|内网专线|LeţmōVabāmō
-      - 拉脱维亚02|内网专线|LeţmōVabāmō
-      - 拉脱维亚03|内网专线|LeţmōVabāmō
-      - 拉脱维亚04|内网专线|LeţmōVabāmō
-      - 捷克01|内网专线|Česko
-      - 捷克02|内网专线|Česko
-      - 捷克03|内网专线|Česko
-      - 捷克04|内网专线|Česko
-      - 智利01|内网专线|Chile
-      - 智利02|内网专线|Chile
-      - 智利03|内网专线|Chile
-      - 智利04|内网专线|Chile
-      - 柬埔寨01|内网专线|ក្រុងភ្នំពេញ
-      - 柬埔寨02|内网专线|ក្រុងភ្នំពេញ
-      - 柬埔寨03|内网专线|ក្រុងភ្នំពេញ
-      - 柬埔寨04|内网专线|ក្រុងភ្នំពេញ
-      - 沙特阿拉伯01|内网专线|العربية السعودية‎
-      - 沙特阿拉伯02|内网专线|العربية السعودية‎
-      - 沙特阿拉伯03|内网专线|العربية السعودية‎
-      - 沙特阿拉伯04|内网专线|العربية السعودية‎
-      - 波兰01|内网专线|Polska
-      - 波兰02|内网专线|Polska
-      - 波兰03|内网专线|Polska
-      - 波兰04|内网专线|Polska
-      - 泰国01|内网专线|ประเทศไทย
-      - 泰国02|内网专线|ประเทศไทย
-      - 泰国03|内网专线|ประเทศไทย
-      - 泰国04|内网专线|ประเทศไทย
-      - 瑞士01|内网专线|Schweiz
-      - 瑞士02|内网专线|Schweiz
-      - 瑞士03|内网专线|Schweiz
-      - 瑞士04|内网专线|Schweiz
-      - 芬兰01|内网专线|Suomi
-      - 芬兰02|内网专线|Suomi
-      - 芬兰03|内网专线|Suomi
-      - 芬兰04|内网专线|Suomi
-      - 荷兰01|内网专线|Nederland
-      - 荷兰02|内网专线|Nederland
-      - 荷兰03|内网专线|Nederland
-      - 荷兰04|内网专线|Nederland
-      - 菲律宾01|内网专线|Manila
-      - 菲律宾02|内网专线|Manila
-      - 菲律宾03|内网专线|Manila
-      - 菲律宾04|内网专线|Manila
-      - 西班牙01|内网专线|España
-      - 西班牙02|内网专线|España
-      - 西班牙03|内网专线|España
-      - 西班牙04|内网专线|España
-      - 越南01|内网专线|HồChíMinh
-      - 越南02|内网专线|HồChíMinh
-      - 越南03|内网专线|HồChíMinh
-      - 越南04|内网专线|HồChíMinh
-      - 阿塞拜疆01|内网专线|Azərbaycan
-      - 阿塞拜疆02|内网专线|Azərbaycan
-      - 阿塞拜疆03|内网专线|Azərbaycan
-      - 阿塞拜疆04|内网专线|Azərbaycan
-      - 阿根廷01|内网专线|Argentina
-      - 阿根廷02|内网专线|Argentina
-      - 阿根廷03|内网专线|Argentina
-      - 阿根廷04|内网专线|Argentina
-      - 阿联酋01|内网专线|Dubai
-      - 阿联酋02|内网专线|Dubai
-      - 阿联酋03|内网专线|Dubai
-      - 阿联酋04|内网专线|Dubai
-      - 德国01|内网专线|LINODE
-      - 德国02|内网专线|LINODE
-      - 德国03|内网专线|LINODE
-      - 德国04|内网专线|LINODE
-      - 英国01|内网专线|OVHSAS
-      - 英国02|内网专线|OVHSAS
-      - 英国03|内网专线|OVHSAS
-      - 英国04|内网专线|OVHSAS
+      - 台湾-SS/SSR-01-Taiwan01
+      - 台湾-SS/SSR-02-Taiwan02
+      - 台湾-SS/SSR-03-Taiwan03
+      - 台湾-SS/SSR-04-Taiwan04
+      - 台湾-SS/SSR-05-Taiwan05
+      - 台湾-SS/SSR-06-Taiwan06
+      - 台湾-TROJAN-01(Trojan Taiwan01)
+      - 台湾-TROJAN-02(Trojan Taiwan02)
+      - 新加坡-SS/SSR-01-Singapore01
+      - 新加坡-SS/SSR-02-Singapore02
+      - 新加坡-SS/SSR-03-Singapore03
+      - 新加坡-SS/SSR-04-Singapore04
+      - 新加坡-SS/SSR-05-Singapore05
+      - 新加坡-SS/SSR-06-Singapore06
+      - 新加坡-SS/SSR-07-Singapore07
+      - 新加坡-SS/SSR-08-Singapore08
+      - 新加坡-SS/SSR-09-Singapore09
+      - 新加坡-SS/SSR-10-Singapore10
+      - 新加坡-TROJAN-01(Trojan Singapore01)
+      - 新加坡-TROJAN-02(Trojan Singapore02)
+      - 日本-SS/SSR-01-Japan01
+      - 日本-SS/SSR-02-Japan02
+      - 日本-SS/SSR-03-Japan03
+      - 日本-SS/SSR-04-Japan04
+      - 日本-SS/SSR-05-Japan05
+      - 日本-SS/SSR-06-Japan06
+      - 日本-SS/SSR-07-Japan07
+      - 日本-SS/SSR-08-Japan08
+      - 日本-SS/SSR-09-Japan09
+      - 日本-SS/SSR-10-Japan10
+      - 日本-TROJAN-01(Trojan Japan01)
+      - 日本-TROJAN-02(Trojan Japan02)
+      - 美国-SS/SSR-01-Usa01
+      - 美国-SS/SSR-02-Usa02
+      - 美国-SS/SSR-03-Usa03
+      - 美国-SS/SSR-04-Usa04
+      - 美国-SS/SSR-05-Usa05
+      - 美国-SS/SSR-06-Usa06
+      - 美国-SS/SSR-07-Usa07
+      - 美国-SS/SSR-08-Usa08
+      - 美国-SS/SSR-09-Usa09
+      - 美国-SS/SSR-10-Usa10
+      - 美国-TROJAN-01(Trojan USA01)
+      - 美国-TROJAN-02(Trojan USA02)
+      - 香港-SS/SSR-01-Hongkong01
+      - 香港-SS/SSR-02-Hongkong02
+      - 香港-SS/SSR-03-Hongkong03
+      - 香港-SS/SSR-04-Hongkong04
+      - 香港-SS/SSR-05-Hongkong05
+      - 香港-SS/SSR-06-Hongkong06
+      - 香港-SS/SSR-07-Hongkong07
+      - 香港-SS/SSR-08-Hongkong08
+      - 香港-SS/SSR-09-Hongkong09
+      - 香港-SS/SSR-10-Hongkong10
+      - 香港-TROJAN-01(Trojan HongKong01)
+      - 香港-TROJAN-02(Trojan HongKong02)
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -1068,213 +564,86 @@ proxy-groups:
       - South Africa
       - Switzerland
       - Turkey
-      - ★自动选择|香港最优线路
-      - ★自动选择|美国最优线路
-      - 香港01|原生解锁|BGPHK
-      - 香港02|原生解锁|BGPHK
-      - 香港03|原生解锁|BGPHK
-      - 香港04|原生解锁|BGPHK
-      - 香港05|原生解锁|BGPHK
-      - 香港06|原生解锁|CMIHK
-      - 香港07|原生解锁|CMIHK
-      - 香港08|原生解锁|CMIHK
-      - 香港09|原生解锁|CMIHK
-      - 香港10|原生解锁|CMIHK
-      - 美国01|原生解锁|APERNET
-      - 美国02|原生解锁|APERNET
-      - 美国03|原生解锁|APERNET
-      - 美国04|原生解锁|APERNET
-      - 美国05|原生解锁|APERNET
-      - 美国06|原生解锁|APERNET
-      - 美国07|原生解锁|APERNET
-      - 美国08|原生解锁|APERNET
-      - 日本01|负载均衡|東京LLC
-      - 日本02|负载均衡|東京LLC
-      - 日本03|负载均衡|東京LLC
-      - 日本04|负载均衡|東京LLC
-      - 日本05|负载均衡|東京LLC
-      - 日本06|负载均衡|東京LLC
-      - 日本07|负载均衡|東京LLC
-      - 日本08|负载均衡|東京LLC
-      - 台湾01|原生解锁|中華電信
-      - 台湾02|原生解锁|中華電信
-      - 台湾03|原生解锁|中華電信
-      - 台湾04|原生解锁|中華電信
-      - 台湾05|原生解锁|中華電信
-      - 台湾06|原生解锁|中華電信
-      - 台湾07|原生解锁|中華電信
-      - 台湾08|原生解锁|中華電信
-      - 台湾09|原生解锁|中華電信
-      - 台湾10|原生解锁|中華電信
-      - 新加坡01|负载均衡|DIGITAL
-      - 新加坡02|负载均衡|DIGITAL
-      - 新加坡03|负载均衡|DIGITAL
-      - 新加坡04|负载均衡|DIGITAL
-      - 新加坡05|负载均衡|DIGITAL
-      - 新加坡06|负载均衡|DIGITAL
-      - 新加坡07|负载均衡|DIGITAL
-      - 新加坡08|负载均衡|DIGITAL
-      - 澳大利亚01|内网专线|Australia
-      - 澳大利亚02|内网专线|Australia
-      - 澳大利亚03|内网专线|Australia
-      - 澳大利亚04|内网专线|Australia
-      - 韩国01|内网专线|한국
-      - 韩国02|内网专线|한국
-      - 韩国03|内网专线|한국
-      - 韩国04|内网专线|한국
-      - 乌克兰01|内网专线|Україна
-      - 乌克兰02|内网专线|Україна
-      - 乌克兰03|内网专线|Україна
-      - 乌克兰04|内网专线|Україна
-      - 以色列01|内网专线|מדינת ישראל‬‎
-      - 以色列02|内网专线|מדינת ישראל‬‎
-      - 以色列03|内网专线|מדינת ישראל‬‎
-      - 以色列04|内网专线|מדינת ישראל‬‎
-      - 俄罗斯01|内网专线|Россия
-      - 俄罗斯02|内网专线|Россия
-      - 俄罗斯03|内网专线|Россия
-      - 俄罗斯04|内网专线|Россия
-      - 保加利亚01|内网专线|България
-      - 保加利亚02|内网专线|България
-      - 保加利亚03|内网专线|България
-      - 保加利亚04|内网专线|България
-      - 加拿大01|内网专线|OVHSAS
-      - 加拿大02|内网专线|OVHSAS
-      - 加拿大03|内网专线|OVHSAS
-      - 加拿大04|内网专线|OVHSAS
-      - 南非01|内网专线|Suid-Afrika
-      - 南非02|内网专线|Suid-Afrika
-      - 南非03|内网专线|Suid-Afrika
-      - 南非04|内网专线|Suid-Afrika
-      - 印度01|内网专线|भारत गणराज्य
-      - 印度02|内网专线|भारत गणराज्य
-      - 印度03|内网专线|भारत गणराज्य
-      - 印度04|内网专线|भारत गणराज्य
-      - 哥伦比亚01|内网专线|Colombia
-      - 哥伦比亚02|内网专线|Colombia
-      - 哥伦比亚03|内网专线|Colombia
-      - 哥伦比亚04|内网专线|Colombia
-      - 土耳其01|内网专线|Türkiye
-      - 土耳其02|内网专线|Türkiye
-      - 土耳其03|内网专线|Türkiye
-      - 土耳其04|内网专线|Türkiye
-      - 埃及01|内网专线|ⲭⲏⲙⲓ
-      - 埃及02|内网专线|ⲭⲏⲙⲓ
-      - 埃及03|内网专线|ⲭⲏⲙⲓ
-      - 埃及04|内网专线|ⲭⲏⲙⲓ
-      - 奥地利01|内网专线|Österreich
-      - 奥地利02|内网专线|Österreich
-      - 奥地利03|内网专线|Österreich
-      - 奥地利04|内网专线|Österreich
-      - 孟加拉国01|内网专线|বাংলাদেশ
-      - 孟加拉国02|内网专线|বাংলাদেশ
-      - 孟加拉国03|内网专线|বাংলাদেশ
-      - 孟加拉国04|内网专线|বাংলাদেশ
-      - 巴基斯坦01|内网专线|اسلامی جمہوریہ پاکستان
-      - 巴基斯坦02|内网专线|اسلامی جمہوریہ پاکستان
-      - 巴基斯坦03|内网专线|اسلامی جمہوریہ پاکستان
-      - 巴基斯坦04|内网专线|اسلامی جمہوریہ پاکستان
-      - 巴西01|内网专线|Brasil
-      - 巴西02|内网专线|Brasil
-      - 巴西03|内网专线|Brasil
-      - 巴西04|内网专线|Brasil
-      - 拉脱维亚01|内网专线|LeţmōVabāmō
-      - 拉脱维亚02|内网专线|LeţmōVabāmō
-      - 拉脱维亚03|内网专线|LeţmōVabāmō
-      - 拉脱维亚04|内网专线|LeţmōVabāmō
-      - 捷克01|内网专线|Česko
-      - 捷克02|内网专线|Česko
-      - 捷克03|内网专线|Česko
-      - 捷克04|内网专线|Česko
-      - 智利01|内网专线|Chile
-      - 智利02|内网专线|Chile
-      - 智利03|内网专线|Chile
-      - 智利04|内网专线|Chile
-      - 柬埔寨01|内网专线|ក្រុងភ្នំពេញ
-      - 柬埔寨02|内网专线|ក្រុងភ្នំពេញ
-      - 柬埔寨03|内网专线|ក្រុងភ្នំពេញ
-      - 柬埔寨04|内网专线|ក្រុងភ្នំពេញ
-      - 沙特阿拉伯01|内网专线|العربية السعودية‎
-      - 沙特阿拉伯02|内网专线|العربية السعودية‎
-      - 沙特阿拉伯03|内网专线|العربية السعودية‎
-      - 沙特阿拉伯04|内网专线|العربية السعودية‎
-      - 波兰01|内网专线|Polska
-      - 波兰02|内网专线|Polska
-      - 波兰03|内网专线|Polska
-      - 波兰04|内网专线|Polska
-      - 泰国01|内网专线|ประเทศไทย
-      - 泰国02|内网专线|ประเทศไทย
-      - 泰国03|内网专线|ประเทศไทย
-      - 泰国04|内网专线|ประเทศไทย
-      - 瑞士01|内网专线|Schweiz
-      - 瑞士02|内网专线|Schweiz
-      - 瑞士03|内网专线|Schweiz
-      - 瑞士04|内网专线|Schweiz
-      - 芬兰01|内网专线|Suomi
-      - 芬兰02|内网专线|Suomi
-      - 芬兰03|内网专线|Suomi
-      - 芬兰04|内网专线|Suomi
-      - 荷兰01|内网专线|Nederland
-      - 荷兰02|内网专线|Nederland
-      - 荷兰03|内网专线|Nederland
-      - 荷兰04|内网专线|Nederland
-      - 菲律宾01|内网专线|Manila
-      - 菲律宾02|内网专线|Manila
-      - 菲律宾03|内网专线|Manila
-      - 菲律宾04|内网专线|Manila
-      - 西班牙01|内网专线|España
-      - 西班牙02|内网专线|España
-      - 西班牙03|内网专线|España
-      - 西班牙04|内网专线|España
-      - 越南01|内网专线|HồChíMinh
-      - 越南02|内网专线|HồChíMinh
-      - 越南03|内网专线|HồChíMinh
-      - 越南04|内网专线|HồChíMinh
-      - 阿塞拜疆01|内网专线|Azərbaycan
-      - 阿塞拜疆02|内网专线|Azərbaycan
-      - 阿塞拜疆03|内网专线|Azərbaycan
-      - 阿塞拜疆04|内网专线|Azərbaycan
-      - 阿根廷01|内网专线|Argentina
-      - 阿根廷02|内网专线|Argentina
-      - 阿根廷03|内网专线|Argentina
-      - 阿根廷04|内网专线|Argentina
-      - 阿联酋01|内网专线|Dubai
-      - 阿联酋02|内网专线|Dubai
-      - 阿联酋03|内网专线|Dubai
-      - 阿联酋04|内网专线|Dubai
-      - 德国01|内网专线|LINODE
-      - 德国02|内网专线|LINODE
-      - 德国03|内网专线|LINODE
-      - 德国04|内网专线|LINODE
-      - 英国01|内网专线|OVHSAS
-      - 英国02|内网专线|OVHSAS
-      - 英国03|内网专线|OVHSAS
-      - 英国04|内网专线|OVHSAS
+      - 台湾-SS/SSR-01-Taiwan01
+      - 台湾-SS/SSR-02-Taiwan02
+      - 台湾-SS/SSR-03-Taiwan03
+      - 台湾-SS/SSR-04-Taiwan04
+      - 台湾-SS/SSR-05-Taiwan05
+      - 台湾-SS/SSR-06-Taiwan06
+      - 台湾-TROJAN-01(Trojan Taiwan01)
+      - 台湾-TROJAN-02(Trojan Taiwan02)
+      - 新加坡-SS/SSR-01-Singapore01
+      - 新加坡-SS/SSR-02-Singapore02
+      - 新加坡-SS/SSR-03-Singapore03
+      - 新加坡-SS/SSR-04-Singapore04
+      - 新加坡-SS/SSR-05-Singapore05
+      - 新加坡-SS/SSR-06-Singapore06
+      - 新加坡-SS/SSR-07-Singapore07
+      - 新加坡-SS/SSR-08-Singapore08
+      - 新加坡-SS/SSR-09-Singapore09
+      - 新加坡-SS/SSR-10-Singapore10
+      - 新加坡-TROJAN-01(Trojan Singapore01)
+      - 新加坡-TROJAN-02(Trojan Singapore02)
+      - 日本-SS/SSR-01-Japan01
+      - 日本-SS/SSR-02-Japan02
+      - 日本-SS/SSR-03-Japan03
+      - 日本-SS/SSR-04-Japan04
+      - 日本-SS/SSR-05-Japan05
+      - 日本-SS/SSR-06-Japan06
+      - 日本-SS/SSR-07-Japan07
+      - 日本-SS/SSR-08-Japan08
+      - 日本-SS/SSR-09-Japan09
+      - 日本-SS/SSR-10-Japan10
+      - 日本-TROJAN-01(Trojan Japan01)
+      - 日本-TROJAN-02(Trojan Japan02)
+      - 美国-SS/SSR-01-Usa01
+      - 美国-SS/SSR-02-Usa02
+      - 美国-SS/SSR-03-Usa03
+      - 美国-SS/SSR-04-Usa04
+      - 美国-SS/SSR-05-Usa05
+      - 美国-SS/SSR-06-Usa06
+      - 美国-SS/SSR-07-Usa07
+      - 美国-SS/SSR-08-Usa08
+      - 美国-SS/SSR-09-Usa09
+      - 美国-SS/SSR-10-Usa10
+      - 美国-TROJAN-01(Trojan USA01)
+      - 美国-TROJAN-02(Trojan USA02)
+      - 香港-SS/SSR-01-Hongkong01
+      - 香港-SS/SSR-02-Hongkong02
+      - 香港-SS/SSR-03-Hongkong03
+      - 香港-SS/SSR-04-Hongkong04
+      - 香港-SS/SSR-05-Hongkong05
+      - 香港-SS/SSR-06-Hongkong06
+      - 香港-SS/SSR-07-Hongkong07
+      - 香港-SS/SSR-08-Hongkong08
+      - 香港-SS/SSR-09-Hongkong09
+      - 香港-SS/SSR-10-Hongkong10
+      - 香港-TROJAN-01(Trojan HongKong01)
+      - 香港-TROJAN-02(Trojan HongKong02)
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - ★自动选择|香港最优线路
-      - 香港01|原生解锁|BGPHK
-      - 香港02|原生解锁|BGPHK
-      - 香港03|原生解锁|BGPHK
-      - 香港04|原生解锁|BGPHK
-      - 香港05|原生解锁|BGPHK
-      - 香港06|原生解锁|CMIHK
-      - 香港07|原生解锁|CMIHK
-      - 香港08|原生解锁|CMIHK
-      - 香港09|原生解锁|CMIHK
-      - 香港10|原生解锁|CMIHK
-      - 台湾01|原生解锁|中華電信
-      - 台湾02|原生解锁|中華電信
-      - 台湾03|原生解锁|中華電信
-      - 台湾04|原生解锁|中華電信
-      - 台湾05|原生解锁|中華電信
-      - 台湾06|原生解锁|中華電信
-      - 台湾07|原生解锁|中華電信
-      - 台湾08|原生解锁|中華電信
-      - 台湾09|原生解锁|中華電信
-      - 台湾10|原生解锁|中華電信
+      - 台湾-SS/SSR-01-Taiwan01
+      - 台湾-SS/SSR-02-Taiwan02
+      - 台湾-SS/SSR-03-Taiwan03
+      - 台湾-SS/SSR-04-Taiwan04
+      - 台湾-SS/SSR-05-Taiwan05
+      - 台湾-SS/SSR-06-Taiwan06
+      - 台湾-TROJAN-01(Trojan Taiwan01)
+      - 台湾-TROJAN-02(Trojan Taiwan02)
+      - 香港-SS/SSR-01-Hongkong01
+      - 香港-SS/SSR-02-Hongkong02
+      - 香港-SS/SSR-03-Hongkong03
+      - 香港-SS/SSR-04-Hongkong04
+      - 香港-SS/SSR-05-Hongkong05
+      - 香港-SS/SSR-06-Hongkong06
+      - 香港-SS/SSR-07-Hongkong07
+      - 香港-SS/SSR-08-Hongkong08
+      - 香港-SS/SSR-09-Hongkong09
+      - 香港-SS/SSR-10-Hongkong10
+      - 香港-TROJAN-01(Trojan HongKong01)
+      - 香港-TROJAN-02(Trojan HongKong02)
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -1341,188 +710,62 @@ proxy-groups:
       - South Africa
       - Switzerland
       - Turkey
-      - ★自动选择|香港最优线路
-      - ★自动选择|美国最优线路
-      - 香港01|原生解锁|BGPHK
-      - 香港02|原生解锁|BGPHK
-      - 香港03|原生解锁|BGPHK
-      - 香港04|原生解锁|BGPHK
-      - 香港05|原生解锁|BGPHK
-      - 香港06|原生解锁|CMIHK
-      - 香港07|原生解锁|CMIHK
-      - 香港08|原生解锁|CMIHK
-      - 香港09|原生解锁|CMIHK
-      - 香港10|原生解锁|CMIHK
-      - 美国01|原生解锁|APERNET
-      - 美国02|原生解锁|APERNET
-      - 美国03|原生解锁|APERNET
-      - 美国04|原生解锁|APERNET
-      - 美国05|原生解锁|APERNET
-      - 美国06|原生解锁|APERNET
-      - 美国07|原生解锁|APERNET
-      - 美国08|原生解锁|APERNET
-      - 日本01|负载均衡|東京LLC
-      - 日本02|负载均衡|東京LLC
-      - 日本03|负载均衡|東京LLC
-      - 日本04|负载均衡|東京LLC
-      - 日本05|负载均衡|東京LLC
-      - 日本06|负载均衡|東京LLC
-      - 日本07|负载均衡|東京LLC
-      - 日本08|负载均衡|東京LLC
-      - 台湾01|原生解锁|中華電信
-      - 台湾02|原生解锁|中華電信
-      - 台湾03|原生解锁|中華電信
-      - 台湾04|原生解锁|中華電信
-      - 台湾05|原生解锁|中華電信
-      - 台湾06|原生解锁|中華電信
-      - 台湾07|原生解锁|中華電信
-      - 台湾08|原生解锁|中華電信
-      - 台湾09|原生解锁|中華電信
-      - 台湾10|原生解锁|中華電信
-      - 新加坡01|负载均衡|DIGITAL
-      - 新加坡02|负载均衡|DIGITAL
-      - 新加坡03|负载均衡|DIGITAL
-      - 新加坡04|负载均衡|DIGITAL
-      - 新加坡05|负载均衡|DIGITAL
-      - 新加坡06|负载均衡|DIGITAL
-      - 新加坡07|负载均衡|DIGITAL
-      - 新加坡08|负载均衡|DIGITAL
-      - 澳大利亚01|内网专线|Australia
-      - 澳大利亚02|内网专线|Australia
-      - 澳大利亚03|内网专线|Australia
-      - 澳大利亚04|内网专线|Australia
-      - 韩国01|内网专线|한국
-      - 韩国02|内网专线|한국
-      - 韩国03|内网专线|한국
-      - 韩国04|内网专线|한국
-      - 乌克兰01|内网专线|Україна
-      - 乌克兰02|内网专线|Україна
-      - 乌克兰03|内网专线|Україна
-      - 乌克兰04|内网专线|Україна
-      - 以色列01|内网专线|מדינת ישראל‬‎
-      - 以色列02|内网专线|מדינת ישראל‬‎
-      - 以色列03|内网专线|מדינת ישראל‬‎
-      - 以色列04|内网专线|מדינת ישראל‬‎
-      - 俄罗斯01|内网专线|Россия
-      - 俄罗斯02|内网专线|Россия
-      - 俄罗斯03|内网专线|Россия
-      - 俄罗斯04|内网专线|Россия
-      - 保加利亚01|内网专线|България
-      - 保加利亚02|内网专线|България
-      - 保加利亚03|内网专线|България
-      - 保加利亚04|内网专线|България
-      - 加拿大01|内网专线|OVHSAS
-      - 加拿大02|内网专线|OVHSAS
-      - 加拿大03|内网专线|OVHSAS
-      - 加拿大04|内网专线|OVHSAS
-      - 南非01|内网专线|Suid-Afrika
-      - 南非02|内网专线|Suid-Afrika
-      - 南非03|内网专线|Suid-Afrika
-      - 南非04|内网专线|Suid-Afrika
-      - 印度01|内网专线|भारत गणराज्य
-      - 印度02|内网专线|भारत गणराज्य
-      - 印度03|内网专线|भारत गणराज्य
-      - 印度04|内网专线|भारत गणराज्य
-      - 哥伦比亚01|内网专线|Colombia
-      - 哥伦比亚02|内网专线|Colombia
-      - 哥伦比亚03|内网专线|Colombia
-      - 哥伦比亚04|内网专线|Colombia
-      - 土耳其01|内网专线|Türkiye
-      - 土耳其02|内网专线|Türkiye
-      - 土耳其03|内网专线|Türkiye
-      - 土耳其04|内网专线|Türkiye
-      - 埃及01|内网专线|ⲭⲏⲙⲓ
-      - 埃及02|内网专线|ⲭⲏⲙⲓ
-      - 埃及03|内网专线|ⲭⲏⲙⲓ
-      - 埃及04|内网专线|ⲭⲏⲙⲓ
-      - 奥地利01|内网专线|Österreich
-      - 奥地利02|内网专线|Österreich
-      - 奥地利03|内网专线|Österreich
-      - 奥地利04|内网专线|Österreich
-      - 孟加拉国01|内网专线|বাংলাদেশ
-      - 孟加拉国02|内网专线|বাংলাদেশ
-      - 孟加拉国03|内网专线|বাংলাদেশ
-      - 孟加拉国04|内网专线|বাংলাদেশ
-      - 巴基斯坦01|内网专线|اسلامی جمہوریہ پاکستان
-      - 巴基斯坦02|内网专线|اسلامی جمہوریہ پاکستان
-      - 巴基斯坦03|内网专线|اسلامی جمہوریہ پاکستان
-      - 巴基斯坦04|内网专线|اسلامی جمہوریہ پاکستان
-      - 巴西01|内网专线|Brasil
-      - 巴西02|内网专线|Brasil
-      - 巴西03|内网专线|Brasil
-      - 巴西04|内网专线|Brasil
-      - 拉脱维亚01|内网专线|LeţmōVabāmō
-      - 拉脱维亚02|内网专线|LeţmōVabāmō
-      - 拉脱维亚03|内网专线|LeţmōVabāmō
-      - 拉脱维亚04|内网专线|LeţmōVabāmō
-      - 捷克01|内网专线|Česko
-      - 捷克02|内网专线|Česko
-      - 捷克03|内网专线|Česko
-      - 捷克04|内网专线|Česko
-      - 智利01|内网专线|Chile
-      - 智利02|内网专线|Chile
-      - 智利03|内网专线|Chile
-      - 智利04|内网专线|Chile
-      - 柬埔寨01|内网专线|ក្រុងភ្នំពេញ
-      - 柬埔寨02|内网专线|ក្រុងភ្នំពេញ
-      - 柬埔寨03|内网专线|ក្រុងភ្នំពេញ
-      - 柬埔寨04|内网专线|ក្រុងភ្នំពេញ
-      - 沙特阿拉伯01|内网专线|العربية السعودية‎
-      - 沙特阿拉伯02|内网专线|العربية السعودية‎
-      - 沙特阿拉伯03|内网专线|العربية السعودية‎
-      - 沙特阿拉伯04|内网专线|العربية السعودية‎
-      - 波兰01|内网专线|Polska
-      - 波兰02|内网专线|Polska
-      - 波兰03|内网专线|Polska
-      - 波兰04|内网专线|Polska
-      - 泰国01|内网专线|ประเทศไทย
-      - 泰国02|内网专线|ประเทศไทย
-      - 泰国03|内网专线|ประเทศไทย
-      - 泰国04|内网专线|ประเทศไทย
-      - 瑞士01|内网专线|Schweiz
-      - 瑞士02|内网专线|Schweiz
-      - 瑞士03|内网专线|Schweiz
-      - 瑞士04|内网专线|Schweiz
-      - 芬兰01|内网专线|Suomi
-      - 芬兰02|内网专线|Suomi
-      - 芬兰03|内网专线|Suomi
-      - 芬兰04|内网专线|Suomi
-      - 荷兰01|内网专线|Nederland
-      - 荷兰02|内网专线|Nederland
-      - 荷兰03|内网专线|Nederland
-      - 荷兰04|内网专线|Nederland
-      - 菲律宾01|内网专线|Manila
-      - 菲律宾02|内网专线|Manila
-      - 菲律宾03|内网专线|Manila
-      - 菲律宾04|内网专线|Manila
-      - 西班牙01|内网专线|España
-      - 西班牙02|内网专线|España
-      - 西班牙03|内网专线|España
-      - 西班牙04|内网专线|España
-      - 越南01|内网专线|HồChíMinh
-      - 越南02|内网专线|HồChíMinh
-      - 越南03|内网专线|HồChíMinh
-      - 越南04|内网专线|HồChíMinh
-      - 阿塞拜疆01|内网专线|Azərbaycan
-      - 阿塞拜疆02|内网专线|Azərbaycan
-      - 阿塞拜疆03|内网专线|Azərbaycan
-      - 阿塞拜疆04|内网专线|Azərbaycan
-      - 阿根廷01|内网专线|Argentina
-      - 阿根廷02|内网专线|Argentina
-      - 阿根廷03|内网专线|Argentina
-      - 阿根廷04|内网专线|Argentina
-      - 阿联酋01|内网专线|Dubai
-      - 阿联酋02|内网专线|Dubai
-      - 阿联酋03|内网专线|Dubai
-      - 阿联酋04|内网专线|Dubai
-      - 德国01|内网专线|LINODE
-      - 德国02|内网专线|LINODE
-      - 德国03|内网专线|LINODE
-      - 德国04|内网专线|LINODE
-      - 英国01|内网专线|OVHSAS
-      - 英国02|内网专线|OVHSAS
-      - 英国03|内网专线|OVHSAS
-      - 英国04|内网专线|OVHSAS
+      - 台湾-SS/SSR-01-Taiwan01
+      - 台湾-SS/SSR-02-Taiwan02
+      - 台湾-SS/SSR-03-Taiwan03
+      - 台湾-SS/SSR-04-Taiwan04
+      - 台湾-SS/SSR-05-Taiwan05
+      - 台湾-SS/SSR-06-Taiwan06
+      - 台湾-TROJAN-01(Trojan Taiwan01)
+      - 台湾-TROJAN-02(Trojan Taiwan02)
+      - 新加坡-SS/SSR-01-Singapore01
+      - 新加坡-SS/SSR-02-Singapore02
+      - 新加坡-SS/SSR-03-Singapore03
+      - 新加坡-SS/SSR-04-Singapore04
+      - 新加坡-SS/SSR-05-Singapore05
+      - 新加坡-SS/SSR-06-Singapore06
+      - 新加坡-SS/SSR-07-Singapore07
+      - 新加坡-SS/SSR-08-Singapore08
+      - 新加坡-SS/SSR-09-Singapore09
+      - 新加坡-SS/SSR-10-Singapore10
+      - 新加坡-TROJAN-01(Trojan Singapore01)
+      - 新加坡-TROJAN-02(Trojan Singapore02)
+      - 日本-SS/SSR-01-Japan01
+      - 日本-SS/SSR-02-Japan02
+      - 日本-SS/SSR-03-Japan03
+      - 日本-SS/SSR-04-Japan04
+      - 日本-SS/SSR-05-Japan05
+      - 日本-SS/SSR-06-Japan06
+      - 日本-SS/SSR-07-Japan07
+      - 日本-SS/SSR-08-Japan08
+      - 日本-SS/SSR-09-Japan09
+      - 日本-SS/SSR-10-Japan10
+      - 日本-TROJAN-01(Trojan Japan01)
+      - 日本-TROJAN-02(Trojan Japan02)
+      - 美国-SS/SSR-01-Usa01
+      - 美国-SS/SSR-02-Usa02
+      - 美国-SS/SSR-03-Usa03
+      - 美国-SS/SSR-04-Usa04
+      - 美国-SS/SSR-05-Usa05
+      - 美国-SS/SSR-06-Usa06
+      - 美国-SS/SSR-07-Usa07
+      - 美国-SS/SSR-08-Usa08
+      - 美国-SS/SSR-09-Usa09
+      - 美国-SS/SSR-10-Usa10
+      - 美国-TROJAN-01(Trojan USA01)
+      - 美国-TROJAN-02(Trojan USA02)
+      - 香港-SS/SSR-01-Hongkong01
+      - 香港-SS/SSR-02-Hongkong02
+      - 香港-SS/SSR-03-Hongkong03
+      - 香港-SS/SSR-04-Hongkong04
+      - 香港-SS/SSR-05-Hongkong05
+      - 香港-SS/SSR-06-Hongkong06
+      - 香港-SS/SSR-07-Hongkong07
+      - 香港-SS/SSR-08-Hongkong08
+      - 香港-SS/SSR-09-Hongkong09
+      - 香港-SS/SSR-10-Hongkong10
+      - 香港-TROJAN-01(Trojan HongKong01)
+      - 香港-TROJAN-02(Trojan HongKong02)
   - name: 📲 电报信息
     type: select
     proxies:
@@ -1588,188 +831,62 @@ proxy-groups:
       - South Africa
       - Switzerland
       - Turkey
-      - ★自动选择|香港最优线路
-      - ★自动选择|美国最优线路
-      - 香港01|原生解锁|BGPHK
-      - 香港02|原生解锁|BGPHK
-      - 香港03|原生解锁|BGPHK
-      - 香港04|原生解锁|BGPHK
-      - 香港05|原生解锁|BGPHK
-      - 香港06|原生解锁|CMIHK
-      - 香港07|原生解锁|CMIHK
-      - 香港08|原生解锁|CMIHK
-      - 香港09|原生解锁|CMIHK
-      - 香港10|原生解锁|CMIHK
-      - 美国01|原生解锁|APERNET
-      - 美国02|原生解锁|APERNET
-      - 美国03|原生解锁|APERNET
-      - 美国04|原生解锁|APERNET
-      - 美国05|原生解锁|APERNET
-      - 美国06|原生解锁|APERNET
-      - 美国07|原生解锁|APERNET
-      - 美国08|原生解锁|APERNET
-      - 日本01|负载均衡|東京LLC
-      - 日本02|负载均衡|東京LLC
-      - 日本03|负载均衡|東京LLC
-      - 日本04|负载均衡|東京LLC
-      - 日本05|负载均衡|東京LLC
-      - 日本06|负载均衡|東京LLC
-      - 日本07|负载均衡|東京LLC
-      - 日本08|负载均衡|東京LLC
-      - 台湾01|原生解锁|中華電信
-      - 台湾02|原生解锁|中華電信
-      - 台湾03|原生解锁|中華電信
-      - 台湾04|原生解锁|中華電信
-      - 台湾05|原生解锁|中華電信
-      - 台湾06|原生解锁|中華電信
-      - 台湾07|原生解锁|中華電信
-      - 台湾08|原生解锁|中華電信
-      - 台湾09|原生解锁|中華電信
-      - 台湾10|原生解锁|中華電信
-      - 新加坡01|负载均衡|DIGITAL
-      - 新加坡02|负载均衡|DIGITAL
-      - 新加坡03|负载均衡|DIGITAL
-      - 新加坡04|负载均衡|DIGITAL
-      - 新加坡05|负载均衡|DIGITAL
-      - 新加坡06|负载均衡|DIGITAL
-      - 新加坡07|负载均衡|DIGITAL
-      - 新加坡08|负载均衡|DIGITAL
-      - 澳大利亚01|内网专线|Australia
-      - 澳大利亚02|内网专线|Australia
-      - 澳大利亚03|内网专线|Australia
-      - 澳大利亚04|内网专线|Australia
-      - 韩国01|内网专线|한국
-      - 韩国02|内网专线|한국
-      - 韩国03|内网专线|한국
-      - 韩国04|内网专线|한국
-      - 乌克兰01|内网专线|Україна
-      - 乌克兰02|内网专线|Україна
-      - 乌克兰03|内网专线|Україна
-      - 乌克兰04|内网专线|Україна
-      - 以色列01|内网专线|מדינת ישראל‬‎
-      - 以色列02|内网专线|מדינת ישראל‬‎
-      - 以色列03|内网专线|מדינת ישראל‬‎
-      - 以色列04|内网专线|מדינת ישראל‬‎
-      - 俄罗斯01|内网专线|Россия
-      - 俄罗斯02|内网专线|Россия
-      - 俄罗斯03|内网专线|Россия
-      - 俄罗斯04|内网专线|Россия
-      - 保加利亚01|内网专线|България
-      - 保加利亚02|内网专线|България
-      - 保加利亚03|内网专线|България
-      - 保加利亚04|内网专线|България
-      - 加拿大01|内网专线|OVHSAS
-      - 加拿大02|内网专线|OVHSAS
-      - 加拿大03|内网专线|OVHSAS
-      - 加拿大04|内网专线|OVHSAS
-      - 南非01|内网专线|Suid-Afrika
-      - 南非02|内网专线|Suid-Afrika
-      - 南非03|内网专线|Suid-Afrika
-      - 南非04|内网专线|Suid-Afrika
-      - 印度01|内网专线|भारत गणराज्य
-      - 印度02|内网专线|भारत गणराज्य
-      - 印度03|内网专线|भारत गणराज्य
-      - 印度04|内网专线|भारत गणराज्य
-      - 哥伦比亚01|内网专线|Colombia
-      - 哥伦比亚02|内网专线|Colombia
-      - 哥伦比亚03|内网专线|Colombia
-      - 哥伦比亚04|内网专线|Colombia
-      - 土耳其01|内网专线|Türkiye
-      - 土耳其02|内网专线|Türkiye
-      - 土耳其03|内网专线|Türkiye
-      - 土耳其04|内网专线|Türkiye
-      - 埃及01|内网专线|ⲭⲏⲙⲓ
-      - 埃及02|内网专线|ⲭⲏⲙⲓ
-      - 埃及03|内网专线|ⲭⲏⲙⲓ
-      - 埃及04|内网专线|ⲭⲏⲙⲓ
-      - 奥地利01|内网专线|Österreich
-      - 奥地利02|内网专线|Österreich
-      - 奥地利03|内网专线|Österreich
-      - 奥地利04|内网专线|Österreich
-      - 孟加拉国01|内网专线|বাংলাদেশ
-      - 孟加拉国02|内网专线|বাংলাদেশ
-      - 孟加拉国03|内网专线|বাংলাদেশ
-      - 孟加拉国04|内网专线|বাংলাদেশ
-      - 巴基斯坦01|内网专线|اسلامی جمہوریہ پاکستان
-      - 巴基斯坦02|内网专线|اسلامی جمہوریہ پاکستان
-      - 巴基斯坦03|内网专线|اسلامی جمہوریہ پاکستان
-      - 巴基斯坦04|内网专线|اسلامی جمہوریہ پاکستان
-      - 巴西01|内网专线|Brasil
-      - 巴西02|内网专线|Brasil
-      - 巴西03|内网专线|Brasil
-      - 巴西04|内网专线|Brasil
-      - 拉脱维亚01|内网专线|LeţmōVabāmō
-      - 拉脱维亚02|内网专线|LeţmōVabāmō
-      - 拉脱维亚03|内网专线|LeţmōVabāmō
-      - 拉脱维亚04|内网专线|LeţmōVabāmō
-      - 捷克01|内网专线|Česko
-      - 捷克02|内网专线|Česko
-      - 捷克03|内网专线|Česko
-      - 捷克04|内网专线|Česko
-      - 智利01|内网专线|Chile
-      - 智利02|内网专线|Chile
-      - 智利03|内网专线|Chile
-      - 智利04|内网专线|Chile
-      - 柬埔寨01|内网专线|ក្រុងភ្នំពេញ
-      - 柬埔寨02|内网专线|ក្រុងភ្នំពេញ
-      - 柬埔寨03|内网专线|ក្រុងភ្នំពេញ
-      - 柬埔寨04|内网专线|ក្រុងភ្នំពេញ
-      - 沙特阿拉伯01|内网专线|العربية السعودية‎
-      - 沙特阿拉伯02|内网专线|العربية السعودية‎
-      - 沙特阿拉伯03|内网专线|العربية السعودية‎
-      - 沙特阿拉伯04|内网专线|العربية السعودية‎
-      - 波兰01|内网专线|Polska
-      - 波兰02|内网专线|Polska
-      - 波兰03|内网专线|Polska
-      - 波兰04|内网专线|Polska
-      - 泰国01|内网专线|ประเทศไทย
-      - 泰国02|内网专线|ประเทศไทย
-      - 泰国03|内网专线|ประเทศไทย
-      - 泰国04|内网专线|ประเทศไทย
-      - 瑞士01|内网专线|Schweiz
-      - 瑞士02|内网专线|Schweiz
-      - 瑞士03|内网专线|Schweiz
-      - 瑞士04|内网专线|Schweiz
-      - 芬兰01|内网专线|Suomi
-      - 芬兰02|内网专线|Suomi
-      - 芬兰03|内网专线|Suomi
-      - 芬兰04|内网专线|Suomi
-      - 荷兰01|内网专线|Nederland
-      - 荷兰02|内网专线|Nederland
-      - 荷兰03|内网专线|Nederland
-      - 荷兰04|内网专线|Nederland
-      - 菲律宾01|内网专线|Manila
-      - 菲律宾02|内网专线|Manila
-      - 菲律宾03|内网专线|Manila
-      - 菲律宾04|内网专线|Manila
-      - 西班牙01|内网专线|España
-      - 西班牙02|内网专线|España
-      - 西班牙03|内网专线|España
-      - 西班牙04|内网专线|España
-      - 越南01|内网专线|HồChíMinh
-      - 越南02|内网专线|HồChíMinh
-      - 越南03|内网专线|HồChíMinh
-      - 越南04|内网专线|HồChíMinh
-      - 阿塞拜疆01|内网专线|Azərbaycan
-      - 阿塞拜疆02|内网专线|Azərbaycan
-      - 阿塞拜疆03|内网专线|Azərbaycan
-      - 阿塞拜疆04|内网专线|Azərbaycan
-      - 阿根廷01|内网专线|Argentina
-      - 阿根廷02|内网专线|Argentina
-      - 阿根廷03|内网专线|Argentina
-      - 阿根廷04|内网专线|Argentina
-      - 阿联酋01|内网专线|Dubai
-      - 阿联酋02|内网专线|Dubai
-      - 阿联酋03|内网专线|Dubai
-      - 阿联酋04|内网专线|Dubai
-      - 德国01|内网专线|LINODE
-      - 德国02|内网专线|LINODE
-      - 德国03|内网专线|LINODE
-      - 德国04|内网专线|LINODE
-      - 英国01|内网专线|OVHSAS
-      - 英国02|内网专线|OVHSAS
-      - 英国03|内网专线|OVHSAS
-      - 英国04|内网专线|OVHSAS
+      - 台湾-SS/SSR-01-Taiwan01
+      - 台湾-SS/SSR-02-Taiwan02
+      - 台湾-SS/SSR-03-Taiwan03
+      - 台湾-SS/SSR-04-Taiwan04
+      - 台湾-SS/SSR-05-Taiwan05
+      - 台湾-SS/SSR-06-Taiwan06
+      - 台湾-TROJAN-01(Trojan Taiwan01)
+      - 台湾-TROJAN-02(Trojan Taiwan02)
+      - 新加坡-SS/SSR-01-Singapore01
+      - 新加坡-SS/SSR-02-Singapore02
+      - 新加坡-SS/SSR-03-Singapore03
+      - 新加坡-SS/SSR-04-Singapore04
+      - 新加坡-SS/SSR-05-Singapore05
+      - 新加坡-SS/SSR-06-Singapore06
+      - 新加坡-SS/SSR-07-Singapore07
+      - 新加坡-SS/SSR-08-Singapore08
+      - 新加坡-SS/SSR-09-Singapore09
+      - 新加坡-SS/SSR-10-Singapore10
+      - 新加坡-TROJAN-01(Trojan Singapore01)
+      - 新加坡-TROJAN-02(Trojan Singapore02)
+      - 日本-SS/SSR-01-Japan01
+      - 日本-SS/SSR-02-Japan02
+      - 日本-SS/SSR-03-Japan03
+      - 日本-SS/SSR-04-Japan04
+      - 日本-SS/SSR-05-Japan05
+      - 日本-SS/SSR-06-Japan06
+      - 日本-SS/SSR-07-Japan07
+      - 日本-SS/SSR-08-Japan08
+      - 日本-SS/SSR-09-Japan09
+      - 日本-SS/SSR-10-Japan10
+      - 日本-TROJAN-01(Trojan Japan01)
+      - 日本-TROJAN-02(Trojan Japan02)
+      - 美国-SS/SSR-01-Usa01
+      - 美国-SS/SSR-02-Usa02
+      - 美国-SS/SSR-03-Usa03
+      - 美国-SS/SSR-04-Usa04
+      - 美国-SS/SSR-05-Usa05
+      - 美国-SS/SSR-06-Usa06
+      - 美国-SS/SSR-07-Usa07
+      - 美国-SS/SSR-08-Usa08
+      - 美国-SS/SSR-09-Usa09
+      - 美国-SS/SSR-10-Usa10
+      - 美国-TROJAN-01(Trojan USA01)
+      - 美国-TROJAN-02(Trojan USA02)
+      - 香港-SS/SSR-01-Hongkong01
+      - 香港-SS/SSR-02-Hongkong02
+      - 香港-SS/SSR-03-Hongkong03
+      - 香港-SS/SSR-04-Hongkong04
+      - 香港-SS/SSR-05-Hongkong05
+      - 香港-SS/SSR-06-Hongkong06
+      - 香港-SS/SSR-07-Hongkong07
+      - 香港-SS/SSR-08-Hongkong08
+      - 香港-SS/SSR-09-Hongkong09
+      - 香港-SS/SSR-10-Hongkong10
+      - 香港-TROJAN-01(Trojan HongKong01)
+      - 香港-TROJAN-02(Trojan HongKong02)
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -1836,188 +953,62 @@ proxy-groups:
       - South Africa
       - Switzerland
       - Turkey
-      - ★自动选择|香港最优线路
-      - ★自动选择|美国最优线路
-      - 香港01|原生解锁|BGPHK
-      - 香港02|原生解锁|BGPHK
-      - 香港03|原生解锁|BGPHK
-      - 香港04|原生解锁|BGPHK
-      - 香港05|原生解锁|BGPHK
-      - 香港06|原生解锁|CMIHK
-      - 香港07|原生解锁|CMIHK
-      - 香港08|原生解锁|CMIHK
-      - 香港09|原生解锁|CMIHK
-      - 香港10|原生解锁|CMIHK
-      - 美国01|原生解锁|APERNET
-      - 美国02|原生解锁|APERNET
-      - 美国03|原生解锁|APERNET
-      - 美国04|原生解锁|APERNET
-      - 美国05|原生解锁|APERNET
-      - 美国06|原生解锁|APERNET
-      - 美国07|原生解锁|APERNET
-      - 美国08|原生解锁|APERNET
-      - 日本01|负载均衡|東京LLC
-      - 日本02|负载均衡|東京LLC
-      - 日本03|负载均衡|東京LLC
-      - 日本04|负载均衡|東京LLC
-      - 日本05|负载均衡|東京LLC
-      - 日本06|负载均衡|東京LLC
-      - 日本07|负载均衡|東京LLC
-      - 日本08|负载均衡|東京LLC
-      - 台湾01|原生解锁|中華電信
-      - 台湾02|原生解锁|中華電信
-      - 台湾03|原生解锁|中華電信
-      - 台湾04|原生解锁|中華電信
-      - 台湾05|原生解锁|中華電信
-      - 台湾06|原生解锁|中華電信
-      - 台湾07|原生解锁|中華電信
-      - 台湾08|原生解锁|中華電信
-      - 台湾09|原生解锁|中華電信
-      - 台湾10|原生解锁|中華電信
-      - 新加坡01|负载均衡|DIGITAL
-      - 新加坡02|负载均衡|DIGITAL
-      - 新加坡03|负载均衡|DIGITAL
-      - 新加坡04|负载均衡|DIGITAL
-      - 新加坡05|负载均衡|DIGITAL
-      - 新加坡06|负载均衡|DIGITAL
-      - 新加坡07|负载均衡|DIGITAL
-      - 新加坡08|负载均衡|DIGITAL
-      - 澳大利亚01|内网专线|Australia
-      - 澳大利亚02|内网专线|Australia
-      - 澳大利亚03|内网专线|Australia
-      - 澳大利亚04|内网专线|Australia
-      - 韩国01|内网专线|한국
-      - 韩国02|内网专线|한국
-      - 韩国03|内网专线|한국
-      - 韩国04|内网专线|한국
-      - 乌克兰01|内网专线|Україна
-      - 乌克兰02|内网专线|Україна
-      - 乌克兰03|内网专线|Україна
-      - 乌克兰04|内网专线|Україна
-      - 以色列01|内网专线|מדינת ישראל‬‎
-      - 以色列02|内网专线|מדינת ישראל‬‎
-      - 以色列03|内网专线|מדינת ישראל‬‎
-      - 以色列04|内网专线|מדינת ישראל‬‎
-      - 俄罗斯01|内网专线|Россия
-      - 俄罗斯02|内网专线|Россия
-      - 俄罗斯03|内网专线|Россия
-      - 俄罗斯04|内网专线|Россия
-      - 保加利亚01|内网专线|България
-      - 保加利亚02|内网专线|България
-      - 保加利亚03|内网专线|България
-      - 保加利亚04|内网专线|България
-      - 加拿大01|内网专线|OVHSAS
-      - 加拿大02|内网专线|OVHSAS
-      - 加拿大03|内网专线|OVHSAS
-      - 加拿大04|内网专线|OVHSAS
-      - 南非01|内网专线|Suid-Afrika
-      - 南非02|内网专线|Suid-Afrika
-      - 南非03|内网专线|Suid-Afrika
-      - 南非04|内网专线|Suid-Afrika
-      - 印度01|内网专线|भारत गणराज्य
-      - 印度02|内网专线|भारत गणराज्य
-      - 印度03|内网专线|भारत गणराज्य
-      - 印度04|内网专线|भारत गणराज्य
-      - 哥伦比亚01|内网专线|Colombia
-      - 哥伦比亚02|内网专线|Colombia
-      - 哥伦比亚03|内网专线|Colombia
-      - 哥伦比亚04|内网专线|Colombia
-      - 土耳其01|内网专线|Türkiye
-      - 土耳其02|内网专线|Türkiye
-      - 土耳其03|内网专线|Türkiye
-      - 土耳其04|内网专线|Türkiye
-      - 埃及01|内网专线|ⲭⲏⲙⲓ
-      - 埃及02|内网专线|ⲭⲏⲙⲓ
-      - 埃及03|内网专线|ⲭⲏⲙⲓ
-      - 埃及04|内网专线|ⲭⲏⲙⲓ
-      - 奥地利01|内网专线|Österreich
-      - 奥地利02|内网专线|Österreich
-      - 奥地利03|内网专线|Österreich
-      - 奥地利04|内网专线|Österreich
-      - 孟加拉国01|内网专线|বাংলাদেশ
-      - 孟加拉国02|内网专线|বাংলাদেশ
-      - 孟加拉国03|内网专线|বাংলাদেশ
-      - 孟加拉国04|内网专线|বাংলাদেশ
-      - 巴基斯坦01|内网专线|اسلامی جمہوریہ پاکستان
-      - 巴基斯坦02|内网专线|اسلامی جمہوریہ پاکستان
-      - 巴基斯坦03|内网专线|اسلامی جمہوریہ پاکستان
-      - 巴基斯坦04|内网专线|اسلامی جمہوریہ پاکستان
-      - 巴西01|内网专线|Brasil
-      - 巴西02|内网专线|Brasil
-      - 巴西03|内网专线|Brasil
-      - 巴西04|内网专线|Brasil
-      - 拉脱维亚01|内网专线|LeţmōVabāmō
-      - 拉脱维亚02|内网专线|LeţmōVabāmō
-      - 拉脱维亚03|内网专线|LeţmōVabāmō
-      - 拉脱维亚04|内网专线|LeţmōVabāmō
-      - 捷克01|内网专线|Česko
-      - 捷克02|内网专线|Česko
-      - 捷克03|内网专线|Česko
-      - 捷克04|内网专线|Česko
-      - 智利01|内网专线|Chile
-      - 智利02|内网专线|Chile
-      - 智利03|内网专线|Chile
-      - 智利04|内网专线|Chile
-      - 柬埔寨01|内网专线|ក្រុងភ្នំពេញ
-      - 柬埔寨02|内网专线|ក្រុងភ្នំពេញ
-      - 柬埔寨03|内网专线|ក្រុងភ្នំពេញ
-      - 柬埔寨04|内网专线|ក្រុងភ្នំពេញ
-      - 沙特阿拉伯01|内网专线|العربية السعودية‎
-      - 沙特阿拉伯02|内网专线|العربية السعودية‎
-      - 沙特阿拉伯03|内网专线|العربية السعودية‎
-      - 沙特阿拉伯04|内网专线|العربية السعودية‎
-      - 波兰01|内网专线|Polska
-      - 波兰02|内网专线|Polska
-      - 波兰03|内网专线|Polska
-      - 波兰04|内网专线|Polska
-      - 泰国01|内网专线|ประเทศไทย
-      - 泰国02|内网专线|ประเทศไทย
-      - 泰国03|内网专线|ประเทศไทย
-      - 泰国04|内网专线|ประเทศไทย
-      - 瑞士01|内网专线|Schweiz
-      - 瑞士02|内网专线|Schweiz
-      - 瑞士03|内网专线|Schweiz
-      - 瑞士04|内网专线|Schweiz
-      - 芬兰01|内网专线|Suomi
-      - 芬兰02|内网专线|Suomi
-      - 芬兰03|内网专线|Suomi
-      - 芬兰04|内网专线|Suomi
-      - 荷兰01|内网专线|Nederland
-      - 荷兰02|内网专线|Nederland
-      - 荷兰03|内网专线|Nederland
-      - 荷兰04|内网专线|Nederland
-      - 菲律宾01|内网专线|Manila
-      - 菲律宾02|内网专线|Manila
-      - 菲律宾03|内网专线|Manila
-      - 菲律宾04|内网专线|Manila
-      - 西班牙01|内网专线|España
-      - 西班牙02|内网专线|España
-      - 西班牙03|内网专线|España
-      - 西班牙04|内网专线|España
-      - 越南01|内网专线|HồChíMinh
-      - 越南02|内网专线|HồChíMinh
-      - 越南03|内网专线|HồChíMinh
-      - 越南04|内网专线|HồChíMinh
-      - 阿塞拜疆01|内网专线|Azərbaycan
-      - 阿塞拜疆02|内网专线|Azərbaycan
-      - 阿塞拜疆03|内网专线|Azərbaycan
-      - 阿塞拜疆04|内网专线|Azərbaycan
-      - 阿根廷01|内网专线|Argentina
-      - 阿根廷02|内网专线|Argentina
-      - 阿根廷03|内网专线|Argentina
-      - 阿根廷04|内网专线|Argentina
-      - 阿联酋01|内网专线|Dubai
-      - 阿联酋02|内网专线|Dubai
-      - 阿联酋03|内网专线|Dubai
-      - 阿联酋04|内网专线|Dubai
-      - 德国01|内网专线|LINODE
-      - 德国02|内网专线|LINODE
-      - 德国03|内网专线|LINODE
-      - 德国04|内网专线|LINODE
-      - 英国01|内网专线|OVHSAS
-      - 英国02|内网专线|OVHSAS
-      - 英国03|内网专线|OVHSAS
-      - 英国04|内网专线|OVHSAS
+      - 台湾-SS/SSR-01-Taiwan01
+      - 台湾-SS/SSR-02-Taiwan02
+      - 台湾-SS/SSR-03-Taiwan03
+      - 台湾-SS/SSR-04-Taiwan04
+      - 台湾-SS/SSR-05-Taiwan05
+      - 台湾-SS/SSR-06-Taiwan06
+      - 台湾-TROJAN-01(Trojan Taiwan01)
+      - 台湾-TROJAN-02(Trojan Taiwan02)
+      - 新加坡-SS/SSR-01-Singapore01
+      - 新加坡-SS/SSR-02-Singapore02
+      - 新加坡-SS/SSR-03-Singapore03
+      - 新加坡-SS/SSR-04-Singapore04
+      - 新加坡-SS/SSR-05-Singapore05
+      - 新加坡-SS/SSR-06-Singapore06
+      - 新加坡-SS/SSR-07-Singapore07
+      - 新加坡-SS/SSR-08-Singapore08
+      - 新加坡-SS/SSR-09-Singapore09
+      - 新加坡-SS/SSR-10-Singapore10
+      - 新加坡-TROJAN-01(Trojan Singapore01)
+      - 新加坡-TROJAN-02(Trojan Singapore02)
+      - 日本-SS/SSR-01-Japan01
+      - 日本-SS/SSR-02-Japan02
+      - 日本-SS/SSR-03-Japan03
+      - 日本-SS/SSR-04-Japan04
+      - 日本-SS/SSR-05-Japan05
+      - 日本-SS/SSR-06-Japan06
+      - 日本-SS/SSR-07-Japan07
+      - 日本-SS/SSR-08-Japan08
+      - 日本-SS/SSR-09-Japan09
+      - 日本-SS/SSR-10-Japan10
+      - 日本-TROJAN-01(Trojan Japan01)
+      - 日本-TROJAN-02(Trojan Japan02)
+      - 美国-SS/SSR-01-Usa01
+      - 美国-SS/SSR-02-Usa02
+      - 美国-SS/SSR-03-Usa03
+      - 美国-SS/SSR-04-Usa04
+      - 美国-SS/SSR-05-Usa05
+      - 美国-SS/SSR-06-Usa06
+      - 美国-SS/SSR-07-Usa07
+      - 美国-SS/SSR-08-Usa08
+      - 美国-SS/SSR-09-Usa09
+      - 美国-SS/SSR-10-Usa10
+      - 美国-TROJAN-01(Trojan USA01)
+      - 美国-TROJAN-02(Trojan USA02)
+      - 香港-SS/SSR-01-Hongkong01
+      - 香港-SS/SSR-02-Hongkong02
+      - 香港-SS/SSR-03-Hongkong03
+      - 香港-SS/SSR-04-Hongkong04
+      - 香港-SS/SSR-05-Hongkong05
+      - 香港-SS/SSR-06-Hongkong06
+      - 香港-SS/SSR-07-Hongkong07
+      - 香港-SS/SSR-08-Hongkong08
+      - 香港-SS/SSR-09-Hongkong09
+      - 香港-SS/SSR-10-Hongkong10
+      - 香港-TROJAN-01(Trojan HongKong01)
+      - 香港-TROJAN-02(Trojan HongKong02)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -2093,188 +1084,62 @@ proxy-groups:
       - South Africa
       - Switzerland
       - Turkey
-      - ★自动选择|香港最优线路
-      - ★自动选择|美国最优线路
-      - 香港01|原生解锁|BGPHK
-      - 香港02|原生解锁|BGPHK
-      - 香港03|原生解锁|BGPHK
-      - 香港04|原生解锁|BGPHK
-      - 香港05|原生解锁|BGPHK
-      - 香港06|原生解锁|CMIHK
-      - 香港07|原生解锁|CMIHK
-      - 香港08|原生解锁|CMIHK
-      - 香港09|原生解锁|CMIHK
-      - 香港10|原生解锁|CMIHK
-      - 美国01|原生解锁|APERNET
-      - 美国02|原生解锁|APERNET
-      - 美国03|原生解锁|APERNET
-      - 美国04|原生解锁|APERNET
-      - 美国05|原生解锁|APERNET
-      - 美国06|原生解锁|APERNET
-      - 美国07|原生解锁|APERNET
-      - 美国08|原生解锁|APERNET
-      - 日本01|负载均衡|東京LLC
-      - 日本02|负载均衡|東京LLC
-      - 日本03|负载均衡|東京LLC
-      - 日本04|负载均衡|東京LLC
-      - 日本05|负载均衡|東京LLC
-      - 日本06|负载均衡|東京LLC
-      - 日本07|负载均衡|東京LLC
-      - 日本08|负载均衡|東京LLC
-      - 台湾01|原生解锁|中華電信
-      - 台湾02|原生解锁|中華電信
-      - 台湾03|原生解锁|中華電信
-      - 台湾04|原生解锁|中華電信
-      - 台湾05|原生解锁|中華電信
-      - 台湾06|原生解锁|中華電信
-      - 台湾07|原生解锁|中華電信
-      - 台湾08|原生解锁|中華電信
-      - 台湾09|原生解锁|中華電信
-      - 台湾10|原生解锁|中華電信
-      - 新加坡01|负载均衡|DIGITAL
-      - 新加坡02|负载均衡|DIGITAL
-      - 新加坡03|负载均衡|DIGITAL
-      - 新加坡04|负载均衡|DIGITAL
-      - 新加坡05|负载均衡|DIGITAL
-      - 新加坡06|负载均衡|DIGITAL
-      - 新加坡07|负载均衡|DIGITAL
-      - 新加坡08|负载均衡|DIGITAL
-      - 澳大利亚01|内网专线|Australia
-      - 澳大利亚02|内网专线|Australia
-      - 澳大利亚03|内网专线|Australia
-      - 澳大利亚04|内网专线|Australia
-      - 韩国01|内网专线|한국
-      - 韩国02|内网专线|한국
-      - 韩国03|内网专线|한국
-      - 韩国04|内网专线|한국
-      - 乌克兰01|内网专线|Україна
-      - 乌克兰02|内网专线|Україна
-      - 乌克兰03|内网专线|Україна
-      - 乌克兰04|内网专线|Україна
-      - 以色列01|内网专线|מדינת ישראל‬‎
-      - 以色列02|内网专线|מדינת ישראל‬‎
-      - 以色列03|内网专线|מדינת ישראל‬‎
-      - 以色列04|内网专线|מדינת ישראל‬‎
-      - 俄罗斯01|内网专线|Россия
-      - 俄罗斯02|内网专线|Россия
-      - 俄罗斯03|内网专线|Россия
-      - 俄罗斯04|内网专线|Россия
-      - 保加利亚01|内网专线|България
-      - 保加利亚02|内网专线|България
-      - 保加利亚03|内网专线|България
-      - 保加利亚04|内网专线|България
-      - 加拿大01|内网专线|OVHSAS
-      - 加拿大02|内网专线|OVHSAS
-      - 加拿大03|内网专线|OVHSAS
-      - 加拿大04|内网专线|OVHSAS
-      - 南非01|内网专线|Suid-Afrika
-      - 南非02|内网专线|Suid-Afrika
-      - 南非03|内网专线|Suid-Afrika
-      - 南非04|内网专线|Suid-Afrika
-      - 印度01|内网专线|भारत गणराज्य
-      - 印度02|内网专线|भारत गणराज्य
-      - 印度03|内网专线|भारत गणराज्य
-      - 印度04|内网专线|भारत गणराज्य
-      - 哥伦比亚01|内网专线|Colombia
-      - 哥伦比亚02|内网专线|Colombia
-      - 哥伦比亚03|内网专线|Colombia
-      - 哥伦比亚04|内网专线|Colombia
-      - 土耳其01|内网专线|Türkiye
-      - 土耳其02|内网专线|Türkiye
-      - 土耳其03|内网专线|Türkiye
-      - 土耳其04|内网专线|Türkiye
-      - 埃及01|内网专线|ⲭⲏⲙⲓ
-      - 埃及02|内网专线|ⲭⲏⲙⲓ
-      - 埃及03|内网专线|ⲭⲏⲙⲓ
-      - 埃及04|内网专线|ⲭⲏⲙⲓ
-      - 奥地利01|内网专线|Österreich
-      - 奥地利02|内网专线|Österreich
-      - 奥地利03|内网专线|Österreich
-      - 奥地利04|内网专线|Österreich
-      - 孟加拉国01|内网专线|বাংলাদেশ
-      - 孟加拉国02|内网专线|বাংলাদেশ
-      - 孟加拉国03|内网专线|বাংলাদেশ
-      - 孟加拉国04|内网专线|বাংলাদেশ
-      - 巴基斯坦01|内网专线|اسلامی جمہوریہ پاکستان
-      - 巴基斯坦02|内网专线|اسلامی جمہوریہ پاکستان
-      - 巴基斯坦03|内网专线|اسلامی جمہوریہ پاکستان
-      - 巴基斯坦04|内网专线|اسلامی جمہوریہ پاکستان
-      - 巴西01|内网专线|Brasil
-      - 巴西02|内网专线|Brasil
-      - 巴西03|内网专线|Brasil
-      - 巴西04|内网专线|Brasil
-      - 拉脱维亚01|内网专线|LeţmōVabāmō
-      - 拉脱维亚02|内网专线|LeţmōVabāmō
-      - 拉脱维亚03|内网专线|LeţmōVabāmō
-      - 拉脱维亚04|内网专线|LeţmōVabāmō
-      - 捷克01|内网专线|Česko
-      - 捷克02|内网专线|Česko
-      - 捷克03|内网专线|Česko
-      - 捷克04|内网专线|Česko
-      - 智利01|内网专线|Chile
-      - 智利02|内网专线|Chile
-      - 智利03|内网专线|Chile
-      - 智利04|内网专线|Chile
-      - 柬埔寨01|内网专线|ក្រុងភ្នំពេញ
-      - 柬埔寨02|内网专线|ក្រុងភ្នំពេញ
-      - 柬埔寨03|内网专线|ក្រុងភ្នំពេញ
-      - 柬埔寨04|内网专线|ក្រុងភ្នំពេញ
-      - 沙特阿拉伯01|内网专线|العربية السعودية‎
-      - 沙特阿拉伯02|内网专线|العربية السعودية‎
-      - 沙特阿拉伯03|内网专线|العربية السعودية‎
-      - 沙特阿拉伯04|内网专线|العربية السعودية‎
-      - 波兰01|内网专线|Polska
-      - 波兰02|内网专线|Polska
-      - 波兰03|内网专线|Polska
-      - 波兰04|内网专线|Polska
-      - 泰国01|内网专线|ประเทศไทย
-      - 泰国02|内网专线|ประเทศไทย
-      - 泰国03|内网专线|ประเทศไทย
-      - 泰国04|内网专线|ประเทศไทย
-      - 瑞士01|内网专线|Schweiz
-      - 瑞士02|内网专线|Schweiz
-      - 瑞士03|内网专线|Schweiz
-      - 瑞士04|内网专线|Schweiz
-      - 芬兰01|内网专线|Suomi
-      - 芬兰02|内网专线|Suomi
-      - 芬兰03|内网专线|Suomi
-      - 芬兰04|内网专线|Suomi
-      - 荷兰01|内网专线|Nederland
-      - 荷兰02|内网专线|Nederland
-      - 荷兰03|内网专线|Nederland
-      - 荷兰04|内网专线|Nederland
-      - 菲律宾01|内网专线|Manila
-      - 菲律宾02|内网专线|Manila
-      - 菲律宾03|内网专线|Manila
-      - 菲律宾04|内网专线|Manila
-      - 西班牙01|内网专线|España
-      - 西班牙02|内网专线|España
-      - 西班牙03|内网专线|España
-      - 西班牙04|内网专线|España
-      - 越南01|内网专线|HồChíMinh
-      - 越南02|内网专线|HồChíMinh
-      - 越南03|内网专线|HồChíMinh
-      - 越南04|内网专线|HồChíMinh
-      - 阿塞拜疆01|内网专线|Azərbaycan
-      - 阿塞拜疆02|内网专线|Azərbaycan
-      - 阿塞拜疆03|内网专线|Azərbaycan
-      - 阿塞拜疆04|内网专线|Azərbaycan
-      - 阿根廷01|内网专线|Argentina
-      - 阿根廷02|内网专线|Argentina
-      - 阿根廷03|内网专线|Argentina
-      - 阿根廷04|内网专线|Argentina
-      - 阿联酋01|内网专线|Dubai
-      - 阿联酋02|内网专线|Dubai
-      - 阿联酋03|内网专线|Dubai
-      - 阿联酋04|内网专线|Dubai
-      - 德国01|内网专线|LINODE
-      - 德国02|内网专线|LINODE
-      - 德国03|内网专线|LINODE
-      - 德国04|内网专线|LINODE
-      - 英国01|内网专线|OVHSAS
-      - 英国02|内网专线|OVHSAS
-      - 英国03|内网专线|OVHSAS
-      - 英国04|内网专线|OVHSAS
+      - 台湾-SS/SSR-01-Taiwan01
+      - 台湾-SS/SSR-02-Taiwan02
+      - 台湾-SS/SSR-03-Taiwan03
+      - 台湾-SS/SSR-04-Taiwan04
+      - 台湾-SS/SSR-05-Taiwan05
+      - 台湾-SS/SSR-06-Taiwan06
+      - 台湾-TROJAN-01(Trojan Taiwan01)
+      - 台湾-TROJAN-02(Trojan Taiwan02)
+      - 新加坡-SS/SSR-01-Singapore01
+      - 新加坡-SS/SSR-02-Singapore02
+      - 新加坡-SS/SSR-03-Singapore03
+      - 新加坡-SS/SSR-04-Singapore04
+      - 新加坡-SS/SSR-05-Singapore05
+      - 新加坡-SS/SSR-06-Singapore06
+      - 新加坡-SS/SSR-07-Singapore07
+      - 新加坡-SS/SSR-08-Singapore08
+      - 新加坡-SS/SSR-09-Singapore09
+      - 新加坡-SS/SSR-10-Singapore10
+      - 新加坡-TROJAN-01(Trojan Singapore01)
+      - 新加坡-TROJAN-02(Trojan Singapore02)
+      - 日本-SS/SSR-01-Japan01
+      - 日本-SS/SSR-02-Japan02
+      - 日本-SS/SSR-03-Japan03
+      - 日本-SS/SSR-04-Japan04
+      - 日本-SS/SSR-05-Japan05
+      - 日本-SS/SSR-06-Japan06
+      - 日本-SS/SSR-07-Japan07
+      - 日本-SS/SSR-08-Japan08
+      - 日本-SS/SSR-09-Japan09
+      - 日本-SS/SSR-10-Japan10
+      - 日本-TROJAN-01(Trojan Japan01)
+      - 日本-TROJAN-02(Trojan Japan02)
+      - 美国-SS/SSR-01-Usa01
+      - 美国-SS/SSR-02-Usa02
+      - 美国-SS/SSR-03-Usa03
+      - 美国-SS/SSR-04-Usa04
+      - 美国-SS/SSR-05-Usa05
+      - 美国-SS/SSR-06-Usa06
+      - 美国-SS/SSR-07-Usa07
+      - 美国-SS/SSR-08-Usa08
+      - 美国-SS/SSR-09-Usa09
+      - 美国-SS/SSR-10-Usa10
+      - 美国-TROJAN-01(Trojan USA01)
+      - 美国-TROJAN-02(Trojan USA02)
+      - 香港-SS/SSR-01-Hongkong01
+      - 香港-SS/SSR-02-Hongkong02
+      - 香港-SS/SSR-03-Hongkong03
+      - 香港-SS/SSR-04-Hongkong04
+      - 香港-SS/SSR-05-Hongkong05
+      - 香港-SS/SSR-06-Hongkong06
+      - 香港-SS/SSR-07-Hongkong07
+      - 香港-SS/SSR-08-Hongkong08
+      - 香港-SS/SSR-09-Hongkong09
+      - 香港-SS/SSR-10-Hongkong10
+      - 香港-TROJAN-01(Trojan HongKong01)
+      - 香港-TROJAN-02(Trojan HongKong02)
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
